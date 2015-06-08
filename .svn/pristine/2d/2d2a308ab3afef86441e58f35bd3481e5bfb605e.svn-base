@@ -1,0 +1,6 @@
+S		::= L S | Empty
+L		::= A | P
+A		::= "=" Id Expr
+Expr	::= Id | BinOp Expr Expr | Num | QuotedStringToken
+P		::= "@" Expr
+BinOp	::=  "+" | "-" | "*" | "/" | "^" | ">" | "<" | "%" | ":"

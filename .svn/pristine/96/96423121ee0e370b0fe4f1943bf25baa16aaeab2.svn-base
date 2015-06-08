@@ -1,0 +1,15 @@
+S   ::= D | S1
+S1  ::= Linefeed S
+D   ::=  Id Produces E L
+
+L   ::=  L2 | Empty
+L2  ::=  Linefeed  L3
+L3  ::=  L | D
+
+E   ::=  T E1
+E1  ::=  Empty | E1a
+E1a ::=  Alt E
+
+T   ::= T1 T2
+T1  ::= Id | QuotedStringToken
+T2  ::= Empty | T

@@ -1,0 +1,13 @@
+{
+    "++": "concatenation",
+    "bunny": "multiplication",
+    "min": "min",
+    "set": "assign",
+    "^": "exponentiation",
+    "-": "subtraction",
+    "max": "max",
+    "%": "modulo",
+    "divide": "division",
+    "print": "print",
+    "+": "summation"
+}

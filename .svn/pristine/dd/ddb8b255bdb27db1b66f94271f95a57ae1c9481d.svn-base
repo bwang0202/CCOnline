@@ -1,0 +1,21 @@
+Program ::= Statement P1
+P1 ::= Program | Empty
+
+Statement ::= Assignment | Print | "\n"
+Print ::= "print" Expression "\n"
+
+Assignment ::= "set" TypeAssignment "\n"
+TypeAssignment ::= NumericAssignment | StringAssignment
+NumericAssignment ::= NumVar MathExpression
+StringAssignment ::= StringVar StringExpression
+
+Expression ::= StringExpression | MathExpression
+StringExpression ::= Concatenation | QuotedStringToken | StringVar
+MathExpression ::= MathOperation | Num | NumVar
+
+Concatenation ::= "++" Expression Expression
+MathOperation ::= MathOp MathExpression MathExpression
+MathOp ::= "+" | "-" | "bunny" | "/"
+
+StringVar ::= "string" Id
+NumVar ::= "num" Id

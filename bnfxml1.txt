@@ -1,0 +1,4 @@
+TaggedElt ::= "<" Id ">" AXML "</" Id ">" 
+AXML  ::=  NEXML | Empty
+NEXML ::=  AElement AXML 
+AElement ::=  Id | TaggedElt 

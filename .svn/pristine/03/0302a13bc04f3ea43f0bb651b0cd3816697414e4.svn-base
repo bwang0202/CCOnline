@@ -1,0 +1,1598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_jxTEIIyXEeOA_6J9sGme9g">
+  <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_kJtQcIcuEeO394xrVBhzLQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_psID0IyXEeOA_6J9sGme9g" targetItem="_psX7cIyXEeOA_6J9sGme9g" sourceItem="_psFnkIyXEeOA_6J9sGme9g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_psQmsIyXEeOA_6J9sGme9g" targetItem="_psYig4yXEeOA_6J9sGme9g" sourceItem="_psP_oIyXEeOA_6J9sGme9g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_psTqAIyXEeOA_6J9sGme9g" targetItem="_psYiiIyXEeOA_6J9sGme9g" sourceItem="_psTC8IyXEeOA_6J9sGme9g"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_rOaV8IyXEeOA_6J9sGme9g" sourceAnchor="208.0,0.0" targetAnchor="98.0,92.0" dashed="true" superClass="_psX7cIyXEeOA_6J9sGme9g" subClass="_rO7TUIyXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rCR-cIyXEeOA_6J9sGme9g"/>
+    <bendpoints xmi:id="_J1z44IyfEeOA_6J9sGme9g" sourceY="-30" targetX="-241" targetY="91"/>
+    <bendpoints xmi:id="_J1z44YyfEeOA_6J9sGme9g" sourceX="241" sourceY="-30" targetY="91"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rOa9AYyXEeOA_6J9sGme9g" targetItem="_rO7TUIyXEeOA_6J9sGme9g" sourceItem="_rOa9AIyXEeOA_6J9sGme9g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rOenYIyXEeOA_6J9sGme9g" targetItem="_rO7TioyXEeOA_6J9sGme9g" sourceItem="_rOeAUIyXEeOA_6J9sGme9g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rOf1gIyXEeOA_6J9sGme9g" targetItem="_rO7TjIyXEeOA_6J9sGme9g" sourceItem="_rOfOcIyXEeOA_6J9sGme9g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rOhDoYyXEeOA_6J9sGme9g" targetItem="_rO7TlIyXEeOA_6J9sGme9g" sourceItem="_rOhDoIyXEeOA_6J9sGme9g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rOiRwYyXEeOA_6J9sGme9g" targetItem="_rO7TmIyXEeOA_6J9sGme9g" sourceItem="_rOiRwIyXEeOA_6J9sGme9g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rOjf4YyXEeOA_6J9sGme9g" targetItem="_rO76YoyXEeOA_6J9sGme9g" sourceItem="_rOjf4IyXEeOA_6J9sGme9g"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rOw7QIyXEeOA_6J9sGme9g" source="_rO7TUIyXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rEqkEIyXEeOA_6J9sGme9g"/>
+    <stereotypes xmi:id="_rOw7QYyXEeOA_6J9sGme9g" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rEsZQIyXEeOA_6J9sGme9g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_rOw7QoyXEeOA_6J9sGme9g" text=""/>
+    <sourceRole xmi:id="_rOw7Q4yXEeOA_6J9sGme9g" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rEqkEYyXEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_rOw7RIyXEeOA_6J9sGme9g" label="+"/>
+      <cardinality xmi:id="_rOw7RYyXEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rOw7RoyXEeOA_6J9sGme9g" aggregationKind="NONE" name="_st" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rDs6wIyXEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_rOw7R4yXEeOA_6J9sGme9g" label="#"/>
+      <cardinality xmi:id="_rOw7SIyXEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rOyJYIyXEeOA_6J9sGme9g" source="_rO7TUIyXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rEtAUIyXEeOA_6J9sGme9g"/>
+    <stereotypes xmi:id="_rOyJYYyXEeOA_6J9sGme9g" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rEu1gIyXEeOA_6J9sGme9g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_rOyJYoyXEeOA_6J9sGme9g" text=""/>
+    <sourceRole xmi:id="_rOyJY4yXEeOA_6J9sGme9g" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rEtAUYyXEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_rOywcIyXEeOA_6J9sGme9g" label="+"/>
+      <cardinality xmi:id="_rOywcYyXEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rOywcoyXEeOA_6J9sGme9g" aggregationKind="NONE" name="_reader" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rDvXAIyXEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_rOywc4yXEeOA_6J9sGme9g" label="-"/>
+      <cardinality xmi:id="_rOywdIyXEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rOz-kIyXEeOA_6J9sGme9g" source="_rO7TUIyXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rEvckIyXEeOA_6J9sGme9g"/>
+    <stereotypes xmi:id="_rOz-kYyXEeOA_6J9sGme9g" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rExRwIyXEeOA_6J9sGme9g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_rOz-koyXEeOA_6J9sGme9g" text=""/>
+    <sourceRole xmi:id="_rOz-k4yXEeOA_6J9sGme9g" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rEvckYyXEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_rOz-lIyXEeOA_6J9sGme9g" label="+"/>
+      <cardinality xmi:id="_rOz-lYyXEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rOz-loyXEeOA_6J9sGme9g" aggregationKind="NONE" name="tokFac" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rDxzQIyXEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_rOz-l4yXEeOA_6J9sGme9g" label="#"/>
+      <cardinality xmi:id="_rOz-mIyXEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rO2a0IyXEeOA_6J9sGme9g" source="_rO7TUIyXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rEx40IyXEeOA_6J9sGme9g"/>
+    <stereotypes xmi:id="_rO2a0YyXEeOA_6J9sGme9g" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rEzuAIyXEeOA_6J9sGme9g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_rO2a0oyXEeOA_6J9sGme9g" text=""/>
+    <sourceRole xmi:id="_rO2a04yXEeOA_6J9sGme9g" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rEx40YyXEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_rO2a1IyXEeOA_6J9sGme9g" label="+"/>
+      <cardinality xmi:id="_rO2a1YyXEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rO2a1oyXEeOA_6J9sGme9g" aggregationKind="NONE" name="tokenStack" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rD02kIyXEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_rO2a14yXEeOA_6J9sGme9g" label="-"/>
+      <cardinality xmi:id="_rO2a2IyXEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rO3o8IyXEeOA_6J9sGme9g" source="_rO7TUIyXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rE0VEIyXEeOA_6J9sGme9g"/>
+    <stereotypes xmi:id="_rO3o8YyXEeOA_6J9sGme9g" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rE2xUIyXEeOA_6J9sGme9g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_rO3o8oyXEeOA_6J9sGme9g" text=""/>
+    <sourceRole xmi:id="_rO3o84yXEeOA_6J9sGme9g" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rE0VEYyXEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_rO3o9IyXEeOA_6J9sGme9g" label="+"/>
+      <cardinality xmi:id="_rO3o9YyXEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rO3o9oyXEeOA_6J9sGme9g" aggregationKind="NONE" name="symbols" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rD5vEIyXEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_rO3o94yXEeOA_6J9sGme9g" label="-"/>
+      <cardinality xmi:id="_rO3o-IyXEeOA_6J9sGme9g" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rO5eIIyXEeOA_6J9sGme9g" source="_rO7TUIyXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rE2xUYyXEeOA_6J9sGme9g"/>
+    <stereotypes xmi:id="_rO5eIYyXEeOA_6J9sGme9g" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rE5NkIyXEeOA_6J9sGme9g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_rO5eIoyXEeOA_6J9sGme9g" text=""/>
+    <sourceRole xmi:id="_rO5eI4yXEeOA_6J9sGme9g" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rE2xUoyXEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_rO5eJIyXEeOA_6J9sGme9g" label="+"/>
+      <cardinality xmi:id="_rO5eJYyXEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rO5eJoyXEeOA_6J9sGme9g" aggregationKind="NONE" name="tTypeValueStack" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rD9ZcIyXEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_nyPUkIyYEeOA_6J9sGme9g" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rD_OoIyXEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_nyRJwIyYEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rD_1sIyXEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_rO5eJ4yXEeOA_6J9sGme9g" label="-"/>
+      <cardinality xmi:id="_rO5eKIyXEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rO6sQIyXEeOA_6J9sGme9g" source="_rO7TUIyXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rE5NkYyXEeOA_6J9sGme9g"/>
+    <stereotypes xmi:id="_rO6sQYyXEeOA_6J9sGme9g" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rE7p0IyXEeOA_6J9sGme9g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_rO6sQoyXEeOA_6J9sGme9g" text=""/>
+    <sourceRole xmi:id="_rO6sQ4yXEeOA_6J9sGme9g" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rE5NkoyXEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_rO6sRIyXEeOA_6J9sGme9g" label="+"/>
+      <cardinality xmi:id="_rO6sRYyXEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rO6sRoyXEeOA_6J9sGme9g" aggregationKind="NONE" name="wtAlgo" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rEBD0IyXEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_rO6sR4yXEeOA_6J9sGme9g" label="-"/>
+      <cardinality xmi:id="_rO6sSIyXEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rP1SQIyXEeOA_6J9sGme9g" source="_rP5jsIyXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rEoH0IyXEeOA_6J9sGme9g"/>
+    <stereotypes xmi:id="_rP3HcYyXEeOA_6J9sGme9g" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rEp9AIyXEeOA_6J9sGme9g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_rP2gYIyXEeOA_6J9sGme9g" text=""/>
+    <sourceRole xmi:id="_rP2gYYyXEeOA_6J9sGme9g" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rEoH0YyXEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_rP3ugYyXEeOA_6J9sGme9g" label="+"/>
+      <cardinality xmi:id="_rP3ugIyXEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rP3HcIyXEeOA_6J9sGme9g" aggregationKind="NONE" name="value" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_q8ii0IyXEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_rP4VkIyXEeOA_6J9sGme9g" label="+"/>
+      <cardinality xmi:id="_rP3ugoyXEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_uxZ7kIyXEeOA_6J9sGme9g" sourceAnchor="153.0,0.0" targetAnchor="208.0,367.0" superClass="_rO7TUIyXEeOA_6J9sGme9g" subClass="_uxdl8IyXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_uroDsIyXEeOA_6J9sGme9g"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uxaioIyXEeOA_6J9sGme9g" targetItem="_uxdl8IyXEeOA_6J9sGme9g" sourceItem="_uxZ7kYyXEeOA_6J9sGme9g"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_wIpbUIyXEeOA_6J9sGme9g" sourceAnchor="154.0,0.0" targetAnchor="208.0,367.0" superClass="_rO7TUIyXEeOA_6J9sGme9g" subClass="_wIseoIyXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_wBlKAIyXEeOA_6J9sGme9g"/>
+    <bendpoints xmi:id="_J10f8IyfEeOA_6J9sGme9g" sourceY="-30" targetX="-174" targetY="44"/>
+    <bendpoints xmi:id="_J10f8YyfEeOA_6J9sGme9g" sourceX="174" sourceY="-30" targetY="44"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_wIqCYIyXEeOA_6J9sGme9g" targetItem="_wIseoIyXEeOA_6J9sGme9g" sourceItem="_wIpbUYyXEeOA_6J9sGme9g"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_-p5eQIyXEeOA_6J9sGme9g" sourceAnchor="136.0,0.0" targetAnchor="208.0,367.0" superClass="_rO7TUIyXEeOA_6J9sGme9g" subClass="_-p9IoIyXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_-mqkEYyXEeOA_6J9sGme9g"/>
+    <bendpoints xmi:id="_J11HAIyfEeOA_6J9sGme9g" sourceY="-32" targetX="158" targetY="44"/>
+    <bendpoints xmi:id="_J11HAYyfEeOA_6J9sGme9g" sourceX="-158" sourceY="-32" targetY="44"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_-p6FUIyXEeOA_6J9sGme9g" targetItem="_-p9IoIyXEeOA_6J9sGme9g" sourceItem="_-p5eQYyXEeOA_6J9sGme9g"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_M3K_0IyZEeOA_6J9sGme9g" sourceAnchor="156.0,0.0" targetAnchor="98.0,92.0" dashed="true" superClass="_psX7cIyXEeOA_6J9sGme9g" subClass="_M3YbMIyZEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MikBwIyZEeOA_6J9sGme9g"/>
+    <bendpoints xmi:id="_J11uEIyfEeOA_6J9sGme9g" sourceY="-34" targetX="167" targetY="91"/>
+    <bendpoints xmi:id="_J11uEYyfEeOA_6J9sGme9g" sourceX="-167" sourceY="-34" targetY="91"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_M3QfYIyZEeOA_6J9sGme9g" targetItem="_M3YbUIyZEeOA_6J9sGme9g" sourceItem="_M3P4UIyZEeOA_6J9sGme9g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_M3RtgYyZEeOA_6J9sGme9g" targetItem="_M3YbXIyZEeOA_6J9sGme9g" sourceItem="_M3RtgIyZEeOA_6J9sGme9g"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_M3X0IIyZEeOA_6J9sGme9g" source="_M3YbMIyZEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MlgoEIyZEeOA_6J9sGme9g"/>
+    <stereotypes xmi:id="_M3X0IYyZEeOA_6J9sGme9g" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mlh2MIyZEeOA_6J9sGme9g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_M3X0IoyZEeOA_6J9sGme9g" text=""/>
+    <sourceRole xmi:id="_M3X0I4yZEeOA_6J9sGme9g" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MlgoEYyZEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_M3X0JIyZEeOA_6J9sGme9g" label="+"/>
+      <cardinality xmi:id="_M3X0JYyZEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_M3X0JoyZEeOA_6J9sGme9g" aggregationKind="NONE" name="tokenStream" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MkTuMIyZEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_M3X0J4yZEeOA_6J9sGme9g" label="-"/>
+      <cardinality xmi:id="_M3X0KIyZEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_M39qAIyZEeOA_6J9sGme9g" source="_M3-REIyZEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MleL0IyZEeOA_6J9sGme9g"/>
+    <stereotypes xmi:id="_M39qAYyZEeOA_6J9sGme9g" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MlgBAIyZEeOA_6J9sGme9g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_M39qAoyZEeOA_6J9sGme9g" text=""/>
+    <sourceRole xmi:id="_M39qA4yZEeOA_6J9sGme9g" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MleL0YyZEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_M39qBIyZEeOA_6J9sGme9g" label="+"/>
+      <cardinality xmi:id="_M39qBYyZEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_M39qBoyZEeOA_6J9sGme9g" aggregationKind="NONE" name="terminalSet" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MdZ08IyZEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_2jJSMIyaEeOA_6J9sGme9g" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MdacAIyZEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_M39qB4yZEeOA_6J9sGme9g" label="+"/>
+      <cardinality xmi:id="_M39qCIyZEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_M4EXsIyZEeOA_6J9sGme9g" sourceAnchor="171.0,272.0" targetAnchor="182.0,0.0" target="_M3vAgIyZEeOA_6J9sGme9g" source="_M4kuAIyZEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MlidQIyZEeOA_6J9sGme9g"/>
+    <stereotypes xmi:id="_M4Gz84yZEeOA_6J9sGme9g" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MljrYIyZEeOA_6J9sGme9g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_M4Gz8IyZEeOA_6J9sGme9g" text="">
+      <visualProperties xmi:id="_M_AtMIyZEeOA_6J9sGme9g" position="-82.0,-42.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_M4Gz8YyZEeOA_6J9sGme9g" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MlidQYyZEeOA_6J9sGme9g"/>
+      <visualProperties xmi:id="_M-_fEIyZEeOA_6J9sGme9g" position="-17.0,23.0"/>
+      <visibility xmi:id="_M4Zu4IyZEeOA_6J9sGme9g" label="+"/>
+      <cardinality xmi:id="_M4ZH0IyZEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_M4Gz8oyZEeOA_6J9sGme9g" aggregationKind="NONE" name="rules" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MkmCEIyZEeOA_6J9sGme9g"/>
+      <visualProperties xmi:id="_M_BUQIyZEeOA_6J9sGme9g" position="2.0,-168.0"/>
+      <visibility xmi:id="_M4bkEYyZEeOA_6J9sGme9g" label="-"/>
+      <cardinality xmi:id="_M4bkEIyZEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+      <qualifierHelper xmi:id="_M4aV8IyZEeOA_6J9sGme9g">
+        <qualifiers xmi:id="_M4a9AIyZEeOA_6J9sGme9g">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MkpscIyZEeOA_6J9sGme9g"/>
+          <visibility xmi:id="_M4hqsYyZEeOA_6J9sGme9g" label="+"/>
+          <cardinality xmi:id="_M4hqsoyZEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+          <type xmi:id="_M4hqsIyZEeOA_6J9sGme9g" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </qualifiers>
+      </qualifierHelper>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_M4GM4IyZEeOA_6J9sGme9g" sourceAnchor="177.0,0.0" targetAnchor="122.0,116.0" dashed="true" superClass="_M3-REIyZEeOA_6J9sGme9g" subClass="_M4kuAIyZEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MjSagYyZEeOA_6J9sGme9g"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_M4HbAIyZEeOA_6J9sGme9g" source="_M4kuAIyZEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MlkScIyZEeOA_6J9sGme9g"/>
+    <stereotypes xmi:id="_M4cyMIyZEeOA_6J9sGme9g" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MllgkIyZEeOA_6J9sGme9g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_M4cLIIyZEeOA_6J9sGme9g" text=""/>
+    <sourceRole xmi:id="_M4cLIYyZEeOA_6J9sGme9g" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MlkScYyZEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_M4iRwYyZEeOA_6J9sGme9g" label="+"/>
+      <cardinality xmi:id="_M4iRwIyZEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_M4cLIoyZEeOA_6J9sGme9g" aggregationKind="NONE" name="tokenPattern" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mkq6kIyZEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_M4i40YyZEeOA_6J9sGme9g" label="-"/>
+      <cardinality xmi:id="_M4i40IyZEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_M4KeUYyZEeOA_6J9sGme9g" targetItem="_M4lVEYyZEeOA_6J9sGme9g" sourceItem="_M4KeUIyZEeOA_6J9sGme9g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_M4MTgIyZEeOA_6J9sGme9g" targetItem="_M4lVGIyZEeOA_6J9sGme9g" sourceItem="_M4LscIyZEeOA_6J9sGme9g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_M4NhoIyZEeOA_6J9sGme9g" targetItem="_M4lVHoyZEeOA_6J9sGme9g" sourceItem="_M4M6kIyZEeOA_6J9sGme9g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_M4OvwIyZEeOA_6J9sGme9g" targetItem="_M4lVI4yZEeOA_6J9sGme9g" sourceItem="_M4OIsIyZEeOA_6J9sGme9g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_M4PW0YyZEeOA_6J9sGme9g" targetItem="_M4lVKoyZEeOA_6J9sGme9g" sourceItem="_M4PW0IyZEeOA_6J9sGme9g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_M4TBMIyZEeOA_6J9sGme9g" targetItem="_M4lVOIyZEeOA_6J9sGme9g" sourceItem="_M4SaIIyZEeOA_6J9sGme9g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_M4VdcIyZEeOA_6J9sGme9g" targetItem="_M4lVP4yZEeOA_6J9sGme9g" sourceItem="_M4U2YIyZEeOA_6J9sGme9g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_M4XSoIyZEeOA_6J9sGme9g" targetItem="_M4lVRoyZEeOA_6J9sGme9g" sourceItem="_M4WrkIyZEeOA_6J9sGme9g"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_M5RRkIyZEeOA_6J9sGme9g" sourceAnchor="128.0,0.0" targetAnchor="182.0,215.0" superClass="_M3vAgIyZEeOA_6J9sGme9g" subClass="_M5Tt0IyZEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MjcLgIyZEeOA_6J9sGme9g"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:DependencyVisual" xmi:id="_bKaxEIybEeOA_6J9sGme9g" sourceAnchor="0.0,8.0" targetAnchor="197.0,59.0" client="_M3-RE4yZEeOA_6J9sGme9g" supplier="_psX7cIyXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_bKY74IybEeOA_6J9sGme9g"/>
+    <visualProperties xmi:id="_bKaxEYybEeOA_6J9sGme9g"/>
+    <nameVisual xmi:id="_bKaxEoybEeOA_6J9sGme9g" text="Instantiates"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:UsageVisual" xmi:id="_13R1QIybEeOA_6J9sGme9g" sourceAnchor="416.0,351.0" targetAnchor="0.0,34.0" client="_rO7TUIyXEeOA_6J9sGme9g" supplier="_rP5jsIyXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_nyDHUIyYEeOA_6J9sGme9g"/>
+    <nameVisual xmi:id="_13R1QYybEeOA_6J9sGme9g" text=""/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_60vtcIyeEeOA_6J9sGme9g" sourceAnchor="154.0,0.0" targetAnchor="311.0,37.0" target="_603CMIyeEeOA_6J9sGme9g" source="_603CMIyeEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6sa34IyeEeOA_6J9sGme9g"/>
+    <bendpoints xmi:id="_J12VIIyfEeOA_6J9sGme9g" sourceX="1" sourceY="-62" targetX="-156" targetY="-99"/>
+    <bendpoints xmi:id="_J128MIyfEeOA_6J9sGme9g" sourceX="166" sourceY="-62" targetX="9" targetY="-99"/>
+    <bendpoints xmi:id="_J128MYyfEeOA_6J9sGme9g" sourceX="166" sourceY="37" targetX="9"/>
+    <stereotypes xmi:id="_600l8oyeEeOA_6J9sGme9g" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6sbe8IyeEeOA_6J9sGme9g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_60z-4IyeEeOA_6J9sGme9g" text="">
+      <visualProperties xmi:id="_64rLMYyeEeOA_6J9sGme9g" position="-87.00304416026461,41.96788303573953"/>
+    </nameVisual>
+    <sourceRole xmi:id="_600l8IyeEeOA_6J9sGme9g" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6sa34YyeEeOA_6J9sGme9g"/>
+      <visualProperties xmi:id="_64rLMIyeEeOA_6J9sGme9g" position="-0.02207269055230654,-106.00197963614167"/>
+      <visibility xmi:id="_6010EYyeEeOA_6J9sGme9g" label="+"/>
+      <cardinality xmi:id="_6010EIyeEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_600l8YyeEeOA_6J9sGme9g" aggregationKind="NONE" name="EOF" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6sCdYIyeEeOA_6J9sGme9g"/>
+      <visualProperties xmi:id="_64ryQIyeEeOA_6J9sGme9g" position="15.996424730626018,-73.05048855644428"/>
+      <visibility xmi:id="_602bIYyeEeOA_6J9sGme9g" label="+"/>
+      <cardinality xmi:id="_602bIIyeEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_60wUgYyeEeOA_6J9sGme9g" targetItem="_603CMIyeEeOA_6J9sGme9g" sourceItem="_60wUgIyeEeOA_6J9sGme9g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_60xioIyeEeOA_6J9sGme9g" targetItem="_603CQYyeEeOA_6J9sGme9g" sourceItem="_60w7kIyeEeOA_6J9sGme9g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_60yJsYyeEeOA_6J9sGme9g" targetItem="_603CUIyeEeOA_6J9sGme9g" sourceItem="_60yJsIyeEeOA_6J9sGme9g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_60zX0IyeEeOA_6J9sGme9g" targetItem="_603CVIyeEeOA_6J9sGme9g" sourceItem="_60ywwIyeEeOA_6J9sGme9g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:DependencyVisual" xmi:id="_BUWOIIyfEeOA_6J9sGme9g" sourceAnchor="0.0,69.0" targetAnchor="311.0,88.0" client="_psX7cIyXEeOA_6J9sGme9g" supplier="_603CMIyeEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_BUTx4IyfEeOA_6J9sGme9g"/>
+    <visualProperties xmi:id="_BUWOIYyfEeOA_6J9sGme9g"/>
+    <nameVisual xmi:id="_BUWOIoyfEeOA_6J9sGme9g" text="Instantiates"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_psFnkIyXEeOA_6J9sGme9g" sourceConnectionVisual="_psID0IyXEeOA_6J9sGme9g" text="Extract and return an appropriate Token from some given source." item="_psX7cIyXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_pjH40IyXEeOA_6J9sGme9g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_psP_oIyXEeOA_6J9sGme9g" sourceConnectionVisual="_psQmsIyXEeOA_6J9sGme9g" text="Return the next token." item="_psYig4yXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_pjIf4IyXEeOA_6J9sGme9g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_psTC8IyXEeOA_6J9sGme9g" sourceConnectionVisual="_psTqAIyXEeOA_6J9sGme9g" text="Put the previously consumed token back into the token stream.  An arbitrary number of tokens can be put back into the stream. &#xD;&#xA;     * @param t the token to put back" item="_psYiiIyXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_pjIf4YyXEeOA_6J9sGme9g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rOa9AIyXEeOA_6J9sGme9g" sourceConnectionVisual="_rOa9AYyXEeOA_6J9sGme9g" text="Use the StreamTokenizer provided by in java.io to scan an input stream and extract an appropriate Token.&#xD;&#xA;Is customizable through the setSymbols() method which takes an Iterable&lt;String>'s containing the keywords &#xD;&#xA;to recognize as special tokens.&#xD;&#xA; *" item="_rO7TUIyXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rEdvwIyXEeOA_6J9sGme9g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rOeAUIyXEeOA_6J9sGme9g" sourceConnectionVisual="_rOenYIyXEeOA_6J9sGme9g" text="Close the tokenizer's Reader" item="_rO7TioyXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rEfk8IyXEeOA_6J9sGme9g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rOfOcIyXEeOA_6J9sGme9g" sourceConnectionVisual="_rOf1gIyXEeOA_6J9sGme9g" text="Get the next token in the stream.&#xD;&#xA;&#x9; * @return the next token in the stream." item="_rO7TjIyXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rEfk8YyXEeOA_6J9sGme9g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rOhDoIyXEeOA_6J9sGme9g" sourceConnectionVisual="_rOhDoYyXEeOA_6J9sGme9g" text="Use _st to scan the input, extracts, and returns an appropriate concrete Token.&#xD;&#xA;&#x9; *&#xD;&#xA;&#x9; * @return next token&#xD;&#xA;&#x9; * @throws IllegalArgumentException Thrown if an illegal input is encountered." item="_rO7TlIyXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rEgzEIyXEeOA_6J9sGme9g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rOiRwIyXEeOA_6J9sGme9g" sourceConnectionVisual="_rOiRwYyXEeOA_6J9sGme9g" text="Push the given token back into the stream.   &#xD;&#xA;&#x9; * Multiple pushbacks are allowed to enable popping out of deeply nested recursions.&#xD;&#xA;&#x9; * @param t The token to push back into the stream." item="_rO7TmIyXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rEfk8oyXEeOA_6J9sGme9g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rOjf4IyXEeOA_6J9sGme9g" sourceConnectionVisual="_rOjf4YyXEeOA_6J9sGme9g" text="Initialize _st to read from a input Reader file with the given input file name.&#xD;&#xA;&#x9; *&#xD;&#xA;&#x9; * @param inputFileName the name of the input text file&#xD;&#xA;&#x9; * @throws FileNotFoundException" item="_rO76YoyXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rEeW0IyXEeOA_6J9sGme9g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uxZ7kYyXEeOA_6J9sGme9g" sourceConnectionVisual="_uxaioIyXEeOA_6J9sGme9g" text="Use the StreamTokenizer provided by in java.io to scan an input stream and extract an appropriate AToken." item="_uxdl8IyXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_urqf8IyXEeOA_6J9sGme9g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_wIpbUYyXEeOA_6J9sGme9g" sourceConnectionVisual="_wIqCYIyXEeOA_6J9sGme9g" text="Use the StreamTokenizer provided by in java.io to scan an input stream and extract an appropriate Token." item="_wIseoIyXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_wBoNUIyXEeOA_6J9sGme9g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_-p5eQYyXEeOA_6J9sGme9g" sourceConnectionVisual="_-p6FUIyXEeOA_6J9sGme9g" text="Use the StreamTokenizer provided by in java.io to scan an input stream and extract an appropriate Token." item="_-p9IoIyXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_-mtnYIyXEeOA_6J9sGme9g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_M3P4UIyZEeOA_6J9sGme9g" sourceConnectionVisual="_M3QfYIyZEeOA_6J9sGme9g" text="Handle basic escape sequences in a string of characters&#xA;   * Supports \r \n \t, and replaces \x with x for any other character x." item="_M3YbUIyZEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MlNtIIyZEeOA_6J9sGme9g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_M3RtgIyZEeOA_6J9sGme9g" sourceConnectionVisual="_M3RtgYyZEeOA_6J9sGme9g" text="Default constructor&#xA;   * @param in - language text to be parsed" item="_M3YbXIyZEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MlMfAIyZEeOA_6J9sGme9g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_M4KeUIyZEeOA_6J9sGme9g" sourceConnectionVisual="_M4KeUYyZEeOA_6J9sGme9g" text="Convenience constructor" item="_M4lVEYyZEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MlRXgIyZEeOA_6J9sGme9g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_M4LscIyZEeOA_6J9sGme9g" sourceConnectionVisual="_M4MTgIyZEeOA_6J9sGme9g" text="Convenience overload for {@link LexerFactory#makeLexer(Reader)}" item="_M4lVGIyZEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MlSloYyZEeOA_6J9sGme9g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_M4M6kIyZEeOA_6J9sGme9g" sourceConnectionVisual="_M4NhoIyZEeOA_6J9sGme9g" text="@return the set of names of all terminals" item="_M4lVHoyZEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MlTMsYyZEeOA_6J9sGme9g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_M4OIsIyZEeOA_6J9sGme9g" sourceConnectionVisual="_M4OvwIyZEeOA_6J9sGme9g" text="Convenience constructor" item="_M4lVI4yZEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MlR-kYyZEeOA_6J9sGme9g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_M4PW0IyZEeOA_6J9sGme9g" sourceConnectionVisual="_M4PW0YyZEeOA_6J9sGme9g" text="Construct a new ITokenizer.&#xA;   * @param in - Input to be tokenized.&#xA;   * @return new ITokenizer for tokenizing &lt;var>in&lt;/var>." item="_M4lVKoyZEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MlTMsIyZEeOA_6J9sGme9g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_M4SaIIyZEeOA_6J9sGme9g" sourceConnectionVisual="_M4TBMIyZEeOA_6J9sGme9g" text="Convenience constructor" item="_M4lVOIyZEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MlR-kIyZEeOA_6J9sGme9g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_M4U2YIyZEeOA_6J9sGme9g" sourceConnectionVisual="_M4VdcIyZEeOA_6J9sGme9g" text="Construct a lexer factory from a given lexer specification." item="_M4lVP4yZEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MlSloIyZEeOA_6J9sGme9g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_M4WrkIyZEeOA_6J9sGme9g" sourceConnectionVisual="_M4XSoIyZEeOA_6J9sGme9g" text="Constructor helper for parsing the rules" item="_M4lVRoyZEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MlTzwIyZEeOA_6J9sGme9g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_M5OOQIyZEeOA_6J9sGme9g" name="FileNotFoundException">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rBIu8IyXEeOA_6J9sGme9g"/>
+    <visualProperties xmi:id="_M5OOQYyZEeOA_6J9sGme9g" position="1919.0,434.0" size="-1.0,-1.0" visible="false"/>
+    <stereotypes xmi:id="_M5OOQoyZEeOA_6J9sGme9g" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rBLyQIyXEeOA_6J9sGme9g"/>
+    </stereotypes>
+    <visibility xmi:id="_M5OOQ4yZEeOA_6J9sGme9g" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rO7TUIyXEeOA_6J9sGme9g" comments="_rOa9AIyXEeOA_6J9sGme9g" targetConnectionVisual="_rOa9AYyXEeOA_6J9sGme9g" using="_13R1QIybEeOA_6J9sGme9g" name="ATokenizer" abstractClass="true" associationsOut="_rOw7QIyXEeOA_6J9sGme9g _rOyJYIyXEeOA_6J9sGme9g _rOz-kIyXEeOA_6J9sGme9g _rO2a0IyXEeOA_6J9sGme9g _rO3o8IyXEeOA_6J9sGme9g _rO5eIIyXEeOA_6J9sGme9g _rO6sQIyXEeOA_6J9sGme9g" generalizations="_rOaV8IyXEeOA_6J9sGme9g" subclassedBy="_uxZ7kIyXEeOA_6J9sGme9g _wIpbUIyXEeOA_6J9sGme9g _-p5eQIyXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_q8KIUIyXEeOA_6J9sGme9g"/>
+    <visualProperties xmi:id="_rO7TUYyXEeOA_6J9sGme9g" position="312.0,293.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rO7TUoyXEeOA_6J9sGme9g" label="+"/>
+    <attributes xmi:id="_rO7TU4yXEeOA_6J9sGme9g" name="_st">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rDs6wIyXEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_rO7TVIyXEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rDuI4IyXEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rO7TVYyXEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rDuI4IyXEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_rO7TVoyXEeOA_6J9sGme9g" label="#"/>
+      <cardinality xmi:id="_rO7TV4yXEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+      <type xmi:id="_rO7TWIyXEeOA_6J9sGme9g" name="StreamTokenizer">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rBRR0IyXEeOA_6J9sGme9g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rO7TWYyXEeOA_6J9sGme9g" name="_reader">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rDvXAIyXEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_rO7TWoyXEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rDwlIIyXEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rO7TW4yXEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rDwlIIyXEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_rO7TXIyXEeOA_6J9sGme9g" label="-"/>
+      <cardinality xmi:id="_rO7TXYyXEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+      <type xmi:id="_rO7TXoyXEeOA_6J9sGme9g" name="Reader">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rBO1kIyXEeOA_6J9sGme9g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rO7TX4yXEeOA_6J9sGme9g" defaultValue="TokenFactory.Singleton" name="tokFac">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rDxzQIyXEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_rO7TYIyXEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rDzocIyXEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rO7TYYyXEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rDzocIyXEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_rO7TYoyXEeOA_6J9sGme9g" label="#"/>
+      <cardinality xmi:id="_rO7TY4yXEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+      <type xmi:id="_rO7TZIyXEeOA_6J9sGme9g" name="ITokenFactory">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rBeGIIyXEeOA_6J9sGme9g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rO7TZYyXEeOA_6J9sGme9g" defaultValue="new Stack&lt;Token>()" name="tokenStack">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rD02kIyXEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_rO7TZoyXEeOA_6J9sGme9g" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rD3S0IyXEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rO7TZ4yXEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rD4g8IyXEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rO7TaIyXEeOA_6J9sGme9g" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rD3S0IyXEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rO7TaYyXEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rD4g8IyXEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_rO7TaoyXEeOA_6J9sGme9g" label="-"/>
+      <cardinality xmi:id="_rO7Ta4yXEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+      <type xmi:id="_rO7TbIyXEeOA_6J9sGme9g" name="Stack">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rBbp4IyXEeOA_6J9sGme9g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rO7TbYyXEeOA_6J9sGme9g" defaultValue="new ArrayList&lt;WordTree>()" name="symbols">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rD5vEIyXEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_rO7TboyXEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rD8LUIyXEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rO7Tb4yXEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rD8LUIyXEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_rO7TcIyXEeOA_6J9sGme9g" label="-"/>
+      <cardinality xmi:id="_rO7TcYyXEeOA_6J9sGme9g" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_rO7TcoyXEeOA_6J9sGme9g" name="WordTree">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rBmB8IyXEeOA_6J9sGme9g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rO7Tc4yXEeOA_6J9sGme9g" defaultValue="new Stack&lt;ITTypeValue>()" name="tTypeValueStack">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rD9ZcIyXEeOA_6J9sGme9g"/>
+      <visualProperties xmi:id="_n19W8IyYEeOA_6J9sGme9g" position="318.0,421.0" size="319.0,17.0"/>
+      <stereotypes xmi:id="_rO7TdIyXEeOA_6J9sGme9g" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rD_OoIyXEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rO7TdYyXEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rD_1sIyXEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_rO7TeIyXEeOA_6J9sGme9g" label="-"/>
+      <cardinality xmi:id="_rO7TeYyXEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+      <type xmi:id="_rO7TeoyXEeOA_6J9sGme9g" name="Stack">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rBbp4IyXEeOA_6J9sGme9g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rO7Te4yXEeOA_6J9sGme9g" defaultValue="new IWordTreeVisitor&lt;Token, Void>() {&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;/**&#xD;&#xA;&#x9;&#x9; * cmds[0] => construct the terminal word using the given string and return the token made from it.&#xD;&#xA;&#x9;&#x9; * cmds[1] => Perform any additional token pushing and return the token made from the closest (largest) terminal word. &#xD;&#xA;&#x9;&#x9; */&#xD;&#xA;&#x9;&#x9;IWordTreeVisitor&lt;Token, ILambda&lt;Token, String>> helper = new IWordTreeVisitor&lt;Token, ILambda&lt;Token, String>>() {&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;@Override&#xD;&#xA;&#x9;&#x9;&#x9;public Token leafTerminalCase(WordTree host, @SuppressWarnings(&quot;unchecked&quot;) ILambda&lt;Token, String>... cmds) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;return cmds[0].apply(&quot;&quot;+host.getValue());  // make token from this terminal word &#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;&#x9;@Override&#xD;&#xA;&#x9;&#x9;&#x9;public Token leafNonTerminalCase(WordTree host, @SuppressWarnings(&quot;unchecked&quot;) ILambda&lt;Token, String>... cmds) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;// ERROR!  Should never get here b/c after reading keywords into wordtrees, all leaf nodes should be terminal. &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;throw new IllegalArgumentException(&quot;ATokenizer.wtAlgo.helper.leafNonTerminalCase: Leaf node of keyword tree should never be non-terminal!&quot;);&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;&#x9;@SuppressWarnings(&quot;unchecked&quot;)&#xD;&#xA;&#x9;&#x9;&#x9;@Override&#xD;&#xA;&#x9;&#x9;&#x9;public Token nonLeafTerminalCase(final WordTree host, final ILambda&lt;Token, String>... cmds) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;// check the children symbols&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;final ITTypeValue nextTTV = popTTypeValue();&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;for(WordTree nextWT: host.getRest()){&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;if(nextTTV.getTTtype() == nextWT.getValue()) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;System.out.println(&quot;ATokenizer.wtAlgo.helper.nonLeafTerminalCase: matching ttype found in symbols: &quot;+nextTTV.getTTtype()+&quot; == &quot;+nextWT.getValue());&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;return nextWT.execute(this, new ILambda&lt;Token, String>(){&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;@Override&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;public Token apply(String... wordAccs) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;return cmds[0].apply(host.getValue()+wordAccs[0]);   // accumulate terminal word and return resultant token&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}, new ILambda&lt;Token, String>() {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;@Override&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;public Token apply(String... nu) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;pushTTypeValue(nextTTV); // push the next token back&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;return cmds[0].apply(&quot;&quot;+host.getValue());   //  make token from this terminal word &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;});&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;pushTTypeValue(nextTTV);  // push the next token back&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;return cmds[0].apply(&quot;&quot;+host.getValue());  //  make token from this terminal word &#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;&#x9;@SuppressWarnings(&quot;unchecked&quot;)&#xD;&#xA;&#x9;&#x9;&#x9;@Override&#xD;&#xA;&#x9;&#x9;&#x9;public Token nonLeafNonTerminalCase(final WordTree host, final ILambda&lt;Token, String>... cmds) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;// check the children symbols&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;final ITTypeValue nextTTV = popTTypeValue();&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;for(WordTree nextWT: host.getRest()){&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;if(nextTTV.getTTtype() == nextWT.getValue()) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;System.out.println(&quot;ATokenizer.wtAlgo.helper.nonLeafNonTerminalCase: matching ttype found in symbols: &quot;+nextTTV.getTTtype()+&quot; == &quot;+nextWT.getValue());&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;return nextWT.execute(this, new ILambda&lt;Token, String>(){&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;@Override&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;public Token apply(String... params) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;return cmds[0].apply(host.getValue()+params[0]); // accumulate terminal word and return resultant token&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}, new ILambda&lt;Token, String>() {&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;@Override&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;public Token apply(String... nu) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;pushTTypeValue(nextTTV);  // push the next token back&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;return cmds[1].apply();  // push back any previous tokens and return the closest terminal word token&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;});&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;pushTTypeValue(nextTTV); // push the next token back&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;return cmds[1].apply(); // push back any previous tokens and return the closest terminal word token&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;};&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;@Override&#xD;&#xA;&#x9;&#x9;public Token leafTerminalCase(WordTree host, Void... nu) {&#xD;&#xA;&#x9;&#x9;&#x9;// make the token&#xD;&#xA;&#x9;&#x9;&#x9;String name = &quot;&quot;+host.getValue();&#xD;&#xA;&#x9;&#x9;&#x9;//HACK -- only works if &quot;\n&quot; is in the symbol list but not combined with any other symbols.&#xD;&#xA;&#x9;&#x9;&#x9;if(name.equals(&quot;\n&quot;)) name= &quot;lf&quot;;&#xD;&#xA;&#x9;&#x9;&#x9;Token newToken =  tokFac.makeToken(name, &quot;&quot;+host.getValue());&#xD;&#xA;&#x9;&#x9;&#x9;System.out.println(&quot;ATokenizer.wtAlgo.leafTerminalCase(): making token: &quot;+ newToken);&#xD;&#xA;&#x9;&#x9;&#x9;return newToken;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;@Override&#xD;&#xA;&#x9;&#x9;public Token leafNonTerminalCase(WordTree host, Void...nu) {&#xD;&#xA;&#x9;&#x9;&#x9;// ERROR!  Should never get here b/c after reading keywords into wordtrees, all leaf nodes should be terminal. &#xD;&#xA;&#x9;&#x9;&#x9;throw new IllegalArgumentException(&quot;ATokenizer.wtAlgo.leafNonTerminalCase: Leaf node of keyword tree should never be non-terminal!&quot;);&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;@SuppressWarnings(&quot;unchecked&quot;)&#xD;&#xA;&#x9;&#x9;@Override&#xD;&#xA;&#x9;&#x9;public Token nonLeafTerminalCase(final WordTree host, Void... nu) {&#xD;&#xA;&#x9;&#x9;&#x9;// check the children symbols&#xD;&#xA;&#x9;&#x9;&#x9;final ITTypeValue nextTTV = popTTypeValue();&#xD;&#xA;&#x9;&#x9;&#x9;for(WordTree nextWT: host.getRest()){&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;if(nextTTV.getTTtype() == nextWT.getValue()) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;System.out.println(&quot;ATokenizer.makeNextToken(): matching ttype found in symbols: &quot;+nextTTV.getTTtype()+&quot; == &quot;+nextWT.getValue());&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;return nextWT.execute(helper, new ILambda&lt;Token, String>(){&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;@Override&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;public Token apply(String... params) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;String name = host.getValue()+params[0];  // accumulate the terminal word&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;return  tokFac.makeToken(name, name);   // make the token from the accumulated terminal word&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}, new ILambda&lt;Token, String>() {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;@Override&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;public Token apply(String... nu) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;pushTTypeValue(nextTTV);    // push the next token back&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;String name = &quot;&quot;+host.getValue();   &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;return  tokFac.makeToken(name, name);   // make the token from this terminal word&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;});&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;pushTTypeValue(nextTTV);  // push the next token back&#xD;&#xA;&#x9;&#x9;&#x9;String name = &quot;&quot;+host.getValue();&#xD;&#xA;&#x9;&#x9;&#x9;Token newToken =  tokFac.makeToken(name, name);   //make the token from this terminal word&#xD;&#xA;&#x9;&#x9;&#x9;System.out.println(&quot;ATokenizer.w.Algo.nonLeafTerminalCase(): making token: &quot;+ newToken);&#xD;&#xA;&#x9;&#x9;&#x9;return newToken;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;@SuppressWarnings(&quot;unchecked&quot;)&#xD;&#xA;&#x9;&#x9;@Override&#xD;&#xA;&#x9;&#x9;public Token nonLeafNonTerminalCase(final WordTree host, Void... nu) {&#xD;&#xA;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;// check the children symbols&#xD;&#xA;&#x9;&#x9;&#x9;final ITTypeValue nextTTV = popTTypeValue();&#xD;&#xA;&#x9;&#x9;&#x9;for(WordTree nextWT: host.getRest()){&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;if(nextTTV.getTTtype() == nextWT.getValue()) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;System.out.println(&quot;ATokenizer.makeNextToken(): matching ttype found in symbols: &quot;+nextTTV.getTTtype()+&quot; == &quot;+nextWT.getValue());&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;return nextWT.execute(helper, new ILambda&lt;Token, String>(){&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;@Override&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;public Token apply(String... params) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;String name = host.getValue()+params[0];  // accumulate the terminal word&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;return  tokFac.makeToken(name, name);   // make the token from the accumulated terminal word&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}, new ILambda&lt;Token, String>() {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;@Override&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;public Token apply(String... nu) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;// NOT RIGHT!!  Need to find next terminal token.&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;// want to keep nextTTV and pop the next token and run it against the whole symbols list.&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;// if not in symbols or if a token gets made, then need to take accumulated TTypeValues and make an Id token.&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;// this might need to be moved outside of this algo.&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;pushTTypeValue(nextTTV);    // push the next token back&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;String name = &quot;&quot;+host.getValue();   &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;return  tokFac.makeToken(&quot;Id&quot;, name);   // make the token from this terminal word&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;});&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;pushTTypeValue(nextTTV);  // push the next token back&#xD;&#xA;&#x9;&#x9;&#x9;String name = &quot;&quot;+host.getValue();&#xD;&#xA;&#x9;&#x9;&#x9;Token newToken =  tokFac.makeToken(&quot;Id&quot;, name);   //make the token from this terminal word&#xD;&#xA;&#x9;&#x9;&#x9;System.out.println(&quot;ATokenizer.wtAlgo.nonLeafNonTerminalCase(): making token: &quot;+ newToken);&#xD;&#xA;&#x9;&#x9;&#x9;return newToken;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}" name="wtAlgo">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rEBD0IyXEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_rO7TfIyXEeOA_6J9sGme9g" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rEDgEIyXEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rO7TfYyXEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rEFVQIyXEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rO7TfoyXEeOA_6J9sGme9g" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rEDgEIyXEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rO7Tf4yXEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rEFVQIyXEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_rO7TgIyXEeOA_6J9sGme9g" label="-"/>
+      <cardinality xmi:id="_rO7TgYyXEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+      <type xmi:id="_rO7TgoyXEeOA_6J9sGme9g" name="IWordTreeVisitor">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rBjlsIyXEeOA_6J9sGme9g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_rO7Tg4yXEeOA_6J9sGme9g" name="ATokenizer">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_q8VHcIyXEeOA_6J9sGme9g"/>
+      <keywords xmi:id="_rO7ThIyXEeOA_6J9sGme9g" keyword="create"/>
+      <visibility xmi:id="_rO7ThYyXEeOA_6J9sGme9g" label="+"/>
+      <outParameters xmi:id="_rO7ThoyXEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_q8WVkoyXEeOA_6J9sGme9g"/>
+        <type xmi:id="_rO7Th4yXEeOA_6J9sGme9g" name="ATokenizer">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_q8KIUIyXEeOA_6J9sGme9g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rO7TiIyXEeOA_6J9sGme9g" name="text">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_q8VHcYyXEeOA_6J9sGme9g"/>
+        <type xmi:id="_rO7TiYyXEeOA_6J9sGme9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rO7TioyXEeOA_6J9sGme9g" comments="_rOeAUIyXEeOA_6J9sGme9g" targetConnectionVisual="_rOenYIyXEeOA_6J9sGme9g" name="closeReader">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_q8Yx0IyXEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_rO7Ti4yXEeOA_6J9sGme9g" label="#"/>
+    </operations>
+    <operations xmi:id="_rO7TjIyXEeOA_6J9sGme9g" comments="_rOfOcIyXEeOA_6J9sGme9g" targetConnectionVisual="_rOf1gIyXEeOA_6J9sGme9g" name="getNextToken">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_q8Z_8IyXEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_rO7TjYyXEeOA_6J9sGme9g" label="+"/>
+      <outParameters xmi:id="_rO7TjoyXEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rCYFEIyXEeOA_6J9sGme9g"/>
+        <type xmi:id="_rO7Tj4yXEeOA_6J9sGme9g" name="Token">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MBYJEIcvEeO394xrVBhzLQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rO7TkIyXEeOA_6J9sGme9g" name="popTTypeValue">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_q8m0QIyXEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_rO7TkYyXEeOA_6J9sGme9g" label="#"/>
+      <outParameters xmi:id="_rO7TkoyXEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rCdkoIyXEeOA_6J9sGme9g"/>
+        <type xmi:id="_rO7Tk4yXEeOA_6J9sGme9g" name="ITTypeValue">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_q8e4cIyXEeOA_6J9sGme9g"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rO7TlIyXEeOA_6J9sGme9g" comments="_rOhDoIyXEeOA_6J9sGme9g" targetConnectionVisual="_rOhDoYyXEeOA_6J9sGme9g" name="makeNextToken">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_q8p3kIyXEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_rO7TlYyXEeOA_6J9sGme9g" label="#"/>
+      <outParameters xmi:id="_rO7TloyXEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rCh2EIyXEeOA_6J9sGme9g"/>
+        <type xmi:id="_rO7Tl4yXEeOA_6J9sGme9g" name="Token">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MBYJEIcvEeO394xrVBhzLQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rO7TmIyXEeOA_6J9sGme9g" comments="_rOiRwIyXEeOA_6J9sGme9g" targetConnectionVisual="_rOiRwYyXEeOA_6J9sGme9g" name="putBack">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rCZTMIyXEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_rO7TmYyXEeOA_6J9sGme9g" label="+"/>
+      <parameters xmi:id="_rO7TmoyXEeOA_6J9sGme9g" name="t">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rCZTMYyXEeOA_6J9sGme9g"/>
+        <type xmi:id="_rO7Tm4yXEeOA_6J9sGme9g" name="Token">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MBYJEIcvEeO394xrVBhzLQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rO7TnIyXEeOA_6J9sGme9g" name="pushTTypeValue">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rCeywIyXEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_rO7TnYyXEeOA_6J9sGme9g" label="#"/>
+      <parameters xmi:id="_rO76YIyXEeOA_6J9sGme9g" name="ttv">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rCeywYyXEeOA_6J9sGme9g"/>
+        <type xmi:id="_rO76YYyXEeOA_6J9sGme9g" name="ITTypeValue">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_q8e4cIyXEeOA_6J9sGme9g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rO76YoyXEeOA_6J9sGme9g" comments="_rOjf4IyXEeOA_6J9sGme9g" targetConnectionVisual="_rOjf4YyXEeOA_6J9sGme9g" name="ATokenizer">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rDGd0IyXEeOA_6J9sGme9g"/>
+      <keywords xmi:id="_rO76Y4yXEeOA_6J9sGme9g" keyword="create"/>
+      <visibility xmi:id="_rO76ZIyXEeOA_6J9sGme9g" label="+"/>
+      <outParameters xmi:id="_rO76ZYyXEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rDITAIyXEeOA_6J9sGme9g"/>
+        <type xmi:id="_rO76ZoyXEeOA_6J9sGme9g" name="ATokenizer">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_q8KIUIyXEeOA_6J9sGme9g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rO76Z4yXEeOA_6J9sGme9g" name="reader">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rDGd0YyXEeOA_6J9sGme9g"/>
+        <type xmi:id="_rO76aIyXEeOA_6J9sGme9g" name="Reader">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rBO1kIyXEeOA_6J9sGme9g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rO76aYyXEeOA_6J9sGme9g" name="makeTTypeValue">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rDSEAIyXEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_rO76aoyXEeOA_6J9sGme9g" label="-"/>
+      <outParameters xmi:id="_rO76a4yXEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rDTSIIyXEeOA_6J9sGme9g"/>
+        <type xmi:id="_rO76bIyXEeOA_6J9sGme9g" name="ITTypeValue">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_q8e4cIyXEeOA_6J9sGme9g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rO76bYyXEeOA_6J9sGme9g" name="ttype">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rDSEAYyXEeOA_6J9sGme9g"/>
+        <keywords xmi:id="_rO76boyXEeOA_6J9sGme9g" keyword="final"/>
+        <type xmi:id="_rO76b4yXEeOA_6J9sGme9g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rO76cIyXEeOA_6J9sGme9g" name="value">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rDSrEIyXEeOA_6J9sGme9g"/>
+        <keywords xmi:id="_rO76cYyXEeOA_6J9sGme9g" keyword="final"/>
+        <type xmi:id="_rO76coyXEeOA_6J9sGme9g" name="Object">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rDNykYyXEeOA_6J9sGme9g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rO76c4yXEeOA_6J9sGme9g" name="setSymbols">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rDZYwIyXEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_rO76dIyXEeOA_6J9sGme9g" label="#"/>
+      <parameters xmi:id="_rO76dYyXEeOA_6J9sGme9g" name="symStrs">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rDZYwYyXEeOA_6J9sGme9g"/>
+        <type xmi:id="_rO76doyXEeOA_6J9sGme9g" name="Iterable">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rDW8gIyXEeOA_6J9sGme9g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_uxdl8IyXEeOA_6J9sGme9g" comments="_uxZ7kYyXEeOA_6J9sGme9g" targetConnectionVisual="_uxaioIyXEeOA_6J9sGme9g" name="BNFTokenizer" generalizations="_uxZ7kIyXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_urPCIIyXEeOA_6J9sGme9g"/>
+    <visualProperties xmi:id="_uxdl8YyXEeOA_6J9sGme9g" position="367.0,881.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_uxdl8oyXEeOA_6J9sGme9g" label="+"/>
+    <operations xmi:id="_uxdl84yXEeOA_6J9sGme9g" name="BNFTokenizer">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_urSFcIyXEeOA_6J9sGme9g"/>
+      <keywords xmi:id="_uxdl9IyXEeOA_6J9sGme9g" keyword="create"/>
+      <visibility xmi:id="_uxdl9YyXEeOA_6J9sGme9g" label="+"/>
+      <outParameters xmi:id="_uxeNAIyXEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_urSsgoyXEeOA_6J9sGme9g"/>
+        <type xmi:id="_uxeNAYyXEeOA_6J9sGme9g" name="BNFTokenizer">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_urPCIIyXEeOA_6J9sGme9g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_uxeNAoyXEeOA_6J9sGme9g" name="text">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_urSFcYyXEeOA_6J9sGme9g"/>
+        <type xmi:id="_uxeNA4yXEeOA_6J9sGme9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_uxeNBIyXEeOA_6J9sGme9g" name="makeNextToken">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_urTTkIyXEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_uxeNBYyXEeOA_6J9sGme9g" label="+"/>
+      <outParameters xmi:id="_uxeNBoyXEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_urncoIyXEeOA_6J9sGme9g"/>
+        <type xmi:id="_uxeNB4yXEeOA_6J9sGme9g" name="Token">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MBYJEIcvEeO394xrVBhzLQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_uxeNCIyXEeOA_6J9sGme9g" name="BNFTokenizer">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_urlncIyXEeOA_6J9sGme9g"/>
+      <keywords xmi:id="_uxeNCYyXEeOA_6J9sGme9g" keyword="create"/>
+      <visibility xmi:id="_uxeNCoyXEeOA_6J9sGme9g" label="+"/>
+      <outParameters xmi:id="_uxeNC4yXEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_urmOgoyXEeOA_6J9sGme9g"/>
+        <type xmi:id="_uxeNDIyXEeOA_6J9sGme9g" name="BNFTokenizer">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_urPCIIyXEeOA_6J9sGme9g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_uxeNDYyXEeOA_6J9sGme9g" name="reader">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_urlncYyXEeOA_6J9sGme9g"/>
+        <type xmi:id="_uxeNDoyXEeOA_6J9sGme9g" name="Reader">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rBO1kIyXEeOA_6J9sGme9g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_wIseoIyXEeOA_6J9sGme9g" comments="_wIpbUYyXEeOA_6J9sGme9g" targetConnectionVisual="_wIqCYIyXEeOA_6J9sGme9g" name="XMLTokenizer" generalizations="_wIpbUIyXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_wBGB0IyXEeOA_6J9sGme9g"/>
+    <visualProperties xmi:id="_wIseoYyXEeOA_6J9sGme9g" position="192.0,734.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_wIseooyXEeOA_6J9sGme9g" label="+"/>
+    <operations xmi:id="_wIseo4yXEeOA_6J9sGme9g" name="XMLTokenizer">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_wBIeEIyXEeOA_6J9sGme9g"/>
+      <keywords xmi:id="_wIsepIyXEeOA_6J9sGme9g" keyword="create"/>
+      <visibility xmi:id="_wIsepYyXEeOA_6J9sGme9g" label="+"/>
+      <outParameters xmi:id="_wIsepoyXEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_wBJFIoyXEeOA_6J9sGme9g"/>
+        <type xmi:id="_wIsep4yXEeOA_6J9sGme9g" name="XMLTokenizer">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_wBGB0IyXEeOA_6J9sGme9g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wItFsIyXEeOA_6J9sGme9g" name="text">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_wBIeEYyXEeOA_6J9sGme9g"/>
+        <type xmi:id="_wItFsYyXEeOA_6J9sGme9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wItFsoyXEeOA_6J9sGme9g" name="makeNextToken">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_wBJsMIyXEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_wItFs4yXEeOA_6J9sGme9g" label="#"/>
+      <outParameters xmi:id="_wItFtIyXEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_wBki8IyXEeOA_6J9sGme9g"/>
+        <type xmi:id="_wItFtYyXEeOA_6J9sGme9g" name="Token">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MBYJEIcvEeO394xrVBhzLQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_wItFtoyXEeOA_6J9sGme9g" name="XMLTokenizer">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_wBitwIyXEeOA_6J9sGme9g"/>
+      <keywords xmi:id="_wItFt4yXEeOA_6J9sGme9g" keyword="create"/>
+      <visibility xmi:id="_wItFuIyXEeOA_6J9sGme9g" label="+"/>
+      <outParameters xmi:id="_wItFuYyXEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_wBj74YyXEeOA_6J9sGme9g"/>
+        <type xmi:id="_wItFuoyXEeOA_6J9sGme9g" name="XMLTokenizer">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_wBGB0IyXEeOA_6J9sGme9g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wItFu4yXEeOA_6J9sGme9g" name="reader">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_wBjU0IyXEeOA_6J9sGme9g"/>
+        <type xmi:id="_wItFvIyXEeOA_6J9sGme9g" name="Reader">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rBO1kIyXEeOA_6J9sGme9g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_-p9IoIyXEeOA_6J9sGme9g" comments="_-p5eQYyXEeOA_6J9sGme9g" targetConnectionVisual="_-p6FUIyXEeOA_6J9sGme9g" name="Tokenizer1" generalizations="_-p5eQIyXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_-mPtUIyXEeOA_6J9sGme9g"/>
+    <visualProperties xmi:id="_-p9IoYyXEeOA_6J9sGme9g" position="542.0,736.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_-p9IooyXEeOA_6J9sGme9g" label="+"/>
+    <operations xmi:id="_-p9Io4yXEeOA_6J9sGme9g" name="Tokenizer1">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_-mSJkIyXEeOA_6J9sGme9g"/>
+      <keywords xmi:id="_-p9IpIyXEeOA_6J9sGme9g" keyword="create"/>
+      <visibility xmi:id="_-p9IpYyXEeOA_6J9sGme9g" label="+"/>
+      <outParameters xmi:id="_-p9IpoyXEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_-mSwooyXEeOA_6J9sGme9g"/>
+        <type xmi:id="_-p9Ip4yXEeOA_6J9sGme9g" name="Tokenizer1">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_-mPtUIyXEeOA_6J9sGme9g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-p9IqIyXEeOA_6J9sGme9g" name="text">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_-mSJkYyXEeOA_6J9sGme9g"/>
+        <type xmi:id="_-p9IqYyXEeOA_6J9sGme9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-p9IqoyXEeOA_6J9sGme9g" name="makeNextToken">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_-mTXsIyXEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_-p9Iq4yXEeOA_6J9sGme9g" label="#"/>
+      <outParameters xmi:id="_-p9IrIyXEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_-mqkEIyXEeOA_6J9sGme9g"/>
+        <type xmi:id="_-p9IrYyXEeOA_6J9sGme9g" name="Token">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MBYJEIcvEeO394xrVBhzLQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_-p9IroyXEeOA_6J9sGme9g" name="Tokenizer1">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_-mou4IyXEeOA_6J9sGme9g"/>
+      <keywords xmi:id="_-p9Ir4yXEeOA_6J9sGme9g" keyword="create"/>
+      <visibility xmi:id="_-p9IsIyXEeOA_6J9sGme9g" label="+"/>
+      <outParameters xmi:id="_-p9IsYyXEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_-mp9AIyXEeOA_6J9sGme9g"/>
+        <type xmi:id="_-p9IsoyXEeOA_6J9sGme9g" name="Tokenizer1">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_-mPtUIyXEeOA_6J9sGme9g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-p9Is4yXEeOA_6J9sGme9g" name="reader">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_-mpV8IyXEeOA_6J9sGme9g"/>
+        <type xmi:id="_-p9ItIyXEeOA_6J9sGme9g" name="Reader">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rBO1kIyXEeOA_6J9sGme9g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_M3YbMIyZEeOA_6J9sGme9g" name="ALexer" abstractClass="true" associationsOut="_M3X0IIyZEeOA_6J9sGme9g" generalizations="_M3K_0IyZEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MbqIgIyZEeOA_6J9sGme9g"/>
+    <visualProperties xmi:id="_M3YbMYyZEeOA_6J9sGme9g" position="772.0,297.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_M3YbMoyZEeOA_6J9sGme9g" label="~"/>
+    <attributes xmi:id="_M3YbM4yZEeOA_6J9sGme9g" name="tokenStream">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MkTuMIyZEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_M3YbNIyZEeOA_6J9sGme9g" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MkU8UIyZEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_M3YbNYyZEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MkWKcIyZEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_M3YbNoyZEeOA_6J9sGme9g" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MkU8UIyZEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_M3YbN4yZEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MkWKcIyZEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_M3YbOIyZEeOA_6J9sGme9g" label="-"/>
+      <cardinality xmi:id="_M3YbOYyZEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+      <type xmi:id="_M3YbOoyZEeOA_6J9sGme9g" name="LinkedList">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MidUEIyZEeOA_6J9sGme9g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_M3YbO4yZEeOA_6J9sGme9g" name="getNextToken">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MbyEUIyZEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_M3YbPIyZEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MbzScIyZEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_M3YbPYyZEeOA_6J9sGme9g" name="Annotations">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mb0gkIyZEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_M3YbPoyZEeOA_6J9sGme9g" label="+"/>
+      <outParameters xmi:id="_M3YbP4yZEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MioTMIyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M3YbQIyZEeOA_6J9sGme9g" name="Token">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MBYJEIcvEeO394xrVBhzLQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_M3YbQYyZEeOA_6J9sGme9g" abstractOperation="true" name="tokenPattern">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mb4K8IyZEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_M3YbQoyZEeOA_6J9sGme9g" label="#"/>
+      <outParameters xmi:id="_M3YbQ4yZEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MjzX4IyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M3YbRIyZEeOA_6J9sGme9g" name="Pattern">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MigXYIyZEeOA_6J9sGme9g"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_M3YbRYyZEeOA_6J9sGme9g" abstractOperation="true" name="getRules">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mb6AIIyZEeOA_6J9sGme9g"/>
+      <keywords xmi:id="_M3YbRoyZEeOA_6J9sGme9g" keyword="generic_container"/>
+      <visibility xmi:id="_M3YbR4yZEeOA_6J9sGme9g" label="#"/>
+      <outParameters xmi:id="_M3YbSIyZEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mb6nMIyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M3YbSYyZEeOA_6J9sGme9g" name="ARule">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_McsqUIyZEeOA_6J9sGme9g"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_M3YbSoyZEeOA_6J9sGme9g" abstractOperation="true" name="getRule">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mb9DcIyZEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_M3YbS4yZEeOA_6J9sGme9g" label="#"/>
+      <outParameters xmi:id="_M3YbTIyZEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MiuZ0IyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M3YbTYyZEeOA_6J9sGme9g" name="ARule">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_McsqUIyZEeOA_6J9sGme9g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_M3YbToyZEeOA_6J9sGme9g" name="name">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mb9DcYyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M3YbT4yZEeOA_6J9sGme9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_M3YbUIyZEeOA_6J9sGme9g" comments="_M3P4UIyZEeOA_6J9sGme9g" targetConnectionVisual="_M3QfYIyZEeOA_6J9sGme9g" name="unescapeString">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_McBU4IyZEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_M3YbUYyZEeOA_6J9sGme9g" label="-"/>
+      <outParameters xmi:id="_M3YbUoyZEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_McDxIIyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M3YbU4yZEeOA_6J9sGme9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_M3YbVIyZEeOA_6J9sGme9g" name="value">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_McBU4YyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M3YbVYyZEeOA_6J9sGme9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_M3YbVoyZEeOA_6J9sGme9g" name="toString">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_McG0cIyZEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_M3YbV4yZEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_McICkIyZEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_M3YbWIyZEeOA_6J9sGme9g" name="Annotations">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_McJQsIyZEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_M3YbWYyZEeOA_6J9sGme9g" label="+"/>
+      <outParameters xmi:id="_M3YbWoyZEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_McHbgIyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M3YbW4yZEeOA_6J9sGme9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_M3YbXIyZEeOA_6J9sGme9g" comments="_M3RtgIyZEeOA_6J9sGme9g" targetConnectionVisual="_M3RtgYyZEeOA_6J9sGme9g" name="ALexer">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mil28IyZEeOA_6J9sGme9g"/>
+      <keywords xmi:id="_M3YbXYyZEeOA_6J9sGme9g" keyword="create"/>
+      <visibility xmi:id="_M3YbXoyZEeOA_6J9sGme9g" label="~"/>
+      <outParameters xmi:id="_M3YbX4yZEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MinsIIyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M3YbYIyZEeOA_6J9sGme9g" name="ALexer">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MbqIgIyZEeOA_6J9sGme9g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_M3YbYYyZEeOA_6J9sGme9g" name="in">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MimeAIyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M3YbYoyZEeOA_6J9sGme9g" name="Reader">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rBO1kIyXEeOA_6J9sGme9g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_M3YbY4yZEeOA_6J9sGme9g" name="putBack">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mio6QIyZEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_M3YbZIyZEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MiqIYIyZEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_M3YbZYyZEeOA_6J9sGme9g" name="Annotations">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MiskoIyZEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_M3YbZoyZEeOA_6J9sGme9g" label="+"/>
+      <parameters xmi:id="_M3YbZ4yZEeOA_6J9sGme9g" name="t">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MiphUIyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M3YbaIyZEeOA_6J9sGme9g" name="Token">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MBYJEIcvEeO394xrVBhzLQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_M3ZCQIyZEeOA_6J9sGme9g" name="tokenize">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mivn8IyZEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_M3ZCQYyZEeOA_6J9sGme9g" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MixdIIyZEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_M3ZCQoyZEeOA_6J9sGme9g" label="-"/>
+      <outParameters xmi:id="_M3ZCQ4yZEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mjz-8IyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M3ZCRIyZEeOA_6J9sGme9g" name="LinkedList">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MidUEIyZEeOA_6J9sGme9g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_M3ZCRYyZEeOA_6J9sGme9g" name="r">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mivn8YyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M3ZCRoyZEeOA_6J9sGme9g" name="Reader">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rBO1kIyXEeOA_6J9sGme9g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_M3ZCR4yZEeOA_6J9sGme9g" name="readerToStringBuilder">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mi0gcIyZEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_M3ZCSIyZEeOA_6J9sGme9g" label="-"/>
+      <outParameters xmi:id="_M3ZCSYyZEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mj2bMIyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M3ZCSoyZEeOA_6J9sGme9g" name="StringBuilder">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mj0mAIyZEeOA_6J9sGme9g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_M3ZCS4yZEeOA_6J9sGme9g" name="r">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mi0gcYyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M3ZCTIyZEeOA_6J9sGme9g" name="Reader">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rBO1kIyXEeOA_6J9sGme9g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_M4kuAIyZEeOA_6J9sGme9g" name="LexerFactory" associationsOut="_M4EXsIyZEeOA_6J9sGme9g _M4HbAIyZEeOA_6J9sGme9g" generalizations="_M4GM4IyZEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MdgioIyZEeOA_6J9sGme9g"/>
+    <visualProperties xmi:id="_M4kuAYyZEeOA_6J9sGme9g" position="1123.0,300.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_M4kuAoyZEeOA_6J9sGme9g" label="+"/>
+    <attributes xmi:id="_M4kuA4yZEeOA_6J9sGme9g" name="rules">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MkmCEIyZEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_M4kuBIyZEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MkoeUIyZEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_M4bkEoyZEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MkoeUIyZEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_M4kuBYyZEeOA_6J9sGme9g" label="-"/>
+      <cardinality xmi:id="_M4kuBoyZEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+      <type xmi:id="_M4kuB4yZEeOA_6J9sGme9g" name="ARule">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_McsqUIyZEeOA_6J9sGme9g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_M4kuCIyZEeOA_6J9sGme9g" name="tokenPattern">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mkq6kIyZEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_M4kuCYyZEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MksIsIyZEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_M4jf4IyZEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MksIsIyZEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_M4kuCoyZEeOA_6J9sGme9g" label="-"/>
+      <cardinality xmi:id="_M4kuC4yZEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+      <type xmi:id="_M4kuDIyZEeOA_6J9sGme9g" name="Pattern">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MigXYIyZEeOA_6J9sGme9g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_M4kuDYyZEeOA_6J9sGme9g" defaultValue="0" name="gnCount">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MksvwIyZEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_M4kuDoyZEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mkt94IyZEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_M4kuD4yZEeOA_6J9sGme9g" label="-"/>
+      <cardinality xmi:id="_M4kuEIyZEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+      <type xmi:id="_M4kuEYyZEeOA_6J9sGme9g" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_M4kuEoyZEeOA_6J9sGme9g" name="fromKeywords" staticOperation="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MdmCMIyZEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_M4kuE4yZEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mdn3YIyZEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_M4kuFIyZEeOA_6J9sGme9g" label="+"/>
+      <outParameters xmi:id="_M4kuFYyZEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MjUPsIyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M4kuFoyZEeOA_6J9sGme9g" name="LexerFactory">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MdgioIyZEeOA_6J9sGme9g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_M4kuF4yZEeOA_6J9sGme9g" name="keywords">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MdmCMYyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M4lVEIyZEeOA_6J9sGme9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_M4lVEYyZEeOA_6J9sGme9g" comments="_M4KeUIyZEeOA_6J9sGme9g" targetConnectionVisual="_M4KeUYyZEeOA_6J9sGme9g" name="LexerFactory">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mdsv4IyZEeOA_6J9sGme9g"/>
+      <keywords xmi:id="_M4lVEoyZEeOA_6J9sGme9g" keyword="create"/>
+      <visibility xmi:id="_M4lVE4yZEeOA_6J9sGme9g" label="+"/>
+      <outParameters xmi:id="_M4lVFIyZEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MdtW8oyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M4lVFYyZEeOA_6J9sGme9g" name="LexerFactory">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MdgioIyZEeOA_6J9sGme9g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_M4lVFoyZEeOA_6J9sGme9g" name="specFilePath">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mdsv4YyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M4lVF4yZEeOA_6J9sGme9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_M4lVGIyZEeOA_6J9sGme9g" comments="_M4LscIyZEeOA_6J9sGme9g" targetConnectionVisual="_M4MTgIyZEeOA_6J9sGme9g" name="makeLexer">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Md4WEIyZEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_M4lVGYyZEeOA_6J9sGme9g" label="+"/>
+      <outParameters xmi:id="_M4lVGoyZEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MjZIMIyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M4lVG4yZEeOA_6J9sGme9g" name="ITokenizer">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MBWT4IcvEeO394xrVBhzLQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_M4lVHIyZEeOA_6J9sGme9g" name="in">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Md49IIyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M4lVHYyZEeOA_6J9sGme9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_M4lVHoyZEeOA_6J9sGme9g" comments="_M4M6kIyZEeOA_6J9sGme9g" targetConnectionVisual="_M4NhoIyZEeOA_6J9sGme9g" name="getTerminalSet">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Md8ngIyZEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_M4lVH4yZEeOA_6J9sGme9g" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Md-csIyZEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_M4lVIIyZEeOA_6J9sGme9g" label="+"/>
+      <outParameters xmi:id="_M4lVIYyZEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mja9YIyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M4lVIoyZEeOA_6J9sGme9g" name="Set">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MjDxAYyZEeOA_6J9sGme9g"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_M4lVI4yZEeOA_6J9sGme9g" comments="_M4OIsIyZEeOA_6J9sGme9g" targetConnectionVisual="_M4OvwIyZEeOA_6J9sGme9g" name="LexerFactory">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MjWr8IyZEeOA_6J9sGme9g"/>
+      <keywords xmi:id="_M4lVJIyZEeOA_6J9sGme9g" keyword="create"/>
+      <visibility xmi:id="_M4lVJYyZEeOA_6J9sGme9g" label="+"/>
+      <outParameters xmi:id="_M4lVJoyZEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MjX6EIyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M4lVJ4yZEeOA_6J9sGme9g" name="LexerFactory">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MdgioIyZEeOA_6J9sGme9g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_M4lVKIyZEeOA_6J9sGme9g" name="spec">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MjWr8YyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M4lVKYyZEeOA_6J9sGme9g" name="Reader">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rBO1kIyXEeOA_6J9sGme9g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_M4lVKoyZEeOA_6J9sGme9g" comments="_M4PW0IyZEeOA_6J9sGme9g" targetConnectionVisual="_M4PW0YyZEeOA_6J9sGme9g" name="makeLexer">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MjZvQIyZEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_M4lVK4yZEeOA_6J9sGme9g" label="+"/>
+      <outParameters xmi:id="_M4lVLIyZEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MjaWUIyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M4lVLYyZEeOA_6J9sGme9g" name="ITokenizer">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MBWT4IcvEeO394xrVBhzLQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_M4lVLoyZEeOA_6J9sGme9g" name="in">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MjZvQYyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M4lVL4yZEeOA_6J9sGme9g" name="Reader">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rBO1kIyXEeOA_6J9sGme9g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_M4lVMIyZEeOA_6J9sGme9g" name="reverseSorted" staticOperation="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mj9v8IyZEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_M4lVMYyZEeOA_6J9sGme9g" name="TypeParameterDeclaration">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mj-XAIyZEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_M4lVMoyZEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MkAMMIyZEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_M4lVM4yZEeOA_6J9sGme9g" label="-"/>
+      <outParameters xmi:id="_M4lVNIyZEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mj--EIyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M4lVNYyZEeOA_6J9sGme9g" name="T">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mj7TsIyZEeOA_6J9sGme9g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_M4lVNoyZEeOA_6J9sGme9g" name="a">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mj9v8YyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M4lVN4yZEeOA_6J9sGme9g" name="T">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mj7TsIyZEeOA_6J9sGme9g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_M4lVOIyZEeOA_6J9sGme9g" comments="_M4SaIIyZEeOA_6J9sGme9g" targetConnectionVisual="_M4TBMIyZEeOA_6J9sGme9g" name="LexerFactory">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MkD2kIyZEeOA_6J9sGme9g"/>
+      <keywords xmi:id="_M4lVOYyZEeOA_6J9sGme9g" keyword="create"/>
+      <visibility xmi:id="_M4lVOoyZEeOA_6J9sGme9g" label="+"/>
+      <outParameters xmi:id="_M4lVO4yZEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MkEdooyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M4lVPIyZEeOA_6J9sGme9g" name="LexerFactory">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MdgioIyZEeOA_6J9sGme9g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_M4lVPYyZEeOA_6J9sGme9g" name="specFile">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MkD2kYyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M4lVPoyZEeOA_6J9sGme9g" name="File">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MjG0UIyZEeOA_6J9sGme9g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_M4lVP4yZEeOA_6J9sGme9g" comments="_M4U2YIyZEeOA_6J9sGme9g" targetConnectionVisual="_M4VdcIyZEeOA_6J9sGme9g" name="LexerFactory">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MkFrwIyZEeOA_6J9sGme9g"/>
+      <keywords xmi:id="_M4lVQIyZEeOA_6J9sGme9g" keyword="create"/>
+      <visibility xmi:id="_M4lVQYyZEeOA_6J9sGme9g" label="+"/>
+      <outParameters xmi:id="_M4lVQoyZEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MkG54IyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M4lVQ4yZEeOA_6J9sGme9g" name="LexerFactory">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MdgioIyZEeOA_6J9sGme9g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_M4lVRIyZEeOA_6J9sGme9g" name="rawRules">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MkGS0IyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M4lVRYyZEeOA_6J9sGme9g" name="Map">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MjP-QIyZEeOA_6J9sGme9g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_M4lVRoyZEeOA_6J9sGme9g" comments="_M4WrkIyZEeOA_6J9sGme9g" targetConnectionVisual="_M4XSoIyZEeOA_6J9sGme9g" name="parseRules">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MkJWIIyZEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_M4lVR4yZEeOA_6J9sGme9g" label="-"/>
+      <outParameters xmi:id="_M4lVSIyZEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MkJ9MIyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M4lVSYyZEeOA_6J9sGme9g" name="Pattern">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MigXYIyZEeOA_6J9sGme9g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_M4lVSoyZEeOA_6J9sGme9g" name="rawRules">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MkJWIYyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M4lVS4yZEeOA_6J9sGme9g" name="Map">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MjP-QIyZEeOA_6J9sGme9g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_M3vAgIyZEeOA_6J9sGme9g" name="ARule" abstractClass="true" associationsIn="_M4EXsIyZEeOA_6J9sGme9g" subclassedBy="_M5RRkIyZEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_McsqUIyZEeOA_6J9sGme9g"/>
+    <visualProperties xmi:id="_M3vAgYyZEeOA_6J9sGme9g" position="1112.0,707.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_M3vAgoyZEeOA_6J9sGme9g" label="+"/>
+    <attributes xmi:id="_M3vAg4yZEeOA_6J9sGme9g" name="name">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MkZ00IyZEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_M3vAhIyZEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MkbC8IyZEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_M3vAhYyZEeOA_6J9sGme9g" label="~"/>
+      <cardinality xmi:id="_M3vAhoyZEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+      <type xmi:id="_M3vAh4yZEeOA_6J9sGme9g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_M3vAiIyZEeOA_6J9sGme9g" name="groupName">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MkbqAIyZEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_M3vAiYyZEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mkc4IIyZEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_M3vAioyZEeOA_6J9sGme9g" label="~"/>
+      <cardinality xmi:id="_M3vAi4yZEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+      <type xmi:id="_M3vAjIyZEeOA_6J9sGme9g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_M3vAjYyZEeOA_6J9sGme9g" name="pattern">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mkc4IYyZEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_M3vnkIyZEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MkeGQIyZEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_M3vnkYyZEeOA_6J9sGme9g" label="~"/>
+      <cardinality xmi:id="_M3vnkoyZEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+      <type xmi:id="_M3vnk4yZEeOA_6J9sGme9g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_M3vnlIyZEeOA_6J9sGme9g" name="isIgnored">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MketUIyZEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_M3vnlYyZEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mkf7cIyZEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_M3vnloyZEeOA_6J9sGme9g" label="~"/>
+      <cardinality xmi:id="_M3vnl4yZEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+      <type xmi:id="_M3vnmIyZEeOA_6J9sGme9g" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_M3vnmYyZEeOA_6J9sGme9g" name="isDelimiter">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MkgigIyZEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_M3vnmoyZEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MkhJkIyZEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_M3vnm4yZEeOA_6J9sGme9g" label="~"/>
+      <cardinality xmi:id="_M3vnnIyZEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+      <type xmi:id="_M3vnnYyZEeOA_6J9sGme9g" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_M3vnnoyZEeOA_6J9sGme9g" name="needsUnescaping">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MkhwoIyZEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_M3vnn4yZEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mki-wIyZEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_M3vnoIyZEeOA_6J9sGme9g" label="~"/>
+      <cardinality xmi:id="_M3vnoYyZEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+      <type xmi:id="_M3vnooyZEeOA_6J9sGme9g" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_M3vno4yZEeOA_6J9sGme9g" name="ARule">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mc764IyZEeOA_6J9sGme9g"/>
+      <keywords xmi:id="_M3vnpIyZEeOA_6J9sGme9g" keyword="create"/>
+      <visibility xmi:id="_M3vnpYyZEeOA_6J9sGme9g" label="~"/>
+      <outParameters xmi:id="_M3vnpoyZEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mc9wEIyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M3vnp4yZEeOA_6J9sGme9g" name="ARule">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_McsqUIyZEeOA_6J9sGme9g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_M3vnqIyZEeOA_6J9sGme9g" name="n">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mc8h8IyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M3vnqYyZEeOA_6J9sGme9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_M3vnqoyZEeOA_6J9sGme9g" name="p">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mc8h8YyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M3vnq4yZEeOA_6J9sGme9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_M3vnrIyZEeOA_6J9sGme9g" abstractOperation="true" name="nextGroupName">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mc-XIIyZEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_M3vnrYyZEeOA_6J9sGme9g" label="#"/>
+      <outParameters xmi:id="_M3vnroyZEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_Mc--MIyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M3vnr4yZEeOA_6J9sGme9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_M3vnsIyZEeOA_6J9sGme9g" name="hasNamedGroup">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MdAzYIyZEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_M3vnsYyZEeOA_6J9sGme9g" label="-"/>
+      <outParameters xmi:id="_M3vnsoyZEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MdBacIyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M3vns4yZEeOA_6J9sGme9g" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_M3vntIyZEeOA_6J9sGme9g" name="name">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MdAzYYyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M3vntYyZEeOA_6J9sGme9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_M3vntoyZEeOA_6J9sGme9g" name="pattern">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MdAzYoyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M3vnt4yZEeOA_6J9sGme9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_M5Tt0IyZEeOA_6J9sGme9g" name="XRule" generalizations="_M5RRkIyZEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MeCuIIyZEeOA_6J9sGme9g"/>
+    <visualProperties xmi:id="_M5Tt0YyZEeOA_6J9sGme9g" position="1166.0,994.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_M5Tt0oyZEeOA_6J9sGme9g" label="-"/>
+    <operations xmi:id="_M5Tt04yZEeOA_6J9sGme9g" name="XRule">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MeFxcIyZEeOA_6J9sGme9g"/>
+      <keywords xmi:id="_M5Tt1IyZEeOA_6J9sGme9g" keyword="create"/>
+      <visibility xmi:id="_M5Tt1YyZEeOA_6J9sGme9g" label="~"/>
+      <outParameters xmi:id="_M5Tt1oyZEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MeHmoIyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M5Tt14yZEeOA_6J9sGme9g" name="XRule">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MeCuIIyZEeOA_6J9sGme9g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_M5Tt2IyZEeOA_6J9sGme9g" name="n">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MeFxcYyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M5Tt2YyZEeOA_6J9sGme9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_M5Tt2oyZEeOA_6J9sGme9g" name="p">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MeGYgIyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M5Tt24yZEeOA_6J9sGme9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_M5Tt3IyZEeOA_6J9sGme9g" name="nextGroupName">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MeKp8IyZEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_M5Tt3YyZEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MeQwkIyZEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_M5Tt3oyZEeOA_6J9sGme9g" name="Annotations">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MeR-sIyZEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_M5Tt34yZEeOA_6J9sGme9g" label="#"/>
+      <outParameters xmi:id="_M5Tt4IyZEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MePicIyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M5Tt4YyZEeOA_6J9sGme9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_rP5jsIyXEeOA_6J9sGme9g" supplying="_13R1QIybEeOA_6J9sGme9g" name="ITTypeValue" abstractClass="true" associationsOut="_rP1SQIyXEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_q8e4cIyXEeOA_6J9sGme9g"/>
+    <visualProperties xmi:id="_rP5jsYyXEeOA_6J9sGme9g" position="865.0,610.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_rP5jsoyXEeOA_6J9sGme9g" name="LegacyStyledElement">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_q8gtoIyXEeOA_6J9sGme9g"/>
+    </stereotypes>
+    <visibility xmi:id="_rP5js4yXEeOA_6J9sGme9g" label="#"/>
+    <attributes xmi:id="_rP5jtIyXEeOA_6J9sGme9g" name="tTtype">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_q8hUsIyXEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_rP5jtYyXEeOA_6J9sGme9g" name="StyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_q8h7wIyXEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_rP5jtoyXEeOA_6J9sGme9g" label="+"/>
+      <cardinality xmi:id="_rP5jt4yXEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+      <type xmi:id="_rP5juIyXEeOA_6J9sGme9g" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rP5juYyXEeOA_6J9sGme9g" name="value">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_q8ii0IyXEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_rP5juoyXEeOA_6J9sGme9g" name="StyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_q8jJ4IyXEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rP4VkYyXEeOA_6J9sGme9g" name="StyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_q8jJ4IyXEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_rP5ju4yXEeOA_6J9sGme9g" label="+"/>
+      <cardinality xmi:id="_rP5jvIyXEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+      <type xmi:id="_rP5jvYyXEeOA_6J9sGme9g" name="Object">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rDNykYyXEeOA_6J9sGme9g"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_60wUgIyeEeOA_6J9sGme9g" sourceConnectionVisual="_60wUgYyeEeOA_6J9sGme9g" text="Abstract token class." item="_603CMIyeEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6sUxQIyeEeOA_6J9sGme9g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_60w7kIyeEeOA_6J9sGme9g" sourceConnectionVisual="_60xioIyeEeOA_6J9sGme9g" text="Token constructor.&#xD;&#xA;&#x9; *&#xD;&#xA;&#x9; * @param name The name associated with this token.  This is the index value when it executes its visitors.&#xD;&#xA;&#x9; * @param lexeme _lexeme this token is representing." item="_603CQYyeEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6sVYUIyeEeOA_6J9sGme9g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_60yJsIyeEeOA_6J9sGme9g" sourceConnectionVisual="_60yJsYyeEeOA_6J9sGme9g" text="Accessor for the name of the token&#xD;&#xA;&#x9; * @return The name of the token" item="_603CUIyeEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6sWmcIyeEeOA_6J9sGme9g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_60ywwIyeEeOA_6J9sGme9g" sourceConnectionVisual="_60zX0IyeEeOA_6J9sGme9g" text="Accessor for the token's lexeme&#xD;&#xA;&#x9; * @return The token's lexeme" item="_603CVIyeEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6sXNgIyeEeOA_6J9sGme9g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_603CMIyeEeOA_6J9sGme9g" comments="_60wUgIyeEeOA_6J9sGme9g" targetConnectionVisual="_60wUgYyeEeOA_6J9sGme9g" supplying="_BUWOIIyfEeOA_6J9sGme9g" name="Token" associationsIn="_60vtcIyeEeOA_6J9sGme9g" associationsOut="_60vtcIyeEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MBYJEIcvEeO394xrVBhzLQ"/>
+    <visualProperties xmi:id="_603CMYyeEeOA_6J9sGme9g" position="164.0,61.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_603CMoyeEeOA_6J9sGme9g" label="+"/>
+    <attributes xmi:id="_603CM4yeEeOA_6J9sGme9g" defaultValue="new Token(&quot;EOF&quot;, &quot;End Of File&quot;)" name="EOF" staticAttribute="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6sCdYIyeEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_603CNIyeEeOA_6J9sGme9g" label="+"/>
+      <cardinality xmi:id="_603CNYyeEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+      <type xmi:id="_603CNoyeEeOA_6J9sGme9g" name="Token">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MBYJEIcvEeO394xrVBhzLQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_603CN4yeEeOA_6J9sGme9g" name="_name">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6sESkIyeEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_603COIyeEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6sGHwIyeEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_603COYyeEeOA_6J9sGme9g" label="-"/>
+      <cardinality xmi:id="_603COoyeEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+      <type xmi:id="_603CO4yeEeOA_6J9sGme9g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_603CPIyeEeOA_6J9sGme9g" name="_lexeme">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6sGu0IyeEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_603CPYyeEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6sH88IyeEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_603CPoyeEeOA_6J9sGme9g" label="-"/>
+      <cardinality xmi:id="_603CP4yeEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+      <type xmi:id="_603CQIyeEeOA_6J9sGme9g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_603CQYyeEeOA_6J9sGme9g" comments="_60w7kIyeEeOA_6J9sGme9g" targetConnectionVisual="_60xioIyeEeOA_6J9sGme9g" name="Token">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6n91sIyeEeOA_6J9sGme9g"/>
+      <keywords xmi:id="_603CQoyeEeOA_6J9sGme9g" keyword="create"/>
+      <visibility xmi:id="_603CQ4yeEeOA_6J9sGme9g" label="+"/>
+      <outParameters xmi:id="_603CRIyeEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6n_q4oyeEeOA_6J9sGme9g"/>
+        <type xmi:id="_603CRYyeEeOA_6J9sGme9g" name="Token">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MBYJEIcvEeO394xrVBhzLQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_603CRoyeEeOA_6J9sGme9g" name="name">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6n-cwIyeEeOA_6J9sGme9g"/>
+        <type xmi:id="_603CR4yeEeOA_6J9sGme9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_603CSIyeEeOA_6J9sGme9g" name="lexeme">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6n_D0IyeEeOA_6J9sGme9g"/>
+        <type xmi:id="_603CSYyeEeOA_6J9sGme9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_603CSoyeEeOA_6J9sGme9g" name="toString">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6oD8UIyeEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_603CS4yeEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6ohPUIyeEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_603CTIyeEeOA_6J9sGme9g" name="Annotations">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6okSoIyeEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_603CTYyeEeOA_6J9sGme9g" label="+"/>
+      <outParameters xmi:id="_603CToyeEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6ogBMIyeEeOA_6J9sGme9g"/>
+        <type xmi:id="_603CT4yeEeOA_6J9sGme9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_603CUIyeEeOA_6J9sGme9g" comments="_60yJsIyeEeOA_6J9sGme9g" targetConnectionVisual="_60yJsYyeEeOA_6J9sGme9g" name="getName">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6ok5sIyeEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_603CUYyeEeOA_6J9sGme9g" label="+"/>
+      <outParameters xmi:id="_603CUoyeEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6o0xUIyeEeOA_6J9sGme9g"/>
+        <type xmi:id="_603CU4yeEeOA_6J9sGme9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_603CVIyeEeOA_6J9sGme9g" comments="_60ywwIyeEeOA_6J9sGme9g" targetConnectionVisual="_60zX0IyeEeOA_6J9sGme9g" name="getLexeme">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6o_JYIyeEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_603CVYyeEeOA_6J9sGme9g" label="+"/>
+      <outParameters xmi:id="_603CVoyeEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6pMkwIyeEeOA_6J9sGme9g"/>
+        <type xmi:id="_603CV4yeEeOA_6J9sGme9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_603CWIyeEeOA_6J9sGme9g" name="execute">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6rr4EIyeEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_603CWYyeEeOA_6J9sGme9g" name="TypeParameterDeclaration">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6rtGMIyeEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_603CWoyeEeOA_6J9sGme9g" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6rxXoIyeEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_603CW4yeEeOA_6J9sGme9g" name="Annotations">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6r56gIyeEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_603CXIyeEeOA_6J9sGme9g" label="+"/>
+      <outParameters xmi:id="_603CXYyeEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6rttQIyeEeOA_6J9sGme9g"/>
+        <type xmi:id="_603CXoyeEeOA_6J9sGme9g" name="R">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6rlKYIyeEeOA_6J9sGme9g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_603CX4yeEeOA_6J9sGme9g" name="algo">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6rsfIIyeEeOA_6J9sGme9g"/>
+        <type xmi:id="_603CYIyeEeOA_6J9sGme9g" name="IExtVisitor">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_KNB2kIcvEeO394xrVBhzLQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_603CYYyeEeOA_6J9sGme9g" name="params">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6rsfIYyeEeOA_6J9sGme9g"/>
+        <type xmi:id="_603CYoyeEeOA_6J9sGme9g" name="P">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6ro0wIyeEeOA_6J9sGme9g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_M3-REIyZEeOA_6J9sGme9g" name="ILexerFactory" associationsOut="_M39qAIyZEeOA_6J9sGme9g" subclassedBy="_M4GM4IyZEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MdR5IIyZEeOA_6J9sGme9g"/>
+    <visualProperties xmi:id="_M3-REYyZEeOA_6J9sGme9g" position="1178.0,83.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_M3-REoyZEeOA_6J9sGme9g" label="+"/>
+    <attributes xmi:id="_M3-RE4yZEeOA_6J9sGme9g" using="_bKaxEIybEeOA_6J9sGme9g" name="terminalSet">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MdZ08IyZEeOA_6J9sGme9g"/>
+      <visualProperties xmi:id="_2msVcIyaEeOA_6J9sGme9g" position="1184.0,131.0" size="126.0,17.0"/>
+      <stereotypes xmi:id="_M3-RFIyZEeOA_6J9sGme9g" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MdacAIyZEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_M3-RFoyZEeOA_6J9sGme9g" label="+"/>
+      <cardinality xmi:id="_M3-RF4yZEeOA_6J9sGme9g" label="1" max="1" min="1"/>
+      <type xmi:id="_M3-RGIyZEeOA_6J9sGme9g" name="Set">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MjDxAYyZEeOA_6J9sGme9g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_M3-RGYyZEeOA_6J9sGme9g" name="makeLexer">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MdXYsIyZEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_M3-RGoyZEeOA_6J9sGme9g" label="+"/>
+      <outParameters xmi:id="_M3-RG4yZEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MjCi4IyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M3-RHIyZEeOA_6J9sGme9g" name="ITokenizer">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MBWT4IcvEeO394xrVBhzLQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_M3-RHYyZEeOA_6J9sGme9g" name="in">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MdXYsYyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M3-RHoyZEeOA_6J9sGme9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_M3-RH4yZEeOA_6J9sGme9g" name="makeLexer">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MjDJ8IyZEeOA_6J9sGme9g"/>
+      <visibility xmi:id="_M3-RIIyZEeOA_6J9sGme9g" label="+"/>
+      <outParameters xmi:id="_M3-RIYyZEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MjDxAIyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M3-RIoyZEeOA_6J9sGme9g" name="ITokenizer">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MBWT4IcvEeO394xrVBhzLQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_M3-RI4yZEeOA_6J9sGme9g" name="in">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MjDJ8YyZEeOA_6J9sGme9g"/>
+        <type xmi:id="_M3-RJIyZEeOA_6J9sGme9g" name="Reader">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_rBO1kIyXEeOA_6J9sGme9g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_psX7cIyXEeOA_6J9sGme9g" comments="_psFnkIyXEeOA_6J9sGme9g" targetConnectionVisual="_psID0IyXEeOA_6J9sGme9g" supplying="_bKaxEIybEeOA_6J9sGme9g" using="_BUWOIIyfEeOA_6J9sGme9g" name="ITokenizer" abstractClass="true" subclassedBy="_rOaV8IyXEeOA_6J9sGme9g _M3K_0IyZEeOA_6J9sGme9g">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MBWT4IcvEeO394xrVBhzLQ"/>
+    <visualProperties xmi:id="_psYigIyXEeOA_6J9sGme9g" position="663.0,80.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_psYigYyXEeOA_6J9sGme9g" name="LegacyStyledElement">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_pig00IyXEeOA_6J9sGme9g"/>
+    </stereotypes>
+    <visibility xmi:id="_psYigoyXEeOA_6J9sGme9g" label="+"/>
+    <operations xmi:id="_psYig4yXEeOA_6J9sGme9g" comments="_psP_oIyXEeOA_6J9sGme9g" targetConnectionVisual="_psQmsIyXEeOA_6J9sGme9g" abstractOperation="true" name="getNextToken">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_piiC8IyXEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_psYihIyXEeOA_6J9sGme9g" name="StyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_pijREIyXEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_psYihYyXEeOA_6J9sGme9g" label="+"/>
+      <outParameters xmi:id="_psYihoyXEeOA_6J9sGme9g">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_pjEOcIyXEeOA_6J9sGme9g"/>
+        <type xmi:id="_psYih4yXEeOA_6J9sGme9g" name="Token">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MBYJEIcvEeO394xrVBhzLQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_psYiiIyXEeOA_6J9sGme9g" comments="_psTC8IyXEeOA_6J9sGme9g" targetConnectionVisual="_psTqAIyXEeOA_6J9sGme9g" abstractOperation="true" name="putBack">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_pjFckIyXEeOA_6J9sGme9g"/>
+      <stereotypes xmi:id="_psYiiYyXEeOA_6J9sGme9g" name="StyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_pjGqsIyXEeOA_6J9sGme9g"/>
+      </stereotypes>
+      <visibility xmi:id="_psYiioyXEeOA_6J9sGme9g" label="+"/>
+      <parameters xmi:id="_psYii4yXEeOA_6J9sGme9g" name="t">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_pjGDoIyXEeOA_6J9sGme9g"/>
+        <type xmi:id="_psYijIyXEeOA_6J9sGme9g" name="Token">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_MBYJEIcvEeO394xrVBhzLQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

@@ -1,0 +1,2004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_x4JhcL5xEeSH26nNrPVLaw">
+  <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_6ckEcL5vEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SLGEYb5yEeSH26nNrPVLaw" targetItem="_SLiJf75yEeSH26nNrPVLaw" sourceItem="_SLGEYL5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SLGEY75yEeSH26nNrPVLaw" targetItem="_SLr6cL5yEeSH26nNrPVLaw" sourceItem="_SLGEYr5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SLGEZb5yEeSH26nNrPVLaw" targetItem="_SLr6cr5yEeSH26nNrPVLaw" sourceItem="_SLGEZL5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SLGEZ75yEeSH26nNrPVLaw" targetItem="_SLr6dL5yEeSH26nNrPVLaw" sourceItem="_SLGEZr5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SLGEab5yEeSH26nNrPVLaw" targetItem="_SLr6eL5yEeSH26nNrPVLaw" sourceItem="_SLGEaL5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SLGEa75yEeSH26nNrPVLaw" targetItem="_SLr6fL5yEeSH26nNrPVLaw" sourceItem="_SLGEar5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SLGEbb5yEeSH26nNrPVLaw" targetItem="_SLr6gL5yEeSH26nNrPVLaw" sourceItem="_SLGEbL5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SLPOUL5yEeSH26nNrPVLaw" targetItem="_SLr6hL5yEeSH26nNrPVLaw" sourceItem="_SLGEbr5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SLPOUr5yEeSH26nNrPVLaw" targetItem="_SLr6iL5yEeSH26nNrPVLaw" sourceItem="_SLPOUb5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SLPOU75yEeSH26nNrPVLaw" source="_SLiJf75yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5kr5vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SLPOVL5yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5lL5vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SLPOVb5yEeSH26nNrPVLaw" text=""/>
+    <sourceRole xmi:id="_SLPOVr5yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5k75vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLPOV75yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SLPOWL5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SLPOWb5yEeSH26nNrPVLaw" aggregationKind="NONE" name="borderLayout" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeP75vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLPOWr5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLPOW75yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SLPOXL5yEeSH26nNrPVLaw" source="_SLiJf75yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5lb5vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SLPOXb5yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5l75vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SLPOXr5yEeSH26nNrPVLaw" text=""/>
+    <sourceRole xmi:id="_SLPOX75yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5lr5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLPOYL5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SLPOYb5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SLPOYr5yEeSH26nNrPVLaw" aggregationKind="NONE" name="pnl_top" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeQb5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLPOY75yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLPOZL5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SLPOZb5yEeSH26nNrPVLaw" source="_SLiJf75yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5mL5vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SLPOZr5yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5mr5vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SLPOZ75yEeSH26nNrPVLaw" text=""/>
+    <sourceRole xmi:id="_SLPOaL5yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5mb5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLPOab5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SLPOar5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SLPOa75yEeSH26nNrPVLaw" aggregationKind="NONE" name="pnl_statusCode" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPEb5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLPObL5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLPObb5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SLPObr5yEeSH26nNrPVLaw" source="_SLiJf75yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5m75vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SLPOb75yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5nb5vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SLPOcL5yEeSH26nNrPVLaw" text=""/>
+    <sourceRole xmi:id="_SLPOcb5yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5nL5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLPOcr5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SLPOc75yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SLPOdL5yEeSH26nNrPVLaw" aggregationKind="NONE" name="pnl_console" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPFL5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLPOdb5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLPOdr5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SLPOd75yEeSH26nNrPVLaw" source="_SLiJf75yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5nr5vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SLPOeL5yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5oL5vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SLPOeb5yEeSH26nNrPVLaw" text=""/>
+    <sourceRole xmi:id="_SLPOer5yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5n75vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLPOe75yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SLPOfL5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SLPOfb5yEeSH26nNrPVLaw" aggregationKind="NONE" name="txa_console" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPF75vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLPOfr5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLPOf75yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SLPOgL5yEeSH26nNrPVLaw" source="_SLiJf75yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5ob5vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SLPOgb5yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5o75vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SLPOgr5yEeSH26nNrPVLaw" text=""/>
+    <sourceRole xmi:id="_SLPOg75yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5or5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLPOhL5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SLPOhb5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SLPOhr5yEeSH26nNrPVLaw" aggregationKind="NONE" name="scrpnl_console" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPGr5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLPOh75yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLPOiL5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SLY_UL5yEeSH26nNrPVLaw" source="_SLiJf75yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5pL5vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SLY_Ub5yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5pr5vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SLY_Ur5yEeSH26nNrPVLaw" text=""/>
+    <sourceRole xmi:id="_SLY_U75yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5pb5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLY_VL5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SLY_Vb5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SLY_Vr5yEeSH26nNrPVLaw" aggregationKind="NONE" name="pnl_connectedUsers" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPHb5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLY_V75yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLY_WL5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SLY_Wb5yEeSH26nNrPVLaw" source="_SLiJf75yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5p75vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SLY_Wr5yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5qb5vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SLY_W75yEeSH26nNrPVLaw" text=""/>
+    <sourceRole xmi:id="_SLY_XL5yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5qL5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLY_Xb5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SLY_Xr5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SLY_X75yEeSH26nNrPVLaw" aggregationKind="NONE" name="lblConnectedUsers" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPIL5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLY_YL5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLY_Yb5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SLY_Yr5yEeSH26nNrPVLaw" source="_SLiJf75yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5qr5vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SLY_Y75yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5rL5vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SLY_ZL5yEeSH26nNrPVLaw" text=""/>
+    <sourceRole xmi:id="_SLY_Zb5yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5q75vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLY_Zr5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SLY_Z75yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SLY_aL5yEeSH26nNrPVLaw" aggregationKind="NONE" name="connectedModel" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPI75vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLY_ab5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLY_ar5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SLY_a75yEeSH26nNrPVLaw" source="_SLiJf75yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5rb5vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SLY_bL5yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5r75vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SLY_bb5yEeSH26nNrPVLaw" text=""/>
+    <sourceRole xmi:id="_SLY_br5yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5rr5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLY_b75yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SLY_cL5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SLY_cb5yEeSH26nNrPVLaw" aggregationKind="NONE" name="list_connectedUsers" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPJ75vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLY_cr5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLY_c75yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SLY_dL5yEeSH26nNrPVLaw" source="_SLiJf75yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5sL5vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SLY_db5yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5sr5vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SLY_dr5yEeSH26nNrPVLaw" text=""/>
+    <sourceRole xmi:id="_SLY_d75yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5sb5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLY_eL5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SLY_eb5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SLY_er5yEeSH26nNrPVLaw" aggregationKind="NONE" name="pnl_parsedLanguages" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPK75vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLY_e75yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLY_fL5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SLY_fb5yEeSH26nNrPVLaw" source="_SLiJf75yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5s75vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SLY_fr5yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5tb5vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SLY_f75yEeSH26nNrPVLaw" text=""/>
+    <sourceRole xmi:id="_SLY_gL5yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5tL5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLY_gb5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SLY_gr5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SLY_g75yEeSH26nNrPVLaw" aggregationKind="NONE" name="lblParsedLanguages" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPLr5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLY_hL5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLY_hb5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SLY_hr5yEeSH26nNrPVLaw" source="_SLiJf75yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5tr5vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SLY_h75yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5uL5vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SLY_iL5yEeSH26nNrPVLaw" text=""/>
+    <sourceRole xmi:id="_SLY_ib5yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5t75vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLY_ir5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SLY_i75yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SLY_jL5yEeSH26nNrPVLaw" aggregationKind="NONE" name="languagesModel" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPMb5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLY_jb5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLY_jr5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SLY_j75yEeSH26nNrPVLaw" source="_SLiJf75yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5ub5vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SLY_kL5yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5u75vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SLY_kb5yEeSH26nNrPVLaw" text=""/>
+    <sourceRole xmi:id="_SLY_kr5yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5ur5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLY_k75yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SLY_lL5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SLY_lb5yEeSH26nNrPVLaw" aggregationKind="NONE" name="list_parsedLanguages" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPNb5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLY_lr5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLY_l75yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SLY_mL5yEeSH26nNrPVLaw" source="_SLiJf75yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5vL5vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SLY_mb5yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5vr5vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SLY_mr5yEeSH26nNrPVLaw" text=""/>
+    <sourceRole xmi:id="_SLY_m75yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5vb5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLY_nL5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SLY_nb5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SLY_nr5yEeSH26nNrPVLaw" aggregationKind="NONE" name="pnl_receivedPrograms" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPOb5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLY_n75yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLY_oL5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SLY_ob5yEeSH26nNrPVLaw" source="_SLiJf75yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5v75vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SLY_or5yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5wb5vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SLY_o75yEeSH26nNrPVLaw" text=""/>
+    <sourceRole xmi:id="_SLY_pL5yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5wL5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLY_pb5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SLY_pr5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SLY_p75yEeSH26nNrPVLaw" aggregationKind="NONE" name="lblReceivedPrograms" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPPL5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLY_qL5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLY_qb5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SLiJQL5yEeSH26nNrPVLaw" source="_SLiJf75yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5wr5vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SLiJQb5yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88fqkL5vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SLiJQr5yEeSH26nNrPVLaw" text=""/>
+    <sourceRole xmi:id="_SLiJQ75yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5w75vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLiJRL5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SLiJRb5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SLiJRr5yEeSH26nNrPVLaw" aggregationKind="NONE" name="programsModel" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPP75vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLiJR75yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLiJSL5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SLiJSb5yEeSH26nNrPVLaw" source="_SLiJf75yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88fqkb5vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SLiJSr5yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88fqk75vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SLiJS75yEeSH26nNrPVLaw" text=""/>
+    <sourceRole xmi:id="_SLiJTL5yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88fqkr5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLiJTb5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SLiJTr5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SLiJT75yEeSH26nNrPVLaw" aggregationKind="NONE" name="list_programs" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPQ75vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLiJUL5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLiJUb5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SLiJUr5yEeSH26nNrPVLaw" source="_SLiJf75yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88fqlL5vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SLiJU75yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88fqlr5vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SLiJVL5yEeSH26nNrPVLaw" text=""/>
+    <sourceRole xmi:id="_SLiJVb5yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88fqlb5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLiJVr5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SLiJV75yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SLiJWL5yEeSH26nNrPVLaw" aggregationKind="NONE" name="lblConsole" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPR75vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLiJWb5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLiJWr5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SLiJW75yEeSH26nNrPVLaw" source="_SLiJf75yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88fql75vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SLiJXL5yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88fqmb5vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SLiJXb5yEeSH26nNrPVLaw" text=""/>
+    <sourceRole xmi:id="_SLiJXr5yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88fqmL5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLiJX75yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SLiJYL5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SLiJYb5yEeSH26nNrPVLaw" aggregationKind="NONE" name="lblStatusCode" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85rAEL5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLiJYr5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLiJY75yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SLiJZL5yEeSH26nNrPVLaw" source="_SLiJf75yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88fqmr5vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SLiJZb5yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88fqnL5vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SLiJZr5yEeSH26nNrPVLaw" text=""/>
+    <sourceRole xmi:id="_SLiJZ75yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88fqm75vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLiJaL5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SLiJab5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SLiJar5yEeSH26nNrPVLaw" aggregationKind="NONE" name="cmb_statusCode" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85rAE75vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLiJa75yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLiJbL5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SLiJbb5yEeSH26nNrPVLaw" source="_SLiJf75yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88fqnb5vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SLiJbr5yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88fqn75vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SLiJb75yEeSH26nNrPVLaw" text=""/>
+    <sourceRole xmi:id="_SLiJcL5yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88fqnr5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLiJcb5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SLiJcr5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SLiJc75yEeSH26nNrPVLaw" aggregationKind="NONE" name="btnSendStatusInfo" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85rAF75vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLiJdL5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLiJdb5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SLiJdr5yEeSH26nNrPVLaw" sourceAnchor="214.0,0.0" targetAnchor="110.0,71.0" target="_bi2d8b5yEeSH26nNrPVLaw" source="_SLiJf75yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88fqoL5vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SLiJd75yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88fqor5vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SLiJeL5yEeSH26nNrPVLaw" text="">
+      <visualProperties xmi:id="_brVEhL5yEeSH26nNrPVLaw" position="41.0,20.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_SLiJeb5yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88fqob5vEeSH26nNrPVLaw"/>
+      <visualProperties xmi:id="_brVEg75yEeSH26nNrPVLaw" position="-17.0,-55.333333333333314"/>
+      <visibility xmi:id="_SLiJer5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SLiJe75yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SLiJfL5yEeSH26nNrPVLaw" aggregationKind="NONE" name="adapter" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85rAGr5vEeSH26nNrPVLaw"/>
+      <visualProperties xmi:id="_brVEhb5yEeSH26nNrPVLaw" position="2.0,10.33333333333335"/>
+      <visibility xmi:id="_SLiJfb5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLiJfr5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SMbhIL5yEeSH26nNrPVLaw" targetItem="_SMlSNb5yEeSH26nNrPVLaw" sourceItem="_SMImML5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SMbhIr5yEeSH26nNrPVLaw" targetItem="_SMlSRL5yEeSH26nNrPVLaw" sourceItem="_SMbhIb5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SMlSIL5yEeSH26nNrPVLaw" targetItem="_SMlSRr5yEeSH26nNrPVLaw" sourceItem="_SMbhI75yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SMlSIr5yEeSH26nNrPVLaw" targetItem="_SMlSSr5yEeSH26nNrPVLaw" sourceItem="_SMlSIb5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SMlSI75yEeSH26nNrPVLaw" source="_SMlSNb5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mv5r5vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SMlSJL5yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mv6L5vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SMlSJb5yEeSH26nNrPVLaw" text=""/>
+    <sourceRole xmi:id="_SMlSJr5yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mv575vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SMlSJ75yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SMlSKL5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SMlSKb5yEeSH26nNrPVLaw" aggregationKind="NONE" name="sockets" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeN75vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SMlSKr5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SMlSK75yEeSH26nNrPVLaw" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SMlSLL5yEeSH26nNrPVLaw" sourceAnchor="408.0,0.0" targetAnchor="4.0,128.0" target="_biZyAr5yEeSH26nNrPVLaw" source="_SMlSNb5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mv6b5vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SMlSLb5yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5kb5vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SMlSLr5yEeSH26nNrPVLaw" text="">
+      <visualProperties xmi:id="_brVEh75yEeSH26nNrPVLaw" position="2.0,-15.090909090909065"/>
+    </nameVisual>
+    <sourceRole xmi:id="_SMlSL75yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88V5kL5vEeSH26nNrPVLaw"/>
+      <visualProperties xmi:id="_brVEhr5yEeSH26nNrPVLaw" position="2.0,-78.0"/>
+      <visibility xmi:id="_SMlSML5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SMlSMb5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SMlSMr5yEeSH26nNrPVLaw" aggregationKind="NONE" name="adapter" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeO75vEeSH26nNrPVLaw"/>
+      <visualProperties xmi:id="_breOcL5yEeSH26nNrPVLaw" position="-57.0,33.0"/>
+      <visibility xmi:id="_SMlSM75yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SMlSNL5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SMucEL5yEeSH26nNrPVLaw" sourceAnchor="131.0,0.0" targetAnchor="211.0,118.0" target="_SMlSNb5yEeSH26nNrPVLaw" source="_SNU5Db5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mv4L5vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SNLIBL5yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mv4r5vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SNLIAb5yEeSH26nNrPVLaw" text="">
+      <visualProperties xmi:id="_SYCUMb5yEeSH26nNrPVLaw" position="-19.0,-7.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_SNLIAr5yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mv4b5vEeSH26nNrPVLaw"/>
+      <visualProperties xmi:id="_SYCUML5yEeSH26nNrPVLaw" position="-21.0,-50.0"/>
+      <visibility xmi:id="_SNU5BL5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SNU5A75yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SNLIA75yEeSH26nNrPVLaw" aggregationKind="NONE" name="model" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeM75vEeSH26nNrPVLaw"/>
+      <visualProperties xmi:id="_SYCUMr5yEeSH26nNrPVLaw" position="1.0000000000000284,5.0"/>
+      <visibility xmi:id="_SNU5Br5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SNU5Bb5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SM4NEL5yEeSH26nNrPVLaw" sourceAnchor="262.0,46.0" targetAnchor="0.0,335.0" target="_SLiJf75yEeSH26nNrPVLaw" source="_SNU5Db5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mv475vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SNLICL5yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mv5b5vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SNLIBb5yEeSH26nNrPVLaw" text="">
+      <visualProperties xmi:id="_SYCUNL5yEeSH26nNrPVLaw" position="-29.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_SNLIBr5yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mv5L5vEeSH26nNrPVLaw"/>
+      <visualProperties xmi:id="_SYCUM75yEeSH26nNrPVLaw" position="5.0,-49.0"/>
+      <visibility xmi:id="_SNU5Cb5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SNU5CL5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SNLIB75yEeSH26nNrPVLaw" aggregationKind="NONE" name="view" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeNb5vEeSH26nNrPVLaw"/>
+      <visualProperties xmi:id="_SYCUNb5yEeSH26nNrPVLaw" position="-44.0,3.0"/>
+      <visibility xmi:id="_SNU5C75yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SNU5Cr5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SNLIAL5yEeSH26nNrPVLaw" targetItem="_SNU5Db5yEeSH26nNrPVLaw" sourceItem="_SNBXAL5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SNLICr5yEeSH26nNrPVLaw" targetItem="_SNU5Gr5yEeSH26nNrPVLaw" sourceItem="_SNLICb5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SNU5AL5yEeSH26nNrPVLaw" targetItem="_SNU5Hr5yEeSH26nNrPVLaw" sourceItem="_SNLIC75yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SNU5Ar5yEeSH26nNrPVLaw" targetItem="_SNU5I75yEeSH26nNrPVLaw" sourceItem="_SNU5Ab5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_SNeC8L5yEeSH26nNrPVLaw" enclosingItem="_x9D2qL5xEeSH26nNrPVLaw" containedItem="_SNw98r5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SNnz8b5yEeSH26nNrPVLaw" targetItem="_SNw-Ab5yEeSH26nNrPVLaw" sourceItem="_SNnz8L5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SNnz875yEeSH26nNrPVLaw" targetItem="_SNw-Bb5yEeSH26nNrPVLaw" sourceItem="_SNnz8r5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SNnz9b5yEeSH26nNrPVLaw" targetItem="_SNw-Dr5yEeSH26nNrPVLaw" sourceItem="_SNnz9L5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SNnz975yEeSH26nNrPVLaw" targetItem="_SNw-FL5yEeSH26nNrPVLaw" sourceItem="_SNnz9r5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SNw94L5yEeSH26nNrPVLaw" source="_SNw98r5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mv2r5vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SNw94b5yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mv3L5vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SNw94r5yEeSH26nNrPVLaw" text=""/>
+    <sourceRole xmi:id="_SNw9475yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mv275vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SNw95L5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SNw95b5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SNw95r5yEeSH26nNrPVLaw" aggregationKind="NONE" name="programExec" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeL75vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SNw9575yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SNw96L5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SNw96b5yEeSH26nNrPVLaw" sourceAnchor="291.0,0.0" targetAnchor="357.0,194.0" target="_SPjtrr5yEeSH26nNrPVLaw" source="_SNw98r5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mv3b5vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SNw96r5yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mv375vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SNw9675yEeSH26nNrPVLaw" text="">
+      <visualProperties xmi:id="_SYCUN75yEeSH26nNrPVLaw" position="-19.0,-8.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_SNw97L5yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mv3r5vEeSH26nNrPVLaw"/>
+      <visualProperties xmi:id="_SYCUNr5yEeSH26nNrPVLaw" position="-21.0,-50.0"/>
+      <visibility xmi:id="_SNw97b5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SNw97r5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SNw9775yEeSH26nNrPVLaw" aggregationKind="NONE" name="unit" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeMb5vEeSH26nNrPVLaw"/>
+      <visualProperties xmi:id="_SYCUOL5yEeSH26nNrPVLaw" position="8.0,5.0"/>
+      <visibility xmi:id="_SNw98L5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SNw98b5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SOEf4L5yEeSH26nNrPVLaw" targetItem="_SOgkyb5yEeSH26nNrPVLaw" sourceItem="_SN6u4L5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SOEf4b5yEeSH26nNrPVLaw" source="_SOgkyb5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mvzr5vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SOXa275yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mv0L5vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SOXa2L5yEeSH26nNrPVLaw" text=""/>
+    <sourceRole xmi:id="_SOXa2b5yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mvz75vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SOXa4b5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SOXa4L5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SOXa2r5yEeSH26nNrPVLaw" aggregationKind="NONE" name="_socket" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeIr5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SOXa475yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SOXa4r5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SOEf4r5yEeSH26nNrPVLaw" sourceAnchor="275.0,0.0" targetAnchor="272.0,64.0" target="_biZyAr5yEeSH26nNrPVLaw" source="_SOgkyb5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mv0b5vEeSH26nNrPVLaw"/>
+    <bendpoints xmi:id="_bxk2cL5yEeSH26nNrPVLaw" sourceY="-1026" targetX="379"/>
+    <stereotypes xmi:id="_SOXa375yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mv075vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SOXa3L5yEeSH26nNrPVLaw" text="">
+      <visualProperties xmi:id="_breOcr5yEeSH26nNrPVLaw" position="-37.50000000000023,41.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_SOXa3b5yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mv0r5vEeSH26nNrPVLaw"/>
+      <visualProperties xmi:id="_breOcb5yEeSH26nNrPVLaw" position="-16.5,-107.1875"/>
+      <visibility xmi:id="_SOXa5r5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SOXa5b5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SOXa3r5yEeSH26nNrPVLaw" aggregationKind="NONE" name="adapter" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeJb5vEeSH26nNrPVLaw"/>
+      <visualProperties xmi:id="_breOc75yEeSH26nNrPVLaw" position="47.07142857142844,-47.0"/>
+      <visibility xmi:id="_SOXa6L5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SOXa575yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_SONp0L5yEeSH26nNrPVLaw" enclosingItem="_x9D2qL5xEeSH26nNrPVLaw" containedItem="_SOgkyb5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SONp0r5yEeSH26nNrPVLaw" targetItem="_SOgk5r5yEeSH26nNrPVLaw" sourceItem="_SONp0b5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SONp1L5yEeSH26nNrPVLaw" targetItem="_SOgk6L5yEeSH26nNrPVLaw" sourceItem="_SONp075yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SONp1r5yEeSH26nNrPVLaw" targetItem="_SOgk8b5yEeSH26nNrPVLaw" sourceItem="_SONp1b5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SOXa0b5yEeSH26nNrPVLaw" targetItem="_SOgk975yEeSH26nNrPVLaw" sourceItem="_SOXa0L5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SOXa075yEeSH26nNrPVLaw" targetItem="_SOgk_75yEeSH26nNrPVLaw" sourceItem="_SOXa0r5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SOXa1b5yEeSH26nNrPVLaw" targetItem="_SOglB75yEeSH26nNrPVLaw" sourceItem="_SOXa1L5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SOXa175yEeSH26nNrPVLaw" targetItem="_SOglD75yEeSH26nNrPVLaw" sourceItem="_SOXa1r5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SOXa6r5yEeSH26nNrPVLaw" source="_SOgkyb5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mv1L5vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SOXa675yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mv1r5vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SOXa7L5yEeSH26nNrPVLaw" text=""/>
+    <sourceRole xmi:id="_SOXa7b5yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mv1b5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SOXa7r5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SOXa775yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SOXa8L5yEeSH26nNrPVLaw" aggregationKind="NONE" name="parsedLanguage" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeJ75vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SOXa8b5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SOXa8r5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SOgkwL5yEeSH26nNrPVLaw" source="_SOgkyb5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mv175vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SOgkwb5yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mv2b5vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SOgkwr5yEeSH26nNrPVLaw" text=""/>
+    <sourceRole xmi:id="_SOgkw75yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mv2L5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SOgkxL5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SOgkxb5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SOgkxr5yEeSH26nNrPVLaw" aggregationKind="NONE" name="parsedProgram" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeK75vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SOgkx75yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SOgkyL5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SO9QsL5yEeSH26nNrPVLaw" targetItem="_SPjtrr5yEeSH26nNrPVLaw" sourceItem="_SO0GwL5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SO9Qsb5yEeSH26nNrPVLaw" sourceAnchor="0.0,97.0" targetAnchor="0.0,64.0" target="_biZyAr5yEeSH26nNrPVLaw" source="_SPjtrr5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mvwr5vEeSH26nNrPVLaw"/>
+    <bendpoints xmi:id="_bxk2cb5yEeSH26nNrPVLaw" sourceX="-15" targetX="-422" targetY="1116"/>
+    <bendpoints xmi:id="_bxk2cr5yEeSH26nNrPVLaw" sourceX="-15" sourceY="-1116" targetX="-422"/>
+    <stereotypes xmi:id="_SPZ8or5yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88MvxL5vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SPQLpL5yEeSH26nNrPVLaw" text="">
+      <visualProperties xmi:id="_breOdb5yEeSH26nNrPVLaw" position="2.0000000000000355,-58.363636363636374"/>
+    </nameVisual>
+    <sourceRole xmi:id="_SPZ8oL5yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mvw75vEeSH26nNrPVLaw"/>
+      <visualProperties xmi:id="_breOdL5yEeSH26nNrPVLaw" position="-15.000000000000004,2.0"/>
+      <visibility xmi:id="_SPZ8pL5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SPZ8o75yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SPZ8ob5yEeSH26nNrPVLaw" aggregationKind="NONE" name="adapter" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeE75vEeSH26nNrPVLaw"/>
+      <visualProperties xmi:id="_breOdr5yEeSH26nNrPVLaw" position="-101.62499999999966,-47.0"/>
+      <visibility xmi:id="_SPZ8pr5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SPZ8pb5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_SPHBsL5yEeSH26nNrPVLaw" enclosingItem="_x9D2qL5xEeSH26nNrPVLaw" containedItem="_SPjtrr5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SPHBsr5yEeSH26nNrPVLaw" targetItem="_SPjtzr5yEeSH26nNrPVLaw" sourceItem="_SPHBsb5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SPQLob5yEeSH26nNrPVLaw" targetItem="_SPjt4L5yEeSH26nNrPVLaw" sourceItem="_SPQLoL5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SPQLo75yEeSH26nNrPVLaw" targetItem="_SPjt5r5yEeSH26nNrPVLaw" sourceItem="_SPQLor5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SPZ8qb5yEeSH26nNrPVLaw" source="_SPjtrr5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mvxb5vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SPZ8qr5yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mvx75vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SPZ8q75yEeSH26nNrPVLaw" text=""/>
+    <sourceRole xmi:id="_SPZ8rL5yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mvxr5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SPZ8rb5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SPZ8rr5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SPZ8r75yEeSH26nNrPVLaw" aggregationKind="NONE" name="lexerFactory" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeGL5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SPZ8sL5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SPZ8sb5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SPZ8sr5yEeSH26nNrPVLaw" source="_SPjtrr5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88MvyL5vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SPZ8s75yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mvyr5vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SPZ8tL5yEeSH26nNrPVLaw" text=""/>
+    <sourceRole xmi:id="_SPZ8tb5yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mvyb5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SPZ8tr5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SPZ8t75yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SPZ8uL5yEeSH26nNrPVLaw" aggregationKind="NONE" name="parseResult" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeGr5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SPZ8ub5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SPZ8ur5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SPjtoL5yEeSH26nNrPVLaw" source="_SPjtrr5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mvy75vEeSH26nNrPVLaw"/>
+    <stereotypes xmi:id="_SPjtob5yEeSH26nNrPVLaw" name="Reference">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88Mvzb5vEeSH26nNrPVLaw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SPjtor5yEeSH26nNrPVLaw" text=""/>
+    <sourceRole xmi:id="_SPjto75yEeSH26nNrPVLaw" aggregationKind="NONE" name="">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_88MvzL5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SPjtpL5yEeSH26nNrPVLaw" label="+"/>
+      <cardinality xmi:id="_SPjtpb5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SPjtpr5yEeSH26nNrPVLaw" aggregationKind="NONE" name="nonTerminalsMap" navigable="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeHL5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SPjtp75yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SPjtqL5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <qualifierHelper xmi:id="_SPjtqb5yEeSH26nNrPVLaw">
+        <qualifiers xmi:id="_SPjtqr5yEeSH26nNrPVLaw">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeHr5vEeSH26nNrPVLaw"/>
+          <visibility xmi:id="_SPjtq75yEeSH26nNrPVLaw" label="+"/>
+          <cardinality xmi:id="_SPjtrL5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+          <type xmi:id="_SPjtrb5yEeSH26nNrPVLaw" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </qualifiers>
+      </qualifierHelper>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_biZyAb5yEeSH26nNrPVLaw" targetItem="_biZyAr5yEeSH26nNrPVLaw" sourceItem="_biZyAL5yEeSH26nNrPVLaw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bi2d8L5yEeSH26nNrPVLaw" targetItem="_bi2d8b5yEeSH26nNrPVLaw" sourceItem="_biss8L5yEeSH26nNrPVLaw"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_x86ssL5xEeSH26nNrPVLaw" name="client">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_72RpYL5vEeSH26nNrPVLaw"/>
+    <visualProperties xmi:id="_x86ssb5xEeSH26nNrPVLaw" position="50.0,50.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_x9D2oL5xEeSH26nNrPVLaw" name="java">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_72RpYb5vEeSH26nNrPVLaw"/>
+    <visualProperties xmi:id="_x9D2ob5xEeSH26nNrPVLaw" position="-115.0,50.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_x9D2or5xEeSH26nNrPVLaw" name="debug">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_72RpZb5vEeSH26nNrPVLaw"/>
+    <visualProperties xmi:id="_x9D2o75xEeSH26nNrPVLaw" position="200.0,50.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_x9D2pL5xEeSH26nNrPVLaw" name="hw03Common">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_72RpZ75vEeSH26nNrPVLaw"/>
+    <visualProperties xmi:id="_x9D2pb5xEeSH26nNrPVLaw" position="359.0,50.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_x9D2pr5xEeSH26nNrPVLaw" name="org">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_72Rpa75vEeSH26nNrPVLaw"/>
+    <visualProperties xmi:id="_x9D2p75xEeSH26nNrPVLaw" position="-280.0,50.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_x9D2qL5xEeSH26nNrPVLaw" containments="_SNeC8L5yEeSH26nNrPVLaw _SONp0L5yEeSH26nNrPVLaw _SPHBsL5yEeSH26nNrPVLaw" classes="_SNw98r5yEeSH26nNrPVLaw _SOgkyb5yEeSH26nNrPVLaw _SPjtrr5yEeSH26nNrPVLaw" name="server">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_77VIgb5vEeSH26nNrPVLaw"/>
+    <visualProperties xmi:id="_x9D2qb5xEeSH26nNrPVLaw" position="-445.0,50.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_x9D2qr5xEeSH26nNrPVLaw" name="parser">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_77oDcL5vEeSH26nNrPVLaw"/>
+    <visualProperties xmi:id="_x9D2q75xEeSH26nNrPVLaw" position="545.0,50.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_x9D2rL5xEeSH26nNrPVLaw" name="javax">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_777ldb5vEeSH26nNrPVLaw"/>
+    <visualProperties xmi:id="_x9D2rb5xEeSH26nNrPVLaw" position="-610.0,50.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_x9D2rr5xEeSH26nNrPVLaw" name="model">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_78rMWb5vEeSH26nNrPVLaw"/>
+    <visualProperties xmi:id="_x9D2r75xEeSH26nNrPVLaw" position="695.0,50.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_x9D2sL5xEeSH26nNrPVLaw" name="view">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_78rMWr5vEeSH26nNrPVLaw"/>
+    <visualProperties xmi:id="_x9D2sb5xEeSH26nNrPVLaw" position="845.0,50.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_x9D2sr5xEeSH26nNrPVLaw" name="controller">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_78rMW75vEeSH26nNrPVLaw"/>
+    <visualProperties xmi:id="_x9D2s75xEeSH26nNrPVLaw" position="-775.0,50.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_x9D2tL5xEeSH26nNrPVLaw" name="Map">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_79RCML5vEeSH26nNrPVLaw"/>
+    <visualProperties xmi:id="_x9D2tb5xEeSH26nNrPVLaw" position="995.0,50.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_x9D2tr5xEeSH26nNrPVLaw" name="extvisitor">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_79RCMb5vEeSH26nNrPVLaw"/>
+    <visualProperties xmi:id="_x9D2t75xEeSH26nNrPVLaw" position="-940.0,50.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_x9D2uL5xEeSH26nNrPVLaw" name="junit">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_79j9IL5vEeSH26nNrPVLaw"/>
+    <visualProperties xmi:id="_x9D2ub5xEeSH26nNrPVLaw" position="1145.0,50.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_x9D2ur5xEeSH26nNrPVLaw" name="token">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_7-KaEL5vEeSH26nNrPVLaw"/>
+    <visualProperties xmi:id="_x9D2u75xEeSH26nNrPVLaw" position="-1105.0,50.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_x9NnoL5xEeSH26nNrPVLaw" name="util">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_7-TkBL5vEeSH26nNrPVLaw"/>
+    <visualProperties xmi:id="_x9Nnob5xEeSH26nNrPVLaw" position="1295.0,50.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_x9Nnor5xEeSH26nNrPVLaw" name="sample">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8HO2gL5vEeSH26nNrPVLaw"/>
+    <visualProperties xmi:id="_x9Nno75xEeSH26nNrPVLaw" position="-1270.0,50.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_x9NnpL5xEeSH26nNrPVLaw" name="symbol">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8JKwML5vEeSH26nNrPVLaw"/>
+    <visualProperties xmi:id="_x9Nnpb5xEeSH26nNrPVLaw" position="1445.0,50.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_x9Nnpr5xEeSH26nNrPVLaw" name="wordtree">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8JncIL5vEeSH26nNrPVLaw"/>
+    <visualProperties xmi:id="_x9Nnp75xEeSH26nNrPVLaw" position="-1435.0,50.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SLGEYL5yEeSH26nNrPVLaw" sourceConnectionVisual="_SLGEYb5yEeSH26nNrPVLaw" text="The server view of the program&#xD;&#xA;@author Fabio-CSM&#xD;&#xA; *" item="_SLiJf75yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac6r5vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SLGEYr5yEeSH26nNrPVLaw" sourceConnectionVisual="_SLGEY75yEeSH26nNrPVLaw" text="The method which initializes the view components" item="_SLr6cL5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac7L5vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SLGEZL5yEeSH26nNrPVLaw" sourceConnectionVisual="_SLGEZb5yEeSH26nNrPVLaw" text="The method which starts the view and print the current ip address to the console." item="_SLr6cr5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac7b5vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SLGEZr5yEeSH26nNrPVLaw" sourceConnectionVisual="_SLGEZ75yEeSH26nNrPVLaw" text="Method which add text to the console&#xD;&#xA;&#x9; * @param text The text to be added" item="_SLr6dL5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac7r5vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SLGEaL5yEeSH26nNrPVLaw" sourceConnectionVisual="_SLGEab5yEeSH26nNrPVLaw" text="The method which added in the list the connected clients&#xD;&#xA;&#x9; * @param ipAddress The client IP address" item="_SLr6eL5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac775vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SLGEar5yEeSH26nNrPVLaw" sourceConnectionVisual="_SLGEa75yEeSH26nNrPVLaw" text="The method which add to the list the lang name received&#xD;&#xA;&#x9; * @param langName The name of the language" item="_SLr6fL5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac8L5vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SLGEbL5yEeSH26nNrPVLaw" sourceConnectionVisual="_SLGEbb5yEeSH26nNrPVLaw" text="The method which added to the list the program received.&#xD;&#xA;&#x9; * @param progName The name of the program" item="_SLr6gL5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac8b5vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SLGEbr5yEeSH26nNrPVLaw" sourceConnectionVisual="_SLPOUL5yEeSH26nNrPVLaw" text="This method is designed to reliably return the actual local IP address&#xD;&#xA;&#x9; * across multiple platforms, particularly Linux. This method is a&#xD;&#xA;&#x9; * replacement for &quot;java.net.InetAddress.getLocalHost().getHostAddress()&quot;&#xD;&#xA;&#x9; * which will return the loopback address in Linux, not the actual IP&#xD;&#xA;&#x9; * address. Also, Java tends to report many virtual network adapters as &#xD;&#xA;&#x9; * &quot;non-virtual&quot;.  This method only returns IPv4 addresses, not IPv6 addresses,&#xD;&#xA;&#x9; * which are non-loopback, operational and non-virtual, as reported by Java.   &#xD;&#xA;&#x9; * By default, privateAddrOnly is set to true, so only private IP addresses are &#xD;&#xA;&#x9; * detected.   If privateAddr = false (having used the auxiliary constructor)&#xD;&#xA;&#x9; * then all valid addresses are detected. If multiple potentially valid addresses are &#xD;&#xA;&#x9; * detected, then a dialog box will pop up to ask the user to select the proper address.&#xD;&#xA;&#x9; * The selected address is cached so the next call to getLocalAddress() will simply return&#xD;&#xA;&#x9; * the cached address value.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @return A non-loopback, non-virtual IPv4 address found for the system.&#xD;&#xA;&#x9; * @throws SocketException&#xD;&#xA;&#x9; *             thrown when there is a problem retrieving the network&#xD;&#xA;&#x9; *             interfaces.&#xD;&#xA;&#x9; * @throws UnknownHostException&#xD;&#xA;&#x9; *             thrown when the local host address cannot be found.&#xD;&#xA;&#x9; * @author Dr. Wong in RMI Utils class" item="_SLr6hL5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac8r5vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SLPOUb5yEeSH26nNrPVLaw" sourceConnectionVisual="_SLPOUr5yEeSH26nNrPVLaw" text="Create the frame." item="_SLr6iL5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac675vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SMImML5yEeSH26nNrPVLaw" sourceConnectionVisual="_SMbhIL5yEeSH26nNrPVLaw" text="The server model class&#xA; *" item="_SMlSNb5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac5b5vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SMbhIb5yEeSH26nNrPVLaw" sourceConnectionVisual="_SMbhIr5yEeSH26nNrPVLaw" text="The method which starts the server model" item="_SMlSRL5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac575vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SMbhI75yEeSH26nNrPVLaw" sourceConnectionVisual="_SMlSIL5yEeSH26nNrPVLaw" text="The method which sends the message status code manually.&#xA;&#x9; * @param msgCode The integer message status code" item="_SMlSRr5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac6L5vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SMlSIb5yEeSH26nNrPVLaw" sourceConnectionVisual="_SMlSIr5yEeSH26nNrPVLaw" text="The constructor to the server model&#xA;&#x9; * @param adapter The adapter between the model and the view" item="_SMlSSr5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac5r5vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SNBXAL5yEeSH26nNrPVLaw" sourceConnectionVisual="_SNLIAL5yEeSH26nNrPVLaw" text="The controller that implements the adapters between the server view and model&#xA;@author Fabio-CSM&#xA; *" item="_SNU5Db5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac4L5vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SNLICb5yEeSH26nNrPVLaw" sourceConnectionVisual="_SNLICr5yEeSH26nNrPVLaw" text="The main method to run the server application&#xA;&#x9; * @param args" item="_SNU5Gr5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac4b5vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SNLIC75yEeSH26nNrPVLaw" sourceConnectionVisual="_SNU5AL5yEeSH26nNrPVLaw" text="The server constructor" item="_SNU5Hr5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac4r5vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SNU5Ab5yEeSH26nNrPVLaw" sourceConnectionVisual="_SNU5Ar5yEeSH26nNrPVLaw" text="The method which starts the server view and the model." item="_SNU5I75yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac475vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SNnz8L5yEeSH26nNrPVLaw" sourceConnectionVisual="_SNnz8b5yEeSH26nNrPVLaw" text="getter for language parsing unit.&#xD;&#xA;&#x9; * @return the language parsing unit." item="_SNw-Ab5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac375vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SNnz8r5yEeSH26nNrPVLaw" sourceConnectionVisual="_SNnz875yEeSH26nNrPVLaw" text="&#xD;&#xA;&#x9; * @param unit parsing unit for this program's language.&#xD;&#xA;&#x9; * @param programFileStr String of contents in the program." item="_SNw-Bb5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac3L5vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SNnz9L5yEeSH26nNrPVLaw" sourceConnectionVisual="_SNnz9b5yEeSH26nNrPVLaw" text="execute the program using inputOpMap as op maps, put execution result in string builder sb.&#xD;&#xA;&#x9; * @param initExecutor init executior.&#xD;&#xA;&#x9; * @param sb The place to put execution result." item="_SNw-Dr5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac3b5vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SNnz9r5yEeSH26nNrPVLaw" sourceConnectionVisual="_SNnz975yEeSH26nNrPVLaw" text="parse the program in the given file. The language for this file must have already been parsed.&#xD;&#xA;&#x9; * @param programFileStr string of contents in program file." item="_SNw-FL5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac3r5vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SN6u4L5yEeSH26nNrPVLaw" sourceConnectionVisual="_SOEf4L5yEeSH26nNrPVLaw" text="Thread class for handling multi user connecting at the same time.&#xA;@author Bojun&#xA; *" item="_SOgkyb5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac1L5vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SONp0b5yEeSH26nNrPVLaw" sourceConnectionVisual="_SONp0r5yEeSH26nNrPVLaw" text="repeated read lines from client and parse it as JSON objects." item="_SOgk5r5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac1r5vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SONp075yEeSH26nNrPVLaw" sourceConnectionVisual="_SONp1L5yEeSH26nNrPVLaw" text="Build a new thread for each connected client.&#xA;&#x9; * @param socket client socket&#xA;&#x9; * @param adapter adapter to server view." item="_SOgk6L5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac1b5vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SONp1b5yEeSH26nNrPVLaw" sourceConnectionVisual="_SONp1r5yEeSH26nNrPVLaw" text="&#xA;     * @param inputLine the input line to parse into an JSON object.&#xA;     * @param out output stream to write result." item="_SOgk8b5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac175vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SOXa0L5yEeSH26nNrPVLaw" sourceConnectionVisual="_SOXa0b5yEeSH26nNrPVLaw" text="Process the execution message.&#xA;     * @param out output stream to write result to.&#xA;     * @param map the original received JSON object.&#xA;     * @param initCode a string of init code." item="_SOgk975yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac2L5vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SOXa0r5yEeSH26nNrPVLaw" sourceConnectionVisual="_SOXa075yEeSH26nNrPVLaw" text="process program message.&#xA;&#x9; * @param out output stream to write result to.&#xA;&#x9; * @param map the original received JSON object.&#xA;&#x9; * @param program name of the program." item="_SOgk_75yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac2b5vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SOXa1L5yEeSH26nNrPVLaw" sourceConnectionVisual="_SOXa1b5yEeSH26nNrPVLaw" text="process language message.&#xA;&#x9; * @param out output stream to write result to.&#xA;&#x9; * @param map the original received JSON object.&#xA;&#x9; * @param bnf string representation of bnf." item="_SOglB75yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac2r5vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SOXa1r5yEeSH26nNrPVLaw" sourceConnectionVisual="_SOXa175yEeSH26nNrPVLaw" text="&#xA;     * @param out output stream to write result to.&#xA;     * @param code number representation of the status_code&#xA;     * @param statusMsg the status_msg&#xA;     * @param map the original received JSON object." item="_SOglD75yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac275vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SO0GwL5yEeSH26nNrPVLaw" sourceConnectionVisual="_SO9QsL5yEeSH26nNrPVLaw" text="A parsing unit stores all necessary information to parse a particular program for a particular language.&#xA;@author &#xA; *" item="_SPjtrr5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_862sgb5vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SPHBsb5yEeSH26nNrPVLaw" sourceConnectionVisual="_SPHBsr5yEeSH26nNrPVLaw" text="getter for operator mapping.&#xA;&#x9; * @return operator mapping." item="_SPjtzr5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac075vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SPQLoL5yEeSH26nNrPVLaw" sourceConnectionVisual="_SPQLob5yEeSH26nNrPVLaw" text="return a tokenizer&#xA;&#x9; * @param reader A reader that will read characters out.&#xA;&#x9; * @return a tokenizer" item="_SPjt4L5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac0b5vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SPQLor5yEeSH26nNrPVLaw" sourceConnectionVisual="_SPQLo75yEeSH26nNrPVLaw" text="&#xA;&#x9; * @param reader A reader that will read characters out.&#xA;&#x9; * @return parsed grammar symbol for the program." item="_SPjt5r5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac0r5vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SLiJf75yEeSH26nNrPVLaw" comments="_SLGEYL5yEeSH26nNrPVLaw" targetConnectionVisual="_SLGEYb5yEeSH26nNrPVLaw" name="ServerView" associationsIn="_SM4NEL5yEeSH26nNrPVLaw" associationsOut="_SLPOU75yEeSH26nNrPVLaw _SLPOXL5yEeSH26nNrPVLaw _SLPOZb5yEeSH26nNrPVLaw _SLPObr5yEeSH26nNrPVLaw _SLPOd75yEeSH26nNrPVLaw _SLPOgL5yEeSH26nNrPVLaw _SLY_UL5yEeSH26nNrPVLaw _SLY_Wb5yEeSH26nNrPVLaw _SLY_Yr5yEeSH26nNrPVLaw _SLY_a75yEeSH26nNrPVLaw _SLY_dL5yEeSH26nNrPVLaw _SLY_fb5yEeSH26nNrPVLaw _SLY_hr5yEeSH26nNrPVLaw _SLY_j75yEeSH26nNrPVLaw _SLY_mL5yEeSH26nNrPVLaw _SLY_ob5yEeSH26nNrPVLaw _SLiJQL5yEeSH26nNrPVLaw _SLiJSb5yEeSH26nNrPVLaw _SLiJUr5yEeSH26nNrPVLaw _SLiJW75yEeSH26nNrPVLaw _SLiJZL5yEeSH26nNrPVLaw _SLiJbb5yEeSH26nNrPVLaw _SLiJdr5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UxjRb5vEeSH26nNrPVLaw"/>
+    <visualProperties xmi:id="_SLiJgL5yEeSH26nNrPVLaw" position="557.0,76.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_SLiJgb5yEeSH26nNrPVLaw" label="+"/>
+    <attributes xmi:id="_SLiJgr5yEeSH26nNrPVLaw" defaultValue="811369936426289669L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XePb5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLiJg75yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLiJhL5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SLiJhb5yEeSH26nNrPVLaw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLiJhr5yEeSH26nNrPVLaw" name="borderLayout">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeP75vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SLiJh75yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeQL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLiJiL5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeQL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SLiJib5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLiJir5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SLiJi75yEeSH26nNrPVLaw" name="JPanel">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8vQf4L5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLiJjL5yEeSH26nNrPVLaw" defaultValue="new JPanel()" name="pnl_top">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeQb5vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SLiJjb5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPEL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLiJjr5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPEL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SLiJj75yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLiJkL5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SLiJkb5yEeSH26nNrPVLaw" name="JPanel">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8vQf4L5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLiJkr5yEeSH26nNrPVLaw" defaultValue="new JPanel()" name="pnl_statusCode">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPEb5vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SLiJk75yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPE75vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLiJlL5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPE75vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SLiJlb5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLiJlr5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SLiJl75yEeSH26nNrPVLaw" name="JPanel">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8vQf4L5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLiJmL5yEeSH26nNrPVLaw" defaultValue="new JPanel()" name="pnl_console">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPFL5vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SLiJmb5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPFr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLiJmr5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPFr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SLiJm75yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLiJnL5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SLiJnb5yEeSH26nNrPVLaw" name="JPanel">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8vQf4L5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLiJnr5yEeSH26nNrPVLaw" defaultValue="new JTextArea()" name="txa_console">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPF75vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SLiJn75yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPGb5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLiJoL5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPGb5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SLiJob5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLiJor5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SLiJo75yEeSH26nNrPVLaw" name="JTextArea">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8vQf5L5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLiJpL5yEeSH26nNrPVLaw" defaultValue="new JScrollPane(txa_console)" name="scrpnl_console">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPGr5vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SLiJpb5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPHL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLiJpr5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPHL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SLiJp75yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLiJqL5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SLiJqb5yEeSH26nNrPVLaw" name="JScrollPane">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8vQf4r5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLiJqr5yEeSH26nNrPVLaw" defaultValue="new JPanel()" name="pnl_connectedUsers">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPHb5vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SLiJq75yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPH75vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLiJrL5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPH75vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SLiJrb5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLiJrr5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SLiJr75yEeSH26nNrPVLaw" name="JPanel">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8vQf4L5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLiJsL5yEeSH26nNrPVLaw" defaultValue="new JLabel(&quot;Connected Users:&quot;)" name="lblConnectedUsers">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPIL5vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SLiJsb5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPIr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLiJsr5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPIr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SLiJs75yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLiJtL5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SLiJtb5yEeSH26nNrPVLaw" name="JLabel">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8vQf3L5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLiJtr5yEeSH26nNrPVLaw" defaultValue="new DefaultListModel&lt;String>()" name="connectedModel">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPI75vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SLiJt75yEeSH26nNrPVLaw" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPJL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLiJuL5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPJr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLiJub5yEeSH26nNrPVLaw" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPJL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLiJur5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPJr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SLiJu75yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLiJvL5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SLiJvb5yEeSH26nNrPVLaw" name="DefaultListModel">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8vQf1r5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLiJvr5yEeSH26nNrPVLaw" defaultValue="new JList&lt;String>(connectedModel)" name="list_connectedUsers">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPJ75vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SLiJv75yEeSH26nNrPVLaw" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPKL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLiJwL5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPKr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLiJwb5yEeSH26nNrPVLaw" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPKL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLiJwr5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPKr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SLiJw75yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLiJxL5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SLiJxb5yEeSH26nNrPVLaw" name="JList">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8vQf3r5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLiJxr5yEeSH26nNrPVLaw" defaultValue="new JPanel()" name="pnl_parsedLanguages">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPK75vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SLiJx75yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPLb5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLiJyL5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPLb5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SLiJyb5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLiJyr5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SLiJy75yEeSH26nNrPVLaw" name="JPanel">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8vQf4L5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLiJzL5yEeSH26nNrPVLaw" defaultValue="new JLabel(&quot;Parsed Languages:&quot;)" name="lblParsedLanguages">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPLr5vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SLiJzb5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPML5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLiJzr5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPML5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SLiJz75yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLiJ0L5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SLiJ0b5yEeSH26nNrPVLaw" name="JLabel">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8vQf3L5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLiJ0r5yEeSH26nNrPVLaw" defaultValue="new DefaultListModel&lt;String>()" name="languagesModel">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPMb5vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SLiJ075yEeSH26nNrPVLaw" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPMr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLiJ1L5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPNL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLiJ1b5yEeSH26nNrPVLaw" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPMr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLiJ1r5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPNL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SLiJ175yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLiJ2L5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SLiJ2b5yEeSH26nNrPVLaw" name="DefaultListModel">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8vQf1r5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLiJ2r5yEeSH26nNrPVLaw" defaultValue="new JList&lt;String>(languagesModel)" name="list_parsedLanguages">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPNb5vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SLiJ275yEeSH26nNrPVLaw" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPNr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLiJ3L5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPOL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLiJ3b5yEeSH26nNrPVLaw" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPNr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLiJ3r5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPOL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SLiJ375yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLiJ4L5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SLiJ4b5yEeSH26nNrPVLaw" name="JList">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8vQf3r5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLiJ4r5yEeSH26nNrPVLaw" defaultValue="new JPanel()" name="pnl_receivedPrograms">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPOb5vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SLiJ475yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPO75vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLiJ5L5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPO75vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SLiJ5b5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLiJ5r5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SLiJ575yEeSH26nNrPVLaw" name="JPanel">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8vQf4L5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLiJ6L5yEeSH26nNrPVLaw" defaultValue="new JLabel(&quot;Received Programs:&quot;)" name="lblReceivedPrograms">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPPL5vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SLiJ6b5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPPr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLiJ6r5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPPr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SLiJ675yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLiJ7L5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SLiJ7b5yEeSH26nNrPVLaw" name="JLabel">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8vQf3L5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLiJ7r5yEeSH26nNrPVLaw" defaultValue="new DefaultListModel&lt;String>()" name="programsModel">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPP75vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SLiJ775yEeSH26nNrPVLaw" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPQL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLiJ8L5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPQr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLiJ8b5yEeSH26nNrPVLaw" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPQL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLiJ8r5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPQr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SLr6QL5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLr6Qb5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SLr6Qr5yEeSH26nNrPVLaw" name="DefaultListModel">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8vQf1r5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLr6Q75yEeSH26nNrPVLaw" defaultValue="new JList&lt;String>(programsModel)" name="list_programs">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPQ75vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SLr6RL5yEeSH26nNrPVLaw" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPRL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLr6Rb5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPRr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLr6Rr5yEeSH26nNrPVLaw" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPRL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLr6R75yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPRr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SLr6SL5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLr6Sb5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SLr6Sr5yEeSH26nNrPVLaw" name="JList">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8vQf3r5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLr6S75yEeSH26nNrPVLaw" defaultValue="new JLabel(&quot;Console&quot;)" name="lblConsole">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPR75vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SLr6TL5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPSb5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLr6Tb5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85hPSb5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SLr6Tr5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLr6T75yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SLr6UL5yEeSH26nNrPVLaw" name="JLabel">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8vQf3L5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLr6Ub5yEeSH26nNrPVLaw" defaultValue="new JLabel(&quot;Status Code:&quot;)" name="lblStatusCode">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85rAEL5vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SLr6Ur5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85rAEr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLr6U75yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85rAEr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SLr6VL5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLr6Vb5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SLr6Vr5yEeSH26nNrPVLaw" name="JLabel">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8vQf3L5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLr6V75yEeSH26nNrPVLaw" defaultValue="new JComboBox&lt;Integer>()" name="cmb_statusCode">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85rAE75vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SLr6WL5yEeSH26nNrPVLaw" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85rAFL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLr6Wb5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85rAFr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLr6Wr5yEeSH26nNrPVLaw" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85rAFL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLr6W75yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85rAFr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SLr6XL5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLr6Xb5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SLr6Xr5yEeSH26nNrPVLaw" name="JComboBox">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8yh2Sb5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLr6X75yEeSH26nNrPVLaw" defaultValue="new JButton(&quot;Send Status Info&quot;)" name="btnSendStatusInfo">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85rAF75vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SLr6YL5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85rAGb5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLr6Yb5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85rAGb5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SLr6Yr5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLr6Y75yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SLr6ZL5yEeSH26nNrPVLaw" name="JButton">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8vQf2L5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLr6Zb5yEeSH26nNrPVLaw" name="adapter">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85rAGr5vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SLr6Zr5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85rAG75vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLr6Z75yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85rAG75vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SLr6aL5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLr6ab5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SLr6ar5yEeSH26nNrPVLaw" name="IServerViewToModelAdapter">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UxjQr5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLr6a75yEeSH26nNrPVLaw" defaultValue="null" name="last_addr">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85rAHL5vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SLr6bL5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85rAHr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SLr6bb5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SLr6br5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SLr6b75yEeSH26nNrPVLaw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_SLr6cL5yEeSH26nNrPVLaw" comments="_SLGEYr5yEeSH26nNrPVLaw" targetConnectionVisual="_SLGEY75yEeSH26nNrPVLaw" name="initGUI">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UxjRr5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLr6cb5yEeSH26nNrPVLaw" label="-"/>
+    </operations>
+    <operations xmi:id="_SLr6cr5yEeSH26nNrPVLaw" comments="_SLGEZL5yEeSH26nNrPVLaw" targetConnectionVisual="_SLGEZb5yEeSH26nNrPVLaw" name="start">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UxjR75vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLr6c75yEeSH26nNrPVLaw" label="+"/>
+    </operations>
+    <operations xmi:id="_SLr6dL5yEeSH26nNrPVLaw" comments="_SLGEZr5yEeSH26nNrPVLaw" targetConnectionVisual="_SLGEZ75yEeSH26nNrPVLaw" name="outputText">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UxjSL5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLr6db5yEeSH26nNrPVLaw" label="+"/>
+      <parameters xmi:id="_SLr6dr5yEeSH26nNrPVLaw" name="text">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UxjSb5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SLr6d75yEeSH26nNrPVLaw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SLr6eL5yEeSH26nNrPVLaw" comments="_SLGEaL5yEeSH26nNrPVLaw" targetConnectionVisual="_SLGEab5yEeSH26nNrPVLaw" name="addConnectedClient">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UxjSr5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLr6eb5yEeSH26nNrPVLaw" label="+"/>
+      <parameters xmi:id="_SLr6er5yEeSH26nNrPVLaw" name="ipAddress">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UxjS75vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SLr6e75yEeSH26nNrPVLaw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SLr6fL5yEeSH26nNrPVLaw" comments="_SLGEar5yEeSH26nNrPVLaw" targetConnectionVisual="_SLGEa75yEeSH26nNrPVLaw" name="addLanguage">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UxjTL5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLr6fb5yEeSH26nNrPVLaw" label="+"/>
+      <parameters xmi:id="_SLr6fr5yEeSH26nNrPVLaw" name="langName">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UxjTb5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SLr6f75yEeSH26nNrPVLaw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SLr6gL5yEeSH26nNrPVLaw" comments="_SLGEbL5yEeSH26nNrPVLaw" targetConnectionVisual="_SLGEbb5yEeSH26nNrPVLaw" name="addProgram">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UxjTr5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLr6gb5yEeSH26nNrPVLaw" label="+"/>
+      <parameters xmi:id="_SLr6gr5yEeSH26nNrPVLaw" name="progName">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UxjT75vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SLr6g75yEeSH26nNrPVLaw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SLr6hL5yEeSH26nNrPVLaw" comments="_SLGEbr5yEeSH26nNrPVLaw" targetConnectionVisual="_SLPOUL5yEeSH26nNrPVLaw" name="getLocalAddress">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UxjUL5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SLr6hb5yEeSH26nNrPVLaw" label="+"/>
+      <outParameters xmi:id="_SLr6hr5yEeSH26nNrPVLaw">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8U6tML5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SLr6h75yEeSH26nNrPVLaw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SLr6iL5yEeSH26nNrPVLaw" comments="_SLPOUb5yEeSH26nNrPVLaw" targetConnectionVisual="_SLPOUr5yEeSH26nNrPVLaw" name="ServerView">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8yh2Tb5vEeSH26nNrPVLaw"/>
+      <keywords xmi:id="_SLr6ib5yEeSH26nNrPVLaw" keyword="create"/>
+      <visibility xmi:id="_SLr6ir5yEeSH26nNrPVLaw" label="+"/>
+      <outParameters xmi:id="_SLr6i75yEeSH26nNrPVLaw">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8yh2Ub5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SLr6jL5yEeSH26nNrPVLaw" name="ServerView">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UxjRb5vEeSH26nNrPVLaw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SLr6jb5yEeSH26nNrPVLaw" name="adapter">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8yh2Tr5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SLr6jr5yEeSH26nNrPVLaw" name="IServerViewToModelAdapter">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UxjQr5vEeSH26nNrPVLaw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SMlSNb5yEeSH26nNrPVLaw" comments="_SMImML5yEeSH26nNrPVLaw" targetConnectionVisual="_SMbhIL5yEeSH26nNrPVLaw" name="ServerModel" associationsIn="_SMucEL5yEeSH26nNrPVLaw" associationsOut="_SMlSI75yEeSH26nNrPVLaw _SMlSLL5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UnyVb5vEeSH26nNrPVLaw"/>
+    <visualProperties xmi:id="_SMlSNr5yEeSH26nNrPVLaw" position="14.0,31.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_SMlSN75yEeSH26nNrPVLaw" label="+"/>
+    <attributes xmi:id="_SMlSOL5yEeSH26nNrPVLaw" defaultValue="new HashSet&lt;Socket>()" name="sockets">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeN75vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SMlSOb5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeOr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SMlSOr5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeOr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SMlSO75yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SMlSPL5yEeSH26nNrPVLaw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_SMlSPb5yEeSH26nNrPVLaw" name="Socket">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8uqC5b5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SMlSPr5yEeSH26nNrPVLaw" name="adapter">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeO75vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SMlSP75yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XePL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SMlSQL5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XePL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SMlSQb5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SMlSQr5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SMlSQ75yEeSH26nNrPVLaw" name="IServerModelToViewAdapter">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UnyTL5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_SMlSRL5yEeSH26nNrPVLaw" comments="_SMbhIb5yEeSH26nNrPVLaw" targetConnectionVisual="_SMbhIr5yEeSH26nNrPVLaw" name="start">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UnyVr5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SMlSRb5yEeSH26nNrPVLaw" label="+"/>
+    </operations>
+    <operations xmi:id="_SMlSRr5yEeSH26nNrPVLaw" comments="_SMbhI75yEeSH26nNrPVLaw" targetConnectionVisual="_SMlSIL5yEeSH26nNrPVLaw" name="sendStatusMsg">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UxjQL5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SMlSR75yEeSH26nNrPVLaw" label="+"/>
+      <parameters xmi:id="_SMlSSL5yEeSH26nNrPVLaw" name="msgCode">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UxjQb5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SMlSSb5yEeSH26nNrPVLaw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SMlSSr5yEeSH26nNrPVLaw" comments="_SMlSIb5yEeSH26nNrPVLaw" targetConnectionVisual="_SMlSIr5yEeSH26nNrPVLaw" name="ServerModel">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8yYFQ75vEeSH26nNrPVLaw"/>
+      <keywords xmi:id="_SMlSS75yEeSH26nNrPVLaw" keyword="create"/>
+      <visibility xmi:id="_SMlSTL5yEeSH26nNrPVLaw" label="+"/>
+      <outParameters xmi:id="_SMlSTb5yEeSH26nNrPVLaw">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8yYFR75vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SMlSTr5yEeSH26nNrPVLaw" name="ServerModel">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UnyVb5vEeSH26nNrPVLaw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SMlST75yEeSH26nNrPVLaw" name="adapter">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8yYFRL5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SMlSUL5yEeSH26nNrPVLaw" name="IServerModelToViewAdapter">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UnyTL5vEeSH26nNrPVLaw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SNU5Db5yEeSH26nNrPVLaw" comments="_SNBXAL5yEeSH26nNrPVLaw" targetConnectionVisual="_SNLIAL5yEeSH26nNrPVLaw" name="ServerController" associationsOut="_SMucEL5yEeSH26nNrPVLaw _SM4NEL5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UnyQr5vEeSH26nNrPVLaw"/>
+    <visualProperties xmi:id="_SNU5Dr5yEeSH26nNrPVLaw" position="94.0,365.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_SNU5D75yEeSH26nNrPVLaw" label="+"/>
+    <attributes xmi:id="_SNU5EL5yEeSH26nNrPVLaw" name="model">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeM75vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SNU5Eb5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeNL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SNU5B75yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeNL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SNU5Er5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SNU5E75yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SNU5FL5yEeSH26nNrPVLaw" name="ServerModel">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UnyVb5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SNU5Fb5yEeSH26nNrPVLaw" name="view">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeNb5vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SNU5Fr5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeNr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SNU5DL5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeNr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SNU5F75yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SNU5GL5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SNU5Gb5yEeSH26nNrPVLaw" name="ServerView">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UxjRb5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_SNU5Gr5yEeSH26nNrPVLaw" comments="_SNLICb5yEeSH26nNrPVLaw" targetConnectionVisual="_SNLICr5yEeSH26nNrPVLaw" name="main" staticOperation="true">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UnyQ75vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SNU5G75yEeSH26nNrPVLaw" label="+"/>
+      <parameters xmi:id="_SNU5HL5yEeSH26nNrPVLaw" name="args">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UnyRL5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SNU5Hb5yEeSH26nNrPVLaw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SNU5Hr5yEeSH26nNrPVLaw" comments="_SNLIC75yEeSH26nNrPVLaw" targetConnectionVisual="_SNU5AL5yEeSH26nNrPVLaw" name="ServerController">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UnyR75vEeSH26nNrPVLaw"/>
+      <keywords xmi:id="_SNU5H75yEeSH26nNrPVLaw" keyword="create"/>
+      <visibility xmi:id="_SNU5IL5yEeSH26nNrPVLaw" label="+"/>
+      <outParameters xmi:id="_SNU5Ib5yEeSH26nNrPVLaw">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UnySr5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SNU5Ir5yEeSH26nNrPVLaw" name="ServerController">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UnyQr5vEeSH26nNrPVLaw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SNU5I75yEeSH26nNrPVLaw" comments="_SNU5Ab5yEeSH26nNrPVLaw" targetConnectionVisual="_SNU5Ar5yEeSH26nNrPVLaw" name="start">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UnyS75vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SNU5JL5yEeSH26nNrPVLaw" label="-"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SNw98r5yEeSH26nNrPVLaw" containment="_SNeC8L5yEeSH26nNrPVLaw" name="ProgramParsingUnit" package="_x9D2qL5xEeSH26nNrPVLaw" associationsOut="_SNw94L5yEeSH26nNrPVLaw _SNw96b5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UnyQL5vEeSH26nNrPVLaw"/>
+    <visualProperties xmi:id="_SNw9875yEeSH26nNrPVLaw" position="77.0,1226.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_SNw99L5yEeSH26nNrPVLaw" label="+"/>
+    <attributes xmi:id="_SNw99b5yEeSH26nNrPVLaw" name="programExec">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeL75vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SNw99r5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeML5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SNw9975yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeML5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SNw9-L5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SNw9-b5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SNw9-r5yEeSH26nNrPVLaw" name="ExecValue">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8O0sSb5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SNw9-75yEeSH26nNrPVLaw" name="unit">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeMb5vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SNw9_L5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeMr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SNw9_b5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeMr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SNw9_r5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SNw9_75yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SNw-AL5yEeSH26nNrPVLaw" name="LanguageParsingUnit">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UU3Yb5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_SNw-Ab5yEeSH26nNrPVLaw" comments="_SNnz8L5yEeSH26nNrPVLaw" targetConnectionVisual="_SNnz8b5yEeSH26nNrPVLaw" name="getLangUnit">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UnyQb5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SNw-Ar5yEeSH26nNrPVLaw" label="+"/>
+      <outParameters xmi:id="_SNw-A75yEeSH26nNrPVLaw">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8yYFQL5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SNw-BL5yEeSH26nNrPVLaw" name="LanguageParsingUnit">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UU3Yb5vEeSH26nNrPVLaw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SNw-Bb5yEeSH26nNrPVLaw" comments="_SNnz8r5yEeSH26nNrPVLaw" targetConnectionVisual="_SNnz875yEeSH26nNrPVLaw" name="ProgramParsingUnit">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82skor5vEeSH26nNrPVLaw"/>
+      <keywords xmi:id="_SNw-Br5yEeSH26nNrPVLaw" keyword="create"/>
+      <visibility xmi:id="_SNw-B75yEeSH26nNrPVLaw" label="+"/>
+      <outParameters xmi:id="_SNw-CL5yEeSH26nNrPVLaw">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82skp75vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SNw-Cb5yEeSH26nNrPVLaw" name="ProgramParsingUnit">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UnyQL5vEeSH26nNrPVLaw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SNw-Cr5yEeSH26nNrPVLaw" name="unit">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82sko75vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SNw-C75yEeSH26nNrPVLaw" name="LanguageParsingUnit">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UU3Yb5vEeSH26nNrPVLaw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SNw-DL5yEeSH26nNrPVLaw" name="programReader">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82skpL5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SNw-Db5yEeSH26nNrPVLaw" name="Reader">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8wcLmL5vEeSH26nNrPVLaw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SNw-Dr5yEeSH26nNrPVLaw" comments="_SNnz9L5yEeSH26nNrPVLaw" targetConnectionVisual="_SNnz9b5yEeSH26nNrPVLaw" name="executeProgram">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82skqr5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SNw-D75yEeSH26nNrPVLaw" label="+"/>
+      <parameters xmi:id="_SNw-EL5yEeSH26nNrPVLaw" name="initExecutor">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82skq75vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SNw-Eb5yEeSH26nNrPVLaw" name="ExecValue">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8O0sSb5vEeSH26nNrPVLaw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SNw-Er5yEeSH26nNrPVLaw" name="sb">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82skrL5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SNw-E75yEeSH26nNrPVLaw" name="StringBuilder">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82skqL5vEeSH26nNrPVLaw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SNw-FL5yEeSH26nNrPVLaw" comments="_SNnz9r5yEeSH26nNrPVLaw" targetConnectionVisual="_SNnz975yEeSH26nNrPVLaw" name="parseProgram">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82skrb5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SNw-Fb5yEeSH26nNrPVLaw" label="+"/>
+      <outParameters xmi:id="_SNw-Fr5yEeSH26nNrPVLaw">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82skr75vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SNw-F75yEeSH26nNrPVLaw" name="ExecValue">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8O0sSb5vEeSH26nNrPVLaw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SNw-GL5yEeSH26nNrPVLaw" name="programReader">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82skrr5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SNw-Gb5yEeSH26nNrPVLaw" name="Reader">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8wcLmL5vEeSH26nNrPVLaw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SOgkyb5yEeSH26nNrPVLaw" comments="_SN6u4L5yEeSH26nNrPVLaw" targetConnectionVisual="_SOEf4L5yEeSH26nNrPVLaw" containment="_SONp0L5yEeSH26nNrPVLaw" name="MultiUserThread" package="_x9D2qL5xEeSH26nNrPVLaw" associationsOut="_SOEf4b5yEeSH26nNrPVLaw _SOEf4r5yEeSH26nNrPVLaw _SOXa6r5yEeSH26nNrPVLaw _SOgkwL5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UeoUL5vEeSH26nNrPVLaw"/>
+    <visualProperties xmi:id="_SOgkyr5yEeSH26nNrPVLaw" position="794.0,818.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_SOgky75yEeSH26nNrPVLaw" label="+"/>
+    <attributes xmi:id="_SOgkzL5yEeSH26nNrPVLaw" defaultValue="null" name="_socket">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeIr5vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SOgkzb5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeJL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SOXa5L5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeJL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SOgkzr5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SOgkz75yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SOgk0L5yEeSH26nNrPVLaw" name="Socket">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8uqC5b5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SOgk0b5yEeSH26nNrPVLaw" name="adapter">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeJb5vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SOgk0r5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeJr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SOXa6b5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeJr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SOgk075yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SOgk1L5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SOgk1b5yEeSH26nNrPVLaw" name="IServerModelToViewAdapter">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UnyTL5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SOgk1r5yEeSH26nNrPVLaw" defaultValue="new HashMap&lt;>()" name="parsedLanguage">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeJ75vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SOgk175yEeSH26nNrPVLaw" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeKL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SOgk2L5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeKr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SOgk2b5yEeSH26nNrPVLaw" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeKL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SOgk2r5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeKr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SOgk275yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SOgk3L5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SOgk3b5yEeSH26nNrPVLaw" name="HashMap">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8uqC575vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SOgk3r5yEeSH26nNrPVLaw" defaultValue="new HashMap&lt;>()" name="parsedProgram">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeK75vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SOgk375yEeSH26nNrPVLaw" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeLL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SOgk4L5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeLr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SOgk4b5yEeSH26nNrPVLaw" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeLL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SOgk4r5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeLr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SOgk475yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SOgk5L5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SOgk5b5yEeSH26nNrPVLaw" name="HashMap">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8uqC575vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_SOgk5r5yEeSH26nNrPVLaw" comments="_SONp0b5yEeSH26nNrPVLaw" targetConnectionVisual="_SONp0r5yEeSH26nNrPVLaw" name="run">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UeoUb5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SOgk575yEeSH26nNrPVLaw" label="+"/>
+    </operations>
+    <operations xmi:id="_SOgk6L5yEeSH26nNrPVLaw" comments="_SONp075yEeSH26nNrPVLaw" targetConnectionVisual="_SONp1L5yEeSH26nNrPVLaw" name="MultiUserThread">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82izp75vEeSH26nNrPVLaw"/>
+      <keywords xmi:id="_SOgk6b5yEeSH26nNrPVLaw" keyword="create"/>
+      <visibility xmi:id="_SOgk6r5yEeSH26nNrPVLaw" label="+"/>
+      <outParameters xmi:id="_SOgk675yEeSH26nNrPVLaw">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82izrL5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SOgk7L5yEeSH26nNrPVLaw" name="MultiUserThread">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UeoUL5vEeSH26nNrPVLaw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SOgk7b5yEeSH26nNrPVLaw" name="socket">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82izqL5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SOgk7r5yEeSH26nNrPVLaw" name="Socket">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8uqC5b5vEeSH26nNrPVLaw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SOgk775yEeSH26nNrPVLaw" name="adapter">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82izqb5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SOgk8L5yEeSH26nNrPVLaw" name="IServerModelToViewAdapter">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UnyTL5vEeSH26nNrPVLaw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SOgk8b5yEeSH26nNrPVLaw" comments="_SONp1b5yEeSH26nNrPVLaw" targetConnectionVisual="_SONp1r5yEeSH26nNrPVLaw" name="processLine">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82izrb5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SOgk8r5yEeSH26nNrPVLaw" label="+"/>
+      <parameters xmi:id="_SOgk875yEeSH26nNrPVLaw" name="inputLine">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82izrr5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SOgk9L5yEeSH26nNrPVLaw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SOgk9b5yEeSH26nNrPVLaw" name="out">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82izr75vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SOgk9r5yEeSH26nNrPVLaw" name="PrintWriter">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8uqC475vEeSH26nNrPVLaw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SOgk975yEeSH26nNrPVLaw" comments="_SOXa0L5yEeSH26nNrPVLaw" targetConnectionVisual="_SOXa0b5yEeSH26nNrPVLaw" name="processExecutionMessage">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82skkL5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SOgk-L5yEeSH26nNrPVLaw" label="-"/>
+      <parameters xmi:id="_SOgk-b5yEeSH26nNrPVLaw" name="out">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82skkb5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SOgk-r5yEeSH26nNrPVLaw" name="PrintWriter">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8uqC475vEeSH26nNrPVLaw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SOgk-75yEeSH26nNrPVLaw" name="map">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82skkr5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SOgk_L5yEeSH26nNrPVLaw" name="JSONObject">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8uzz575vEeSH26nNrPVLaw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SOgk_b5yEeSH26nNrPVLaw" name="initCode">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82skk75vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SOgk_r5yEeSH26nNrPVLaw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SOgk_75yEeSH26nNrPVLaw" comments="_SOXa0r5yEeSH26nNrPVLaw" targetConnectionVisual="_SOXa075yEeSH26nNrPVLaw" name="processProgramMessage">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82sklL5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SOglAL5yEeSH26nNrPVLaw" label="-"/>
+      <parameters xmi:id="_SOglAb5yEeSH26nNrPVLaw" name="out">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82sklb5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SOglAr5yEeSH26nNrPVLaw" name="PrintWriter">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8uqC475vEeSH26nNrPVLaw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SOglA75yEeSH26nNrPVLaw" name="map">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82sklr5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SOglBL5yEeSH26nNrPVLaw" name="JSONObject">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8uzz575vEeSH26nNrPVLaw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SOglBb5yEeSH26nNrPVLaw" name="program">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82skl75vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SOglBr5yEeSH26nNrPVLaw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SOglB75yEeSH26nNrPVLaw" comments="_SOXa1L5yEeSH26nNrPVLaw" targetConnectionVisual="_SOXa1b5yEeSH26nNrPVLaw" name="processLanguageMessage">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82skmL5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SOglCL5yEeSH26nNrPVLaw" label="-"/>
+      <parameters xmi:id="_SOglCb5yEeSH26nNrPVLaw" name="out">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82skmb5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SOglCr5yEeSH26nNrPVLaw" name="PrintWriter">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8uqC475vEeSH26nNrPVLaw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SOglC75yEeSH26nNrPVLaw" name="map">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82skmr5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SOglDL5yEeSH26nNrPVLaw" name="JSONObject">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8uzz575vEeSH26nNrPVLaw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SOglDb5yEeSH26nNrPVLaw" name="bnf">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82skm75vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SOglDr5yEeSH26nNrPVLaw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SOglD75yEeSH26nNrPVLaw" comments="_SOXa1r5yEeSH26nNrPVLaw" targetConnectionVisual="_SOXa175yEeSH26nNrPVLaw" name="sendStatusMsg">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82sknL5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SOglEL5yEeSH26nNrPVLaw" label="-"/>
+      <parameters xmi:id="_SOglEb5yEeSH26nNrPVLaw" name="out">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82sknb5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SOglEr5yEeSH26nNrPVLaw" name="PrintWriter">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8uqC475vEeSH26nNrPVLaw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SOglE75yEeSH26nNrPVLaw" name="code">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82sknr5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SOglFL5yEeSH26nNrPVLaw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SOglFb5yEeSH26nNrPVLaw" name="statusMsg">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82skn75vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SOglFr5yEeSH26nNrPVLaw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SOglF75yEeSH26nNrPVLaw" name="map">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82skoL5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SOglGL5yEeSH26nNrPVLaw" name="JSONObject">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8uzz575vEeSH26nNrPVLaw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SPjtrr5yEeSH26nNrPVLaw" comments="_SO0GwL5yEeSH26nNrPVLaw" targetConnectionVisual="_SO9QsL5yEeSH26nNrPVLaw" containment="_SPHBsL5yEeSH26nNrPVLaw" name="LanguageParsingUnit" package="_x9D2qL5xEeSH26nNrPVLaw" associationsIn="_SNw96b5yEeSH26nNrPVLaw" associationsOut="_SO9Qsb5yEeSH26nNrPVLaw _SPZ8qb5yEeSH26nNrPVLaw _SPZ8sr5yEeSH26nNrPVLaw _SPjtoL5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UU3Yb5vEeSH26nNrPVLaw"/>
+    <visualProperties xmi:id="_SPjtr75yEeSH26nNrPVLaw" position="11.0,811.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_SPjtsL5yEeSH26nNrPVLaw" label="+"/>
+    <attributes xmi:id="_SPjtsb5yEeSH26nNrPVLaw" name="adapter">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeE75vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SPjtsr5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeFL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SPjts75yEeSH26nNrPVLaw" name="Annotations">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeFb5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SPZ8p75yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeFL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SPZ8qL5yEeSH26nNrPVLaw" name="Annotations">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeFb5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SPjttL5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SPjttb5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SPjttr5yEeSH26nNrPVLaw" name="IServerModelToViewAdapter">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UnyTL5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SPjtt75yEeSH26nNrPVLaw" name="lexerFactory">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeGL5vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SPjtuL5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeGb5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SPjtub5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeGb5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SPjtur5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SPjtu75yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SPjtvL5yEeSH26nNrPVLaw" name="LexerFactory">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8WHAEr5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SPjtvb5yEeSH26nNrPVLaw" name="parseResult">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeGr5vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SPjtvr5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeG75vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SPjtv75yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeG75vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SPjtwL5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SPjtwb5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SPjtwr5yEeSH26nNrPVLaw" name="IGrammarSymbol">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8SPztL5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SPjtw75yEeSH26nNrPVLaw" name="nonTerminalsMap">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeHL5vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SPjtxL5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeHb5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SPjtxb5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeHb5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SPjtxr5yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SPjtx75yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SPjtyL5yEeSH26nNrPVLaw" name="IGrammarSymbol">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8SPztL5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SPjtyb5yEeSH26nNrPVLaw" name="opMap">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeH75vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SPjtyr5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_85XeIL5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SPjty75yEeSH26nNrPVLaw" label="-"/>
+      <cardinality xmi:id="_SPjtzL5yEeSH26nNrPVLaw" label="1" max="1" min="1"/>
+      <type xmi:id="_SPjtzb5yEeSH26nNrPVLaw" name="WellKnownOperator">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8RgM0b5vEeSH26nNrPVLaw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_SPjtzr5yEeSH26nNrPVLaw" comments="_SPHBsb5yEeSH26nNrPVLaw" targetConnectionVisual="_SPHBsr5yEeSH26nNrPVLaw" name="getOpMap">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UU3Yr5vEeSH26nNrPVLaw"/>
+      <stereotypes xmi:id="_SPjtz75yEeSH26nNrPVLaw" name="Generics">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UU3Y75vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SPjt0L5yEeSH26nNrPVLaw" label="+"/>
+      <outParameters xmi:id="_SPjt0b5yEeSH26nNrPVLaw">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82izpr5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SPjt0r5yEeSH26nNrPVLaw" name="Map">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8uqC675vEeSH26nNrPVLaw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SPjt075yEeSH26nNrPVLaw" name="LanguageParsingUnit">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82izlL5vEeSH26nNrPVLaw"/>
+      <keywords xmi:id="_SPjt1L5yEeSH26nNrPVLaw" keyword="create"/>
+      <stereotypes xmi:id="_SPjt1b5yEeSH26nNrPVLaw" name="LegacyStyledElement">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82izmr5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SPjt1r5yEeSH26nNrPVLaw" name="Annotations">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82iznb5vEeSH26nNrPVLaw"/>
+      </stereotypes>
+      <visibility xmi:id="_SPjt175yEeSH26nNrPVLaw" label="+"/>
+      <outParameters xmi:id="_SPjt2L5yEeSH26nNrPVLaw">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82izm75vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SPjt2b5yEeSH26nNrPVLaw" name="LanguageParsingUnit">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UU3Yb5vEeSH26nNrPVLaw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SPjt2r5yEeSH26nNrPVLaw" name="adapter">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82izlb5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SPjt275yEeSH26nNrPVLaw" name="IServerModelToViewAdapter">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UnyTL5vEeSH26nNrPVLaw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPjt3L5yEeSH26nNrPVLaw" name="langReader">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82izlr5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SPjt3b5yEeSH26nNrPVLaw" name="Reader">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8wcLmL5vEeSH26nNrPVLaw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SPjt3r5yEeSH26nNrPVLaw" name="opMap">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82izl75vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SPjt375yEeSH26nNrPVLaw" name="Map">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8uqC675vEeSH26nNrPVLaw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SPjt4L5yEeSH26nNrPVLaw" comments="_SPQLoL5yEeSH26nNrPVLaw" targetConnectionVisual="_SPQLob5yEeSH26nNrPVLaw" name="getRegexTokenizer">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82izoL5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SPjt4b5yEeSH26nNrPVLaw" label="-"/>
+      <outParameters xmi:id="_SPjt4r5yEeSH26nNrPVLaw">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82izor5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SPjt475yEeSH26nNrPVLaw" name="ITokenizer">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8V0FF75vEeSH26nNrPVLaw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SPjt5L5yEeSH26nNrPVLaw" name="reader">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82izob5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SPjt5b5yEeSH26nNrPVLaw" name="Reader">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8wcLmL5vEeSH26nNrPVLaw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SPjt5r5yEeSH26nNrPVLaw" comments="_SPQLor5yEeSH26nNrPVLaw" targetConnectionVisual="_SPQLo75yEeSH26nNrPVLaw" name="parseProgram">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82izo75vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_SPjt575yEeSH26nNrPVLaw" label="+"/>
+      <outParameters xmi:id="_SPjt6L5yEeSH26nNrPVLaw">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82izpb5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SPjt6b5yEeSH26nNrPVLaw" name="IGrammarSymbol">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8SPztL5vEeSH26nNrPVLaw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SPjt6r5yEeSH26nNrPVLaw" name="reader">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_82izpL5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_SPjt675yEeSH26nNrPVLaw" name="Reader">
+          <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8wcLmL5vEeSH26nNrPVLaw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_biZyAL5yEeSH26nNrPVLaw" sourceConnectionVisual="_biZyAb5yEeSH26nNrPVLaw" text="The server model to view adapter&#xD;&#xA;@author Fabio-CSM&#xD;&#xA; *" item="_biZyAr5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac5L5vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_biss8L5yEeSH26nNrPVLaw" sourceConnectionVisual="_bi2d8L5yEeSH26nNrPVLaw" text="Adapter which make the connections from view to model.&#xD;&#xA;@author Fabio-CSM&#xD;&#xA; *" item="_bi2d8b5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_87Ac6b5vEeSH26nNrPVLaw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_biZyAr5yEeSH26nNrPVLaw" comments="_biZyAL5yEeSH26nNrPVLaw" targetConnectionVisual="_biZyAb5yEeSH26nNrPVLaw" name="IServerModelToViewAdapter" associationsIn="_SO9Qsb5yEeSH26nNrPVLaw _SOEf4r5yEeSH26nNrPVLaw _SMlSLL5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UnyTL5vEeSH26nNrPVLaw"/>
+    <visualProperties xmi:id="_biZyA75yEeSH26nNrPVLaw" position="418.0,-272.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_biZyBL5yEeSH26nNrPVLaw" label="+"/>
+    <operations xmi:id="_biZyBb5yEeSH26nNrPVLaw" name="outputText">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UnyTb5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_biZyBr5yEeSH26nNrPVLaw" label="+"/>
+      <parameters xmi:id="_biZyB75yEeSH26nNrPVLaw" name="text">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UnyTr5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_biZyCL5yEeSH26nNrPVLaw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_biZyCb5yEeSH26nNrPVLaw" name="addConnectedClient">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UnyT75vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_biZyCr5yEeSH26nNrPVLaw" label="+"/>
+      <parameters xmi:id="_biZyC75yEeSH26nNrPVLaw" name="ipAddress">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UnyUL5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_biZyDL5yEeSH26nNrPVLaw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_biZyDb5yEeSH26nNrPVLaw" name="addLanguage">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UnyUb5vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_biZyDr5yEeSH26nNrPVLaw" label="+"/>
+      <parameters xmi:id="_biZyD75yEeSH26nNrPVLaw" name="langName">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UnyUr5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_biZyEL5yEeSH26nNrPVLaw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_biZyEb5yEeSH26nNrPVLaw" name="addProgram">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UnyU75vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_biZyEr5yEeSH26nNrPVLaw" label="+"/>
+      <parameters xmi:id="_biZyE75yEeSH26nNrPVLaw" name="progName">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UnyVL5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_biZyFL5yEeSH26nNrPVLaw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_bi2d8b5yEeSH26nNrPVLaw" comments="_biss8L5yEeSH26nNrPVLaw" targetConnectionVisual="_bi2d8L5yEeSH26nNrPVLaw" name="IServerViewToModelAdapter" associationsIn="_SLiJdr5yEeSH26nNrPVLaw">
+    <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UxjQr5vEeSH26nNrPVLaw"/>
+    <visualProperties xmi:id="_bi2d8r5yEeSH26nNrPVLaw" position="661.0,-70.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bi2d875yEeSH26nNrPVLaw" label="+"/>
+    <operations xmi:id="_bi2d9L5yEeSH26nNrPVLaw" name="sendStatusMsg">
+      <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UxjQ75vEeSH26nNrPVLaw"/>
+      <visibility xmi:id="_bi2d9b5yEeSH26nNrPVLaw" label="+"/>
+      <parameters xmi:id="_bi2d9r5yEeSH26nNrPVLaw" name="msg">
+        <modelElement href="ExtVisitor%20Parsing%20BNF.uml#_8UxjRL5vEeSH26nNrPVLaw"/>
+        <type xmi:id="_bi2d975yEeSH26nNrPVLaw" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

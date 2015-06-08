@@ -1,0 +1,9 @@
+print + 3 4
+set string greeting "Hi!"
+set string four ++ "" 4
+set num counter 5
+set string label "Number of things: "
+print ++ string label num counter
+set num product bunny 3 + 5 7
+print string product
+print num counterer

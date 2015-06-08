@@ -1,0 +1,29 @@
+# BNF Lexer rules
+
+############################
+# Special delimiting rules
+
+# "*" at the beginning of a terminal name indicates that token
+# should both be a delimiter and be excluded from the token stream.
+
+*WHITESPACE: [ \t]+
+
+###########################
+# Normal delimiting rules
+
+# "." at the beginning of a terminal name indicates that
+# token should both be a delimiter and appear in the token stream.
+
+.Alt:      \|
+.Linefeed: [\r\n]+
+.Produces: ::=
+
+############
+# Literals 
+
+@QuotedStringToken: "(?<QuotedStringToken>[[^\\"]|\\.]*)"
+
+###############
+# Identifiers 
+
+Id: [_A-Za-z]\w*

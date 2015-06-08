@@ -1,0 +1,3 @@
+Expr ::= Term "]"
+Term ::= Num | SubExpr
+SubExpr ::= "[" Expr 

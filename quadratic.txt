@@ -1,0 +1,5 @@
+= root ^ - * b b * 4 * a c 0.5
+= small / - root b * 2 a
+@ : "Small x: " small
+= large / + root b * 2 a
+@ : "Large x: " large

@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_6AIJEL4MEeStppH-yzWLDw" name="Exec">
+    <eAnnotations xmi:id="_Atk4g74NEeStppH-yzWLDw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_Atk4hL4NEeStppH-yzWLDw" source="codegen">
+        <details xmi:id="_Atk4hb4NEeStppH-yzWLDw" key="codegenDirectory" value="/HW03/src"/>
+        <details xmi:id="_BLPE4L4NEeStppH-yzWLDw" key="AssociatedSourceCode" value="/HW03/src/client/model/exec/IOperand.java;572774346/1;/HW03/src/client/model/exec/ExecTester.java;2919002291/1;/HW03/src/client/model/exec/ExecValue.java;2877082800/1;/HW03/src/client/model/exec/ExecVisitor.java;1169238202/1;/HW03/src/client/model/exec/IExecRunnable.java;4078802372/1;/HW03/src/client/model/exec/BiOperator.java;1084368698/1;/HW03/src/client/model/exec/IOperator.java;1434620707/1;/HW03/src/client/model/exec/NumValue.java;3229261407/1;/HW03/src/client/model/exec/StringValue.java;2590728932/1;/HW03/src/client/model/exec/SymbolValue.java;2043479592/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_AtupgL4NEeStppH-yzWLDw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_Atupgb4NEeStppH-yzWLDw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_Atupgr4NEeStppH-yzWLDw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_Atupg74NEeStppH-yzWLDw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_AtuphL4NEeStppH-yzWLDw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_Atuphb4NEeStppH-yzWLDw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_Atuphr4NEeStppH-yzWLDw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_Atuph74NEeStppH-yzWLDw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_AtupiL4NEeStppH-yzWLDw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Arf04L4NEeStppH-yzWLDw" name="client">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Arf04b4NEeStppH-yzWLDw" name="model">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Aryv0L4NEeStppH-yzWLDw" name="exec">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_Atk4gL4NEeStppH-yzWLDw" name="IOperand">
+            <ownedComment xmi:id="_AzPboL4NEeStppH-yzWLDw">
+              <body>An operand in the execution of a program&#xD;
+@author Derek&#xD;
+ *</body>
+            </ownedComment>
+            <ownedOperation xmi:id="_AxwN4r4NEeStppH-yzWLDw" name="run" method="_Ay8gsL4NEeStppH-yzWLDw">
+              <eAnnotations xmi:id="_AxwN5L4NEeStppH-yzWLDw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_AxwN5b4NEeStppH-yzWLDw" key="defender"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_AxwN474NEeStppH-yzWLDw" name="symbolTable" type="_Awj7EL4NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_AxwN5r4NEeStppH-yzWLDw" type="_Atk4gL4NEeStppH-yzWLDw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_At4agL4NEeStppH-yzWLDw" name="ExecTester">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AzFqob4NEeStppH-yzWLDw" name="main" specification="_At4agb4NEeStppH-yzWLDw">
+              <ownedParameter xmi:id="_AzFqor4NEeStppH-yzWLDw" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AzFqo74NEeStppH-yzWLDw" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>Logger.setOut();&#xD;
+		ClientModel model = new ClientModel(new IModelToViewAdapter() {&#xD;
+			&#xD;
+			@Override&#xD;
+			public void outputText(String text) {&#xD;
+				System.out.println(text);&#xD;
+			}&#xD;
+		});&#xD;
+		&#xD;
+		model.parseLanguage(new File(&quot;lang.txt&quot;));&#xD;
+		model.parseProgram(new File(&quot;program.txt&quot;));&#xD;
+		model.executeProgram();&#xD;
+		&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_At4agb4NEeStppH-yzWLDw" name="main" isStatic="true" method="_AzFqob4NEeStppH-yzWLDw">
+              <ownedParameter xmi:id="_At4agr4NEeStppH-yzWLDw" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AuBkcL4NEeStppH-yzWLDw" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_AuBkcb4NEeStppH-yzWLDw" name="ExecValue">
+            <ownedComment xmi:id="_AzPbob4NEeStppH-yzWLDw">
+              <body>An execution value that is created and passed along a program's execution&#xD;
+@author Derek&#xD;
+ *</body>
+            </ownedComment>
+            <ownedAttribute xmi:id="_Ayplw74NEeStppH-yzWLDw" name="op" visibility="private" isLeaf="true" type="_AuxLUL4NEeStppH-yzWLDw" isReadOnly="true" association="_AzZMo74NEeStppH-yzWLDw"/>
+            <ownedAttribute xmi:id="_Ayplxb4NEeStppH-yzWLDw" name="operands" visibility="private" isLeaf="true" type="_Atk4gL4NEeStppH-yzWLDw" isOrdered="true" isReadOnly="true" association="_AzZMpr4NEeStppH-yzWLDw">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ayplxr4NEeStppH-yzWLDw" value="*"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_Ayplx74NEeStppH-yzWLDw" value="new ArrayList&lt;>()"/>
+            </ownedAttribute>
+            <interfaceRealization xmi:id="_AxJw8L4NEeStppH-yzWLDw" client="_AuBkcb4NEeStppH-yzWLDw" supplier="_Atk4gL4NEeStppH-yzWLDw" contract="_Atk4gL4NEeStppH-yzWLDw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AzFqpL4NEeStppH-yzWLDw" name="ExecValue" specification="_AxJw8b4NEeStppH-yzWLDw">
+              <ownedParameter xmi:id="_AzFqpb4NEeStppH-yzWLDw" name="operand" type="_Atk4gL4NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_AzFqpr4NEeStppH-yzWLDw" type="_AuBkcb4NEeStppH-yzWLDw" direction="return"/>
+              <language>java</language>
+              <body>op = IOperator.NULL_OP;&#xD;
+		operands.add(operand);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AzFqp74NEeStppH-yzWLDw" name="ExecValue" specification="_AxJw9r4NEeStppH-yzWLDw">
+              <ownedParameter xmi:id="_AzFqqL4NEeStppH-yzWLDw" name="op" type="_AuxLUL4NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_AzFqqb4NEeStppH-yzWLDw" type="_AuBkcb4NEeStppH-yzWLDw" direction="return"/>
+              <language>java</language>
+              <body>this.op = op;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AzFqqr4NEeStppH-yzWLDw" name="ExecValue" specification="_AxTh8L4NEeStppH-yzWLDw">
+              <ownedParameter xmi:id="_AzFqq74NEeStppH-yzWLDw" name="v1" type="_AuBkcb4NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_AzFqrL4NEeStppH-yzWLDw" name="v2" type="_AuBkcb4NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_AzFqrb4NEeStppH-yzWLDw" type="_AuBkcb4NEeStppH-yzWLDw" direction="return"/>
+              <language>java</language>
+              <body>// choose only non-null value, error if there are two&#xD;
+		if (v1.op == IOperator.NULL_OP) {&#xD;
+			this.op = v2.op;&#xD;
+		} else if (v2.op == IOperator.NULL_OP) {&#xD;
+			this.op = v1.op;&#xD;
+		} else {&#xD;
+			throw new RuntimeException(&quot;Conflicting ops: &quot; + v1.op + &quot;, &quot; + v2.op);&#xD;
+		}&#xD;
+		// take all operands&#xD;
+		operands.addAll(v1.operands);&#xD;
+		operands.addAll(v2.operands);&#xD;
+		&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AzFqrr4NEeStppH-yzWLDw" name="ExecValue" specification="_Ax5X0b4NEeStppH-yzWLDw">
+              <ownedParameter xmi:id="_AzFqr74NEeStppH-yzWLDw" name="operands" type="_Aw22Bb4NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_AzFqsL4NEeStppH-yzWLDw" type="_AuBkcb4NEeStppH-yzWLDw" direction="return"/>
+              <language>java</language>
+              <body>op = IOperator.NULL_OP;&#xD;
+		this.operands.addAll(operands);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AzFqsb4NEeStppH-yzWLDw" name="ExecValue" specification="_Ax5X174NEeStppH-yzWLDw">
+              <ownedParameter xmi:id="_AzFqsr4NEeStppH-yzWLDw" name="op" type="_AuxLUL4NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_AzFqs74NEeStppH-yzWLDw" name="operands" type="_Aw22Bb4NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_AzFqtL4NEeStppH-yzWLDw" type="_AuBkcb4NEeStppH-yzWLDw" direction="return"/>
+              <language>java</language>
+              <body>this.op = op;&#xD;
+		this.operands.addAll(operands);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AzFqtb4NEeStppH-yzWLDw" name="ExecValue" specification="_AuLVcL4NEeStppH-yzWLDw">
+              <ownedParameter xmi:id="_AzFqtr4NEeStppH-yzWLDw" type="_AuBkcb4NEeStppH-yzWLDw" direction="return"/>
+              <language>java</language>
+              <body>this.op = IOperator.NULL_OP;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AzFqt74NEeStppH-yzWLDw" name="execute" specification="_AuLVdL4NEeStppH-yzWLDw">
+              <ownedParameter xmi:id="_AzFquL4NEeStppH-yzWLDw" type="_AuBkcb4NEeStppH-yzWLDw" direction="return"/>
+              <language>java</language>
+              <body>return op.execute(operands); &#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AzFqub4NEeStppH-yzWLDw" name="run" specification="_Ax5X3r4NEeStppH-yzWLDw">
+              <ownedParameter xmi:id="_AzFqur4NEeStppH-yzWLDw" name="symbolTable" type="_Awj7EL4NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_AzFqu74NEeStppH-yzWLDw" type="_Atk4gL4NEeStppH-yzWLDw" direction="return"/>
+              <language>java</language>
+              <body>System.out.println(&quot;Running &quot; + this);&#xD;
+		for (IOperand operand : operands)&#xD;
+			operand.run(symbolTable);&#xD;
+		return null;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AzFqvL4NEeStppH-yzWLDw" name="toString" specification="_AuLVdb4NEeStppH-yzWLDw">
+              <ownedParameter xmi:id="_AzFqvb4NEeStppH-yzWLDw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return &quot;ExecValue(&quot; + op + &quot;, &quot; + operands + &quot;)&quot;;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_AuLVcL4NEeStppH-yzWLDw" name="ExecValue" method="_AzFqtb4NEeStppH-yzWLDw">
+              <eAnnotations xmi:id="_AuLVcb4NEeStppH-yzWLDw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_AuLVcr4NEeStppH-yzWLDw" key="create"/>
+              </eAnnotations>
+              <ownedComment xmi:id="_AzPbp74NEeStppH-yzWLDw">
+                <body>Create an empty ExecValue</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_AuLVc74NEeStppH-yzWLDw" type="_AuBkcb4NEeStppH-yzWLDw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_AuLVdL4NEeStppH-yzWLDw" name="execute" method="_AzFqt74NEeStppH-yzWLDw">
+              <ownedComment xmi:id="_AzPbqL4NEeStppH-yzWLDw">
+                <body>Execute the operator using the given symbol table&#xD;
+	 * @param symbolTable the symbol table of the program&#xD;
+	 * @return the result of the operator's execution on the operands</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_AxTh9r4NEeStppH-yzWLDw" type="_AuBkcb4NEeStppH-yzWLDw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_AuLVdb4NEeStppH-yzWLDw" name="toString" method="_AzFqvL4NEeStppH-yzWLDw">
+              <ownedComment xmi:id="_AzPbqr4NEeStppH-yzWLDw">
+                <body>@return String containing the operator and operands</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_AuLVdr4NEeStppH-yzWLDw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_AxJw8b4NEeStppH-yzWLDw" name="ExecValue" method="_AzFqpL4NEeStppH-yzWLDw">
+              <eAnnotations xmi:id="_AxJw874NEeStppH-yzWLDw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_AxJw9L4NEeStppH-yzWLDw" key="create"/>
+              </eAnnotations>
+              <ownedComment xmi:id="_AzPbor4NEeStppH-yzWLDw">
+                <body>Creates a value containing a single operand&#xD;
+	 * @param operand single operand of the value</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_AxJw8r4NEeStppH-yzWLDw" name="operand" type="_Atk4gL4NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_AxJw9b4NEeStppH-yzWLDw" type="_AuBkcb4NEeStppH-yzWLDw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_AxJw9r4NEeStppH-yzWLDw" name="ExecValue" method="_AzFqp74NEeStppH-yzWLDw">
+              <eAnnotations xmi:id="_AxJw-L4NEeStppH-yzWLDw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_AxJw-b4NEeStppH-yzWLDw" key="create"/>
+              </eAnnotations>
+              <ownedComment xmi:id="_AzPbo74NEeStppH-yzWLDw">
+                <body>Creates a value with the given operator, and no operands yet&#xD;
+	 * @param op operator of the value</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_AxJw974NEeStppH-yzWLDw" name="op" type="_AuxLUL4NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_AxJw-r4NEeStppH-yzWLDw" type="_AuBkcb4NEeStppH-yzWLDw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_AxTh8L4NEeStppH-yzWLDw" name="ExecValue" method="_AzFqqr4NEeStppH-yzWLDw">
+              <eAnnotations xmi:id="_AxTh874NEeStppH-yzWLDw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_AxTh9L4NEeStppH-yzWLDw" key="create"/>
+              </eAnnotations>
+              <ownedComment xmi:id="_AzPbpL4NEeStppH-yzWLDw">
+                <body>Creates a value that combines properties of the two values&#xD;
+	 * @param v1 first value&#xD;
+	 * @param v2 second value</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_AxTh8b4NEeStppH-yzWLDw" name="v1" type="_AuBkcb4NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_AxTh8r4NEeStppH-yzWLDw" name="v2" type="_AuBkcb4NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_AxTh9b4NEeStppH-yzWLDw" type="_AuBkcb4NEeStppH-yzWLDw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Ax5X0b4NEeStppH-yzWLDw" name="ExecValue" method="_AzFqrr4NEeStppH-yzWLDw">
+              <eAnnotations xmi:id="_Ax5X074NEeStppH-yzWLDw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_Ax5X1L4NEeStppH-yzWLDw" key="create"/>
+              </eAnnotations>
+              <ownedComment xmi:id="_AzPbpb4NEeStppH-yzWLDw">
+                <body>Create an ExecValue from many operands&#xD;
+	 * @param operands the many operands of the value</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_Ax5X0r4NEeStppH-yzWLDw" name="operands" type="_Aw22Bb4NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_Ax5X1b4NEeStppH-yzWLDw" type="_AuBkcb4NEeStppH-yzWLDw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Ax5X174NEeStppH-yzWLDw" name="ExecValue" method="_AzFqsb4NEeStppH-yzWLDw">
+              <eAnnotations xmi:id="_Ax5X2r4NEeStppH-yzWLDw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_Ax5X274NEeStppH-yzWLDw" key="create"/>
+              </eAnnotations>
+              <ownedComment xmi:id="_AzPbpr4NEeStppH-yzWLDw">
+                <body>Create an ExecValue from an operator and many operands&#xD;
+	 * @param op the operator&#xD;
+	 * @param operands the many operands</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_Ax5X2L4NEeStppH-yzWLDw" name="op" type="_AuxLUL4NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_Ax5X2b4NEeStppH-yzWLDw" name="operands" type="_Aw22Bb4NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_Ax5X3L4NEeStppH-yzWLDw" type="_AuBkcb4NEeStppH-yzWLDw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Ax5X3r4NEeStppH-yzWLDw" name="run" method="_AzFqub4NEeStppH-yzWLDw">
+              <ownedComment xmi:id="_AzPbqb4NEeStppH-yzWLDw">
+                <body>Returns the ExecValue created by running the AST represented by this ExecValue&#xD;
+	 * @param symbolTable the symbol table to run on&#xD;
+	 * @return the resulting value</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_Ax5X374NEeStppH-yzWLDw" name="symbolTable" type="_Awj7EL4NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_Ax5X4L4NEeStppH-yzWLDw" type="_Atk4gL4NEeStppH-yzWLDw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_AuUfYL4NEeStppH-yzWLDw" name="ExecVisitor">
+            <ownedComment xmi:id="_AzPbq74NEeStppH-yzWLDw">
+              <body>A visitor that is executed by a parsed BNF tree to execute the program that the tree defines&#xD;
+@author Derek&#xD;
+ *</body>
+            </ownedComment>
+            <generalization xmi:id="_AyDI174NEeStppH-yzWLDw" general="_AxTh_b4NEeStppH-yzWLDw"/>
+            <ownedAttribute xmi:id="_Ayplyb4NEeStppH-yzWLDw" name="termHelper" visibility="private" type="_AxTh_b4NEeStppH-yzWLDw" association="_AzZMqb4NEeStppH-yzWLDw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AzFqvr4NEeStppH-yzWLDw" name="ExecVisitor" specification="_Ax5X4r4NEeStppH-yzWLDw">
+              <ownedParameter xmi:id="_AzFqv74NEeStppH-yzWLDw" name="opMap" type="_Awj7EL4NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_AzFqwL4NEeStppH-yzWLDw" name="printer" type="_AxTh-b4NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_AzFqwb4NEeStppH-yzWLDw" type="_AuUfYL4NEeStppH-yzWLDw" direction="return"/>
+              <language>java</language>
+              <body>// by default, throw an error, as it indicates something has gone terribly wrong&#xD;
+		super((index, host, params) -> {&#xD;
+			throw new RuntimeException(&quot;Bad index: &quot; + index);&#xD;
+		});&#xD;
+		&#xD;
+		// this helper visitor visits terminal symbols, reacting according to their lexemes&#xD;
+		// the default is to do nothing, as any unrecognized symbol is assumed to only exist for the purposes&#xD;
+		// of structuring the BNF&#xD;
+		termHelper = new AGramSymVisitor&lt;ExecValue, Void>((i, h, p) -> new ExecValue() ) {&#xD;
+			&#xD;
+			/**&#xD;
+			 * Helper function for easily setting operations on doubles&#xD;
+			 * @param operator the operator to define&#xD;
+			 * @param operation the operation on doubles corresponding to the operator&#xD;
+			 */&#xD;
+			private void setMathCmd(WellKnownOperator operator, DoubleBinaryOperator operation) {&#xD;
+				String id = opMap.get(operator);&#xD;
+				if (id == null)&#xD;
+					throw new RuntimeException(&quot;Missing definition for operator &quot; + operator);&#xD;
+				setCmd(opMap.get(operator), (index, host, params) -> {&#xD;
+					return new ExecValue(new BiOperator&lt;>(operator, NumValue.class, (a,b) -> new NumValue(operation.applyAsDouble(a.getNum(), b.getNum()))));&#xD;
+				});&#xD;
+			}&#xD;
+			&#xD;
+			// init block&#xD;
+			{&#xD;
+				setCmd(opMap.get(ASSIGN), (index, host, params) -> {&#xD;
+					// the assignment operator, which puts a value in the symbol table&#xD;
+					return new ExecValue(new IOperator() {&#xD;
+&#xD;
+						@Override&#xD;
+						public ExecValue execute(&#xD;
+								List&lt;IOperand> operands) {&#xD;
+							if (operands.size() != 2) {&#xD;
+								throw new IllegalArgumentException(&quot;Invalid operand count for assignment: &quot; + operands);&#xD;
+							}&#xD;
+							return new ExecValue(new IOperand() {&#xD;
+&#xD;
+								@Override&#xD;
+								public IOperand run(&#xD;
+										Map&lt;String, IOperand> symbolTable) {&#xD;
+&#xD;
+									if (!(operands.get(0) instanceof SymbolValue) ) {&#xD;
+										throw new RuntimeException(&quot;Cannot assign anything to &quot; + operands.get(0).getClass() + &quot; &quot; + operands.get(0));&#xD;
+									}&#xD;
+									symbolTable.put(operands.get(0).toString(), operands.get(1).run(symbolTable));&#xD;
+									return operands.get(1); // languages are allowed to reuse results of assignment&#xD;
+								}&#xD;
+								public String toString() {&#xD;
+									return &quot;ASSIGN &quot; + operands.get(1) + &quot; to &quot; + operands.get(0);&#xD;
+								}&#xD;
+								&#xD;
+							});&#xD;
+						}&#xD;
+						&#xD;
+&#xD;
+						public String toString() {&#xD;
+							return ASSIGN.toString();&#xD;
+						}&#xD;
+					});&#xD;
+				});&#xD;
+				&#xD;
+				setCmd(opMap.get(PRINT), (index, host, params) -> {&#xD;
+					// print a value to the established printer&#xD;
+					return new ExecValue(new IOperator() {&#xD;
+&#xD;
+						@Override&#xD;
+						public ExecValue execute(List&lt;IOperand> operands) {&#xD;
+							if (operands.size() != 1) {&#xD;
+								throw new IllegalArgumentException(&quot;Invalid operand count for print: &quot; + operands);&#xD;
+							}&#xD;
+							return new ExecValue(new IOperand() {&#xD;
+								public IOperand run(Map&lt;String, IOperand> symbolTable) {&#xD;
+									IOperand result = operands.get(0).run(symbolTable);&#xD;
+									printer.accept(result.toString());&#xD;
+									return result;&#xD;
+								}&#xD;
+								public String toString() {&#xD;
+									return &quot;PRINT &quot; + operands.get(0);&#xD;
+								}&#xD;
+							});&#xD;
+						}&#xD;
+						&#xD;
+						public String toString() {&#xD;
+							return PRINT.toString();&#xD;
+						}&#xD;
+						&#xD;
+					});&#xD;
+				});&#xD;
+				&#xD;
+				// set the various math commands, easy as pi&#xD;
+				setMathCmd(SUMMATION, Double::sum);&#xD;
+				setMathCmd(SUBTRACTION, (a,b) -> a - b);&#xD;
+				setMathCmd(MULTIPLICATION, (a,b) -> a * b);&#xD;
+				setMathCmd(DIVISION, (a,b) -> a / b);&#xD;
+				setMathCmd(EXPONENTIATION, Math::pow);&#xD;
+				setMathCmd(MAX, Double::max);&#xD;
+				setMathCmd(MIN, Double::min);&#xD;
+				setMathCmd(MODULO, (a,b) -> a % b);&#xD;
+				&#xD;
+				setCmd(opMap.get(CONCATENTATION), (index, host, params) -> {&#xD;
+					// concatenation automatically converts values to strings&#xD;
+					return new ExecValue(new BiOperator&lt;>(CONCATENTATION, IOperand.class, (a,b) -> new StringValue(a.toString() + b.toString())));&#xD;
+				});&#xD;
+				&#xD;
+				// Ids are symbol values, which use the symbol table to gain and use values&#xD;
+				setCmd(&quot;Id&quot;, (index, host, params) -> {&#xD;
+					return new ExecValue(new SymbolValue((((TerminalSymbol) host).getLexeme())));&#xD;
+				});&#xD;
+				&#xD;
+				// Nums are number values&#xD;
+				setCmd(&quot;Num&quot;, (index, host, params) -> {&#xD;
+					return new ExecValue(new NumValue(Double.parseDouble(host.toString())));&#xD;
+				});&#xD;
+				&#xD;
+				// Quoted strings are string values&#xD;
+				setCmd(&quot;QuotedStringToken&quot;, (index, host, params) -> {&#xD;
+					return new ExecValue(new StringValue(host.toString()));&#xD;
+				});&#xD;
+			}&#xD;
+		};&#xD;
+		&#xD;
+		// execute a sequence by combining the results of executing its parts in order&#xD;
+		setCmd(&quot;SequenceSymbol&quot;, (index, host, params) -> {&#xD;
+         SequenceSymbol seqHost = (SequenceSymbol) host;&#xD;
+         IGrammarSymbol first = seqHost.getSymbol1();&#xD;
+         IGrammarSymbol second = seqHost.getSymbol2();&#xD;
+         return new ExecValue(first.typeExecute(this), second.typeExecute(this)).execute();&#xD;
+		});&#xD;
+		&#xD;
+		// the empty symbol has no value, and an empty exec value is the combination identity&#xD;
+		setCmd(&quot;MTSymbol&quot;, (index, host, params) -> {&#xD;
+			return new ExecValue();&#xD;
+		});&#xD;
+		&#xD;
+		// terminals use another level of parsing depending on their lexemes&#xD;
+		setCmd(&quot;TerminalSymbol&quot;, (index, host, params) -> {&#xD;
+			return host.execute(termHelper);&#xD;
+		});&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_Ax5X4r4NEeStppH-yzWLDw" name="ExecVisitor" method="_AzFqvr4NEeStppH-yzWLDw">
+              <eAnnotations xmi:id="_AyDI0r4NEeStppH-yzWLDw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_AyDI074NEeStppH-yzWLDw" key="create"/>
+              </eAnnotations>
+              <ownedComment xmi:id="_AzPbrL4NEeStppH-yzWLDw">
+                <body>Creates the visitor.&#xD;
+	 * @param opMap map of operators to their names as defined by the language&#xD;
+	 * @param printer where to put Strings as they are printed</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_AyDI0L4NEeStppH-yzWLDw" name="opMap" type="_Awj7EL4NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_AyDI0b4NEeStppH-yzWLDw" name="printer" type="_AxTh-b4NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_AyDI1L4NEeStppH-yzWLDw" type="_AuUfYL4NEeStppH-yzWLDw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_AueQYL4NEeStppH-yzWLDw" name="IExecRunnable">
+            <generalization xmi:id="_AxdS974NEeStppH-yzWLDw" general="_Atk4gL4NEeStppH-yzWLDw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_AueQYb4NEeStppH-yzWLDw" name="BiOperator">
+            <ownedComment xmi:id="_AzPbrb4NEeStppH-yzWLDw">
+              <body>An operator that operates on two operands to form a new operand&#xD;
+@author Derek&#xD;
+ *&#xD;
+@param &lt;T> the class of operands accepted by this operator</body>
+            </ownedComment>
+            <ownedAttribute xmi:id="_AyplzL4NEeStppH-yzWLDw" name="type" visibility="private" type="_AyDI2r4NEeStppH-yzWLDw" association="_AzZMrL4NEeStppH-yzWLDw"/>
+            <ownedAttribute xmi:id="_Ayyvsr4NEeStppH-yzWLDw" name="func" visibility="private" type="_AxdS-L4NEeStppH-yzWLDw" association="_AzZMr74NEeStppH-yzWLDw"/>
+            <ownedAttribute xmi:id="_Ayyvtb4NEeStppH-yzWLDw" name="name" visibility="private" type="_AxTh974NEeStppH-yzWLDw"/>
+            <interfaceRealization xmi:id="_AxdS_L4NEeStppH-yzWLDw" client="_AueQYb4NEeStppH-yzWLDw" supplier="_AuxLUL4NEeStppH-yzWLDw" contract="_AuxLUL4NEeStppH-yzWLDw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AzFqwr4NEeStppH-yzWLDw" name="BiOperator" specification="_AyM50L4NEeStppH-yzWLDw">
+              <ownedParameter xmi:id="_AzFqw74NEeStppH-yzWLDw" name="name" type="_AxTh974NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_AzFqxL4NEeStppH-yzWLDw" name="type" type="_AyDI2r4NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_AzFqxb4NEeStppH-yzWLDw" name="func" type="_AxdS-L4NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_AzFqxr4NEeStppH-yzWLDw" type="_AueQYb4NEeStppH-yzWLDw" direction="return"/>
+              <language>java</language>
+              <body>this.name = name;&#xD;
+		this.type = type;&#xD;
+		this.func = func;&#xD;
+		&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AzFqx74NEeStppH-yzWLDw" name="toString" specification="_AuoBYL4NEeStppH-yzWLDw">
+              <ownedParameter xmi:id="_AzFqyL4NEeStppH-yzWLDw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return name.toString();&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AzFqyb4NEeStppH-yzWLDw" name="execute" specification="_AyM52b4NEeStppH-yzWLDw">
+              <ownedParameter xmi:id="_AzFqyr4NEeStppH-yzWLDw" name="operands" type="_Aw22Bb4NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_AzFqy74NEeStppH-yzWLDw" type="_AuBkcb4NEeStppH-yzWLDw" direction="return"/>
+              <language>java</language>
+              <body>if (operands.size() == 2) {&#xD;
+			// apply the operator&#xD;
+			return new ExecValue(new IOperand() {&#xD;
+				public IOperand run(Map&lt;String, IOperand> table) {&#xD;
+					// verify that the operands are of the correct class&#xD;
+					List&lt;IOperand> values = operands.stream().map(v -> v.run(table)).collect(Collectors.toList());&#xD;
+					for (int k = 0; k &lt; 2; k++) {&#xD;
+						if (!type.isInstance(values.get(k)))&#xD;
+							throw new RuntimeException(&quot;Invalid operand for &quot; + this + &quot;: &quot; + values.get(k));&#xD;
+					}&#xD;
+					return func.apply((T) values.get(0), (T) values.get(1));&#xD;
+				}&#xD;
+				public String toString() {&#xD;
+					return &quot;ExecValue of &quot; + name + &quot; on &quot; + operands;&#xD;
+				}&#xD;
+			});&#xD;
+		} else {&#xD;
+			// insufficient operands, continue as-is and collect more operands later&#xD;
+			return new ExecValue(this, operands);&#xD;
+		}	&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_AuoBYL4NEeStppH-yzWLDw" name="toString" method="_AzFqx74NEeStppH-yzWLDw">
+              <ownedComment xmi:id="_AzPbr74NEeStppH-yzWLDw">
+                <body>@return the name of this operator, same as the name of its well-known operator</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_AuoBYb4NEeStppH-yzWLDw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_AyM50L4NEeStppH-yzWLDw" name="BiOperator" method="_AzFqwr4NEeStppH-yzWLDw">
+              <eAnnotations xmi:id="_AyM51L4NEeStppH-yzWLDw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_AyM51b4NEeStppH-yzWLDw" key="create"/>
+              </eAnnotations>
+              <ownedComment xmi:id="_AzPbrr4NEeStppH-yzWLDw">
+                <body>Creates a new BiOperator&#xD;
+	 * @param name type processed by this operator&#xD;
+	 * @param type the well known operator this operator is associated with&#xD;
+	 * @param func function used by this operator</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_AyM50b4NEeStppH-yzWLDw" name="name" type="_AxTh974NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_AyM50r4NEeStppH-yzWLDw" name="type" type="_AyDI2r4NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_AyM5074NEeStppH-yzWLDw" name="func" type="_AxdS-L4NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_AyM51r4NEeStppH-yzWLDw" type="_AueQYb4NEeStppH-yzWLDw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_AyM52b4NEeStppH-yzWLDw" name="execute" method="_AzFqyb4NEeStppH-yzWLDw">
+              <ownedParameter xmi:id="_AyM52r4NEeStppH-yzWLDw" name="operands" type="_Aw22Bb4NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_AyM5274NEeStppH-yzWLDw" type="_AuBkcb4NEeStppH-yzWLDw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_AuxLUL4NEeStppH-yzWLDw" name="IOperator">
+            <ownedComment xmi:id="_AzPbsb4NEeStppH-yzWLDw">
+              <body>An operator that can act on one or more operands and create a resulting operand&#xD;
+@author Derek&#xD;
+ *</body>
+            </ownedComment>
+            <ownedAttribute xmi:id="_AuxLUb4NEeStppH-yzWLDw" name="NULL_OP" type="_AuxLUL4NEeStppH-yzWLDw" association="_AzZMoL4NEeStppH-yzWLDw">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_AuxLUr4NEeStppH-yzWLDw" value="new IOperator() {&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;@Override&#xD;&#xA;&#x9;&#x9;/**&#xD;&#xA;&#x9;&#x9; * Returns a new ExecValue of this and the old operands, no change&#xD;&#xA;&#x9;&#x9; * @param symbolTable the symbol table&#xD;&#xA;&#x9;&#x9; * @param operands the operands to operate on&#xD;&#xA;&#x9;&#x9; * @return effectively same ExecValue&#xD;&#xA;&#x9;&#x9; */&#xD;&#xA;&#x9;&#x9;public ExecValue execute(List&lt;IOperand> operands) {&#xD;&#xA;&#x9;&#x9;&#x9;return new ExecValue(this, operands);&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;/**&#xD;&#xA;&#x9;&#x9; * @return &quot;NULL Operator&quot;&#xD;&#xA;&#x9;&#x9; */&#xD;&#xA;&#x9;&#x9;public String toString() {&#xD;&#xA;&#x9;&#x9;&#x9;return &quot;NULL Operator&quot;;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}"/>
+            </ownedAttribute>
+            <ownedOperation xmi:id="_Ayf0w74NEeStppH-yzWLDw" name="execute">
+              <ownedParameter xmi:id="_Ayf0xL4NEeStppH-yzWLDw" name="operands" type="_Aw22Bb4NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_Ayf0xb4NEeStppH-yzWLDw" type="_AuBkcb4NEeStppH-yzWLDw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_Au68UL4NEeStppH-yzWLDw" name="NumValue">
+            <ownedComment xmi:id="_AzPbsr4NEeStppH-yzWLDw">
+              <body>A number value.&#xD;
+@author Derek&#xD;
+ *</body>
+            </ownedComment>
+            <ownedAttribute xmi:id="_Ayyvt74NEeStppH-yzWLDw" name="value" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedAttribute>
+            <interfaceRealization xmi:id="_Axmc4L4NEeStppH-yzWLDw" client="_Au68UL4NEeStppH-yzWLDw" supplier="_Atk4gL4NEeStppH-yzWLDw" contract="_Atk4gL4NEeStppH-yzWLDw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AzFqzL4NEeStppH-yzWLDw" name="NumValue" specification="_Au68Ub4NEeStppH-yzWLDw">
+              <ownedParameter xmi:id="_AzFqzb4NEeStppH-yzWLDw" name="value">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_AzFqzr4NEeStppH-yzWLDw" type="_Au68UL4NEeStppH-yzWLDw" direction="return"/>
+              <language>java</language>
+              <body>this.value = value;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AzFqz74NEeStppH-yzWLDw" name="getNum" specification="_Au68Vr4NEeStppH-yzWLDw">
+              <ownedParameter xmi:id="_AzFq0L4NEeStppH-yzWLDw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return value;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AzFq0b4NEeStppH-yzWLDw" name="toString" specification="_Au68WL4NEeStppH-yzWLDw">
+              <ownedParameter xmi:id="_AzFq0r4NEeStppH-yzWLDw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return String.valueOf(value);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_Au68Ub4NEeStppH-yzWLDw" name="NumValue" method="_AzFqzL4NEeStppH-yzWLDw">
+              <eAnnotations xmi:id="_Au68U74NEeStppH-yzWLDw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_Au68VL4NEeStppH-yzWLDw" key="create"/>
+              </eAnnotations>
+              <ownedComment xmi:id="_AzPbs74NEeStppH-yzWLDw">
+                <body>Creates a new number value&#xD;
+	 * @param value the value</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_Au68Ur4NEeStppH-yzWLDw" name="value">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Au68Vb4NEeStppH-yzWLDw" type="_Au68UL4NEeStppH-yzWLDw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Au68Vr4NEeStppH-yzWLDw" name="getNum" method="_AzFqz74NEeStppH-yzWLDw">
+              <ownedComment xmi:id="_AzPbtL4NEeStppH-yzWLDw">
+                <body>@return the value</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_Au68V74NEeStppH-yzWLDw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Au68WL4NEeStppH-yzWLDw" name="toString" method="_AzFq0b4NEeStppH-yzWLDw">
+              <ownedComment xmi:id="_AzPbtb4NEeStppH-yzWLDw">
+                <body>@return String value of the value</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_Au68Wb4NEeStppH-yzWLDw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_Au68Wr4NEeStppH-yzWLDw" name="StringValue">
+            <ownedComment xmi:id="_AzPbtr4NEeStppH-yzWLDw">
+              <body>A value of a String&#xD;
+@author Derek&#xD;
+ *</body>
+            </ownedComment>
+            <ownedAttribute xmi:id="_Ayyvub4NEeStppH-yzWLDw" name="value" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <interfaceRealization xmi:id="_Axmc4b4NEeStppH-yzWLDw" client="_Au68Wr4NEeStppH-yzWLDw" supplier="_Atk4gL4NEeStppH-yzWLDw" contract="_Atk4gL4NEeStppH-yzWLDw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AzFq074NEeStppH-yzWLDw" name="StringValue" specification="_Au68W74NEeStppH-yzWLDw">
+              <ownedParameter xmi:id="_AzFq1L4NEeStppH-yzWLDw" name="value">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_AzFq1b4NEeStppH-yzWLDw" type="_Au68Wr4NEeStppH-yzWLDw" direction="return"/>
+              <language>java</language>
+              <body>this.value = value;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AzFq1r4NEeStppH-yzWLDw" name="toString" specification="_AvEtUL4NEeStppH-yzWLDw">
+              <ownedParameter xmi:id="_AzFq174NEeStppH-yzWLDw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return value;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_Au68W74NEeStppH-yzWLDw" name="StringValue" method="_AzFq074NEeStppH-yzWLDw">
+              <eAnnotations xmi:id="_Au68Xb4NEeStppH-yzWLDw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_Au68Xr4NEeStppH-yzWLDw" key="create"/>
+              </eAnnotations>
+              <ownedComment xmi:id="_AzPbt74NEeStppH-yzWLDw">
+                <body>Creates a new StringValue&#xD;
+	 * @param value the string value</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_Au68XL4NEeStppH-yzWLDw" name="value">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Au68X74NEeStppH-yzWLDw" type="_Au68Wr4NEeStppH-yzWLDw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_AvEtUL4NEeStppH-yzWLDw" name="toString" method="_AzFq1r4NEeStppH-yzWLDw">
+              <ownedComment xmi:id="_AzPbuL4NEeStppH-yzWLDw">
+                <body>Returns the string itself</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_AvEtUb4NEeStppH-yzWLDw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_AvEtUr4NEeStppH-yzWLDw" name="SymbolValue">
+            <ownedComment xmi:id="_AzPbub4NEeStppH-yzWLDw">
+              <body>A value represented by a symbol used to index into the symbol table&#xD;
+@author Derek&#xD;
+ *</body>
+            </ownedComment>
+            <ownedAttribute xmi:id="_Ayyvu74NEeStppH-yzWLDw" name="symbol" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <interfaceRealization xmi:id="_AxwN4b4NEeStppH-yzWLDw" client="_AvEtUr4NEeStppH-yzWLDw" supplier="_Atk4gL4NEeStppH-yzWLDw" contract="_Atk4gL4NEeStppH-yzWLDw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AzFq2L4NEeStppH-yzWLDw" name="SymbolValue" specification="_AvEtU74NEeStppH-yzWLDw">
+              <ownedParameter xmi:id="_AzFq2b4NEeStppH-yzWLDw" name="symbol">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_AzFq2r4NEeStppH-yzWLDw" type="_AvEtUr4NEeStppH-yzWLDw" direction="return"/>
+              <language>java</language>
+              <body>this.symbol = symbol;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AzFq274NEeStppH-yzWLDw" name="toString" specification="_AvEtWL4NEeStppH-yzWLDw">
+              <ownedParameter xmi:id="_AzFq3L4NEeStppH-yzWLDw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return symbol;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AzFq3b4NEeStppH-yzWLDw" name="run" specification="_Ayf0x74NEeStppH-yzWLDw">
+              <ownedParameter xmi:id="_AzFq3r4NEeStppH-yzWLDw" name="symbolTable" type="_Awj7EL4NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_AzFq374NEeStppH-yzWLDw" type="_Atk4gL4NEeStppH-yzWLDw" direction="return"/>
+              <language>java</language>
+              <body>return Objects.requireNonNull(symbolTable.get(symbol), () -> &quot;Could not find &quot; + symbol + &quot; in table &quot; + symbolTable);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_AvEtU74NEeStppH-yzWLDw" name="SymbolValue" method="_AzFq2L4NEeStppH-yzWLDw">
+              <eAnnotations xmi:id="_AvEtVb4NEeStppH-yzWLDw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_AvEtVr4NEeStppH-yzWLDw" key="create"/>
+              </eAnnotations>
+              <ownedComment xmi:id="_AzPbur4NEeStppH-yzWLDw">
+                <body>Creates a new SymbolValue&#xD;
+	 * @param symbol the symbol for this value</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_AvEtVL4NEeStppH-yzWLDw" name="symbol">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_AvEtV74NEeStppH-yzWLDw" type="_AvEtUr4NEeStppH-yzWLDw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_AvEtWL4NEeStppH-yzWLDw" name="toString" method="_AzFq274NEeStppH-yzWLDw">
+              <ownedComment xmi:id="_AzPbu74NEeStppH-yzWLDw">
+                <body>@return the symbol</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_AvEtWb4NEeStppH-yzWLDw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Ayf0x74NEeStppH-yzWLDw" name="run" method="_AzFq3b4NEeStppH-yzWLDw">
+              <ownedParameter xmi:id="_Ayf0yL4NEeStppH-yzWLDw" name="symbolTable" type="_Awj7EL4NEeStppH-yzWLDw"/>
+              <ownedParameter xmi:id="_Ayf0yb4NEeStppH-yzWLDw" type="_Atk4gL4NEeStppH-yzWLDw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_AzZMoL4NEeStppH-yzWLDw" name="" memberEnd="_AzZMob4NEeStppH-yzWLDw _AuxLUb4NEeStppH-yzWLDw">
+            <ownedEnd xmi:id="_AzZMob4NEeStppH-yzWLDw" name="" type="_AuxLUL4NEeStppH-yzWLDw" association="_AzZMoL4NEeStppH-yzWLDw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_AzZMo74NEeStppH-yzWLDw" name="" memberEnd="_AzZMpL4NEeStppH-yzWLDw _Ayplw74NEeStppH-yzWLDw">
+            <ownedEnd xmi:id="_AzZMpL4NEeStppH-yzWLDw" name="" type="_AuBkcb4NEeStppH-yzWLDw" association="_AzZMo74NEeStppH-yzWLDw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_AzZMpr4NEeStppH-yzWLDw" name="" memberEnd="_AzZMp74NEeStppH-yzWLDw _Ayplxb4NEeStppH-yzWLDw">
+            <ownedEnd xmi:id="_AzZMp74NEeStppH-yzWLDw" name="" type="_AuBkcb4NEeStppH-yzWLDw" association="_AzZMpr4NEeStppH-yzWLDw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_AzZMqb4NEeStppH-yzWLDw" name="" memberEnd="_AzZMqr4NEeStppH-yzWLDw _Ayplyb4NEeStppH-yzWLDw">
+            <ownedEnd xmi:id="_AzZMqr4NEeStppH-yzWLDw" name="" type="_AuUfYL4NEeStppH-yzWLDw" association="_AzZMqb4NEeStppH-yzWLDw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_AzZMrL4NEeStppH-yzWLDw" name="" memberEnd="_AzZMrb4NEeStppH-yzWLDw _AyplzL4NEeStppH-yzWLDw">
+            <ownedEnd xmi:id="_AzZMrb4NEeStppH-yzWLDw" name="" type="_AueQYb4NEeStppH-yzWLDw" association="_AzZMrL4NEeStppH-yzWLDw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_AzZMr74NEeStppH-yzWLDw" name="" memberEnd="_AzZMsL4NEeStppH-yzWLDw _Ayyvsr4NEeStppH-yzWLDw">
+            <ownedEnd xmi:id="_AzZMsL4NEeStppH-yzWLDw" name="" type="_AueQYb4NEeStppH-yzWLDw" association="_AzZMr74NEeStppH-yzWLDw"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_AwtFA74NEeStppH-yzWLDw" name="ClientModel"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_AwtFBb4NEeStppH-yzWLDw" name="IModelToViewAdapter"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Aro-0L4NEeStppH-yzWLDw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Aro-0b4NEeStppH-yzWLDw" name="util">
+        <packagedElement xmi:type="uml:Package" xmi:id="_AsYlsr4NEeStppH-yzWLDw" name="function">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_AxTh-b4NEeStppH-yzWLDw" name="Consumer"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_AxTh-74NEeStppH-yzWLDw" name="DoubleBinaryOperator"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_AxdS-L4NEeStppH-yzWLDw" name="BiFunction"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_AsiWsL4NEeStppH-yzWLDw" name="stream">
+          <packagedElement xmi:type="uml:Class" xmi:id="_AxdS-r4NEeStppH-yzWLDw" name="Collectors"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_Awj7EL4NEeStppH-yzWLDw" name="Map"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Aw22A74NEeStppH-yzWLDw" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_Aw22Bb4NEeStppH-yzWLDw" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Axmc4r4NEeStppH-yzWLDw" name="Objects"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Aryv0b4NEeStppH-yzWLDw" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_AwtFAb4NEeStppH-yzWLDw" name="File"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_AyDI2b4NEeStppH-yzWLDw" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_AyDI2r4NEeStppH-yzWLDw" name="Class"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Aryv0r4NEeStppH-yzWLDw" name="debug">
+      <packagedElement xmi:type="uml:Class" xmi:id="_Aw22Ab4NEeStppH-yzWLDw" name="Logger"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_AsYlsL4NEeStppH-yzWLDw" name="hw03Common">
+      <packagedElement xmi:type="uml:Package" xmi:id="_AsYlsb4NEeStppH-yzWLDw" name="defs">
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_AxTh974NEeStppH-yzWLDw" name="WellKnownOperator"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_AsYls74NEeStppH-yzWLDw" name="parser">
+      <packagedElement xmi:type="uml:Class" xmi:id="_AxTh_b4NEeStppH-yzWLDw" name="AGramSymVisitor"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_AxdS8b4NEeStppH-yzWLDw" name="IGrammarSymbol"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_AxdS874NEeStppH-yzWLDw" name="SequenceSymbol"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_AxdS9b4NEeStppH-yzWLDw" name="TerminalSymbol"/>
+    </packagedElement>
+    <profileApplication xmi:id="_Atk4gb4NEeStppH-yzWLDw">
+      <eAnnotations xmi:id="_Atk4gr4NEeStppH-yzWLDw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:Generics xmi:id="_AueQYr4NEeStppH-yzWLDw" genericsValue="T extends IOperand" base_Element="_AueQYb4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AuxLU74NEeStppH-yzWLDw" base_Element="_AuxLUb4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Reference xmi:id="_AwtFAL4NEeStppH-yzWLDw" base_Element="_Awj7EL4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Reference xmi:id="_AwtFAr4NEeStppH-yzWLDw" base_Element="_AwtFAb4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Reference xmi:id="_AwtFBL4NEeStppH-yzWLDw" base_Element="_AwtFA74NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Reference xmi:id="_Aw22AL4NEeStppH-yzWLDw" base_Element="_AwtFBb4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Reference xmi:id="_Aw22Ar4NEeStppH-yzWLDw" base_Element="_Aw22Ab4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Reference xmi:id="_Aw22BL4NEeStppH-yzWLDw" base_Element="_Aw22A74NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Reference xmi:id="_Aw22Br4NEeStppH-yzWLDw" base_Element="_Aw22Bb4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Reference xmi:id="_AxTh-L4NEeStppH-yzWLDw" base_Element="_AxTh974NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Reference xmi:id="_AxTh-r4NEeStppH-yzWLDw" base_Element="_AxTh-b4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Reference xmi:id="_AxTh_L4NEeStppH-yzWLDw" base_Element="_AxTh-74NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Reference xmi:id="_AxdS8L4NEeStppH-yzWLDw" base_Element="_AxTh_b4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Reference xmi:id="_AxdS8r4NEeStppH-yzWLDw" base_Element="_AxdS8b4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Reference xmi:id="_AxdS9L4NEeStppH-yzWLDw" base_Element="_AxdS874NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Reference xmi:id="_AxdS9r4NEeStppH-yzWLDw" base_Element="_AxdS9b4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Reference xmi:id="_AxdS-b4NEeStppH-yzWLDw" base_Element="_AxdS-L4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Reference xmi:id="_AxdS-74NEeStppH-yzWLDw" base_Element="_AxdS-r4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Reference xmi:id="_AxwN4L4NEeStppH-yzWLDw" base_Element="_Axmc4r4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AxwN574NEeStppH-yzWLDw" base_Element="_AxwN4r4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Generics xmi:id="_Ax5X0L4NEeStppH-yzWLDw" genericsValue="String, IOperand" base_Element="_AxwN474NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Generics xmi:id="_Ax5X1r4NEeStppH-yzWLDw" genericsValue="IOperand" base_Element="_Ax5X0r4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Generics xmi:id="_Ax5X3b4NEeStppH-yzWLDw" genericsValue="IOperand" base_Element="_Ax5X2b4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Generics xmi:id="_Ax5X4b4NEeStppH-yzWLDw" genericsValue="String, IOperand" base_Element="_Ax5X374NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Generics xmi:id="_AyDI1b4NEeStppH-yzWLDw" genericsValue="WellKnownOperator, String" base_Element="_AyDI0L4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Generics xmi:id="_AyDI1r4NEeStppH-yzWLDw" genericsValue="String" base_Element="_AyDI0b4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Generics xmi:id="_AyDI2L4NEeStppH-yzWLDw" genericsValue="ExecValue, Void" base_Element="_AyDI174NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Reference xmi:id="_AyDI274NEeStppH-yzWLDw" base_Element="_AyDI2r4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Generics xmi:id="_AyM5174NEeStppH-yzWLDw" genericsValue="T" base_Element="_AyM50r4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Generics xmi:id="_AyM52L4NEeStppH-yzWLDw" genericsValue="T, T, T" base_Element="_AyM5074NEeStppH-yzWLDw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AyM53L4NEeStppH-yzWLDw" base_Element="_AyM52b4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Generics xmi:id="_AyM53b4NEeStppH-yzWLDw" genericsValue="IOperand" base_Element="_AyM52r4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Annotations xmi:id="_AyM53r4NEeStppH-yzWLDw" base_Element="_AyM52b4NEeStppH-yzWLDw">
+    <annotations xmi:id="_Ayf0wL4NEeStppH-yzWLDw" name="SuppressWarnings">
+      <annotationParameters xmi:id="_Ayf0wb4NEeStppH-yzWLDw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_AzPbsL4NEeStppH-yzWLDw" value="&quot;unchecked&quot;"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_Ayf0wr4NEeStppH-yzWLDw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_Ayf0xr4NEeStppH-yzWLDw" genericsValue="IOperand" base_Element="_Ayf0xL4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Ayf0yr4NEeStppH-yzWLDw" base_Element="_Ayf0x74NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Generics xmi:id="_AyplwL4NEeStppH-yzWLDw" genericsValue="String, IOperand" base_Element="_Ayf0yL4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Annotations xmi:id="_Ayplwb4NEeStppH-yzWLDw" base_Element="_Ayf0x74NEeStppH-yzWLDw">
+    <annotations xmi:id="_Ayplwr4NEeStppH-yzWLDw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AyplxL4NEeStppH-yzWLDw" base_Element="_Ayplw74NEeStppH-yzWLDw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AyplyL4NEeStppH-yzWLDw" base_Element="_Ayplxb4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Generics xmi:id="_Ayplyr4NEeStppH-yzWLDw" genericsValue="ExecValue, Void" base_Element="_Ayplyb4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Ayply74NEeStppH-yzWLDw" base_Element="_Ayplyb4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Generics xmi:id="_AyyvsL4NEeStppH-yzWLDw" genericsValue="T" base_Element="_AyplzL4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Ayyvsb4NEeStppH-yzWLDw" base_Element="_AyplzL4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Generics xmi:id="_Ayyvs74NEeStppH-yzWLDw" genericsValue="T, T, T" base_Element="_Ayyvsr4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AyyvtL4NEeStppH-yzWLDw" base_Element="_Ayyvsr4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Ayyvtr4NEeStppH-yzWLDw" base_Element="_Ayyvtb4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AyyvuL4NEeStppH-yzWLDw" base_Element="_Ayyvt74NEeStppH-yzWLDw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Ayyvur4NEeStppH-yzWLDw" base_Element="_Ayyvub4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AyyvvL4NEeStppH-yzWLDw" base_Element="_Ayyvu74NEeStppH-yzWLDw"/>
+  <uml:OpaqueBehavior xmi:id="_Ay8gsL4NEeStppH-yzWLDw" name="run" specification="_AxwN4r4NEeStppH-yzWLDw">
+    <ownedParameter xmi:id="_Ay8gsb4NEeStppH-yzWLDw" name="symbolTable" type="_Awj7EL4NEeStppH-yzWLDw"/>
+    <ownedParameter xmi:id="_AzFqoL4NEeStppH-yzWLDw" type="_Atk4gL4NEeStppH-yzWLDw" direction="return"/>
+    <language>java</language>
+    <body>return this; // by default, this is its own value&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_AzZMor4NEeStppH-yzWLDw" base_Element="_AzZMoL4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Reference xmi:id="_AzZMpb4NEeStppH-yzWLDw" base_Element="_AzZMo74NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Reference xmi:id="_AzZMqL4NEeStppH-yzWLDw" base_Element="_AzZMpr4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Reference xmi:id="_AzZMq74NEeStppH-yzWLDw" base_Element="_AzZMqb4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Reference xmi:id="_AzZMrr4NEeStppH-yzWLDw" base_Element="_AzZMrL4NEeStppH-yzWLDw"/>
+  <UMLLabProfile:Reference xmi:id="_AzZMsb4NEeStppH-yzWLDw" base_Element="_AzZMr74NEeStppH-yzWLDw"/>
+</xmi:XMI>

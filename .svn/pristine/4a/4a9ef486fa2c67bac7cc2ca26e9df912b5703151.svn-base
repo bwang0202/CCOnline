@@ -1,0 +1,23 @@
+Prog ::= S1 | Sentence1
+S1 ::= "\n" Prog
+Sentence1 ::= Sentence2 | Empty
+Sentence2 ::= Sentence3 ";" Prog
+Sentence3 ::= SenA | SenB | SenC
+SenA ::= "String" SenA1
+SenA1 ::= Id "=" OPS
+OPS ::= OPS1 OPS2
+OPS1 ::= QuotedStringToken | Id
+OPS2 ::= OPS3 | Empty
+OPS3 ::= "<<" OPS
+SenB ::= "int" SenB1
+SenB1 ::= Id "=" OPB 
+OPA ::= OPA3 OPA1
+OPA1 ::= OPA2 | Empty
+OPA2 ::= OPA4 OPA3 OPA1
+OPA3 ::= Num | Id
+OPA4 ::= "*" | "/" | "%" 
+OPB ::= OPA OPB1
+OPB1 ::= OPB2 | Empty
+OPB2 ::= OPB3 OPA OPB1
+OPB3 ::= "+" | "-"
+SenC ::= "cout" OPS

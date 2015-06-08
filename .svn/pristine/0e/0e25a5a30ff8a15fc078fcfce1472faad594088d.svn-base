@@ -1,0 +1,6 @@
+int a = 5;
+  int b = 10;
+  String s = "5 +" << "10"; 
+  String str = "this is an example";
+  cout str << s;
+  cout s;

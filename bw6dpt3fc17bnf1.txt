@@ -1,0 +1,4 @@
+E ::= F E1
+F ::= Num | Id
+E1 ::= E1a | Empty
+E1a ::= "+" E

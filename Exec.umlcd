@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_6FWAQL4MEeStppH-yzWLDw">
+  <modelElement href="Exec.uml#_Aryv0L4NEeStppH-yzWLDw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BNnqgb4NEeStppH-yzWLDw" targetItem="_BN6lcL4NEeStppH-yzWLDw" sourceItem="_BNnqgL4NEeStppH-yzWLDw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_BRMi8L4NEeStppH-yzWLDw" sourceAnchor="205.0,0.0" targetAnchor="250.0,32.0" target="_BN6lcL4NEeStppH-yzWLDw" source="_BRy_6b4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzZMpr4NEeStppH-yzWLDw"/>
+    <bendpoints xmi:id="_YJjawL4NEeStppH-yzWLDw" sourceY="-127" targetX="356"/>
+    <stereotypes xmi:id="_BRWT8r4NEeStppH-yzWLDw" name="Reference">
+      <modelElement href="Exec.uml#_AzZMqL4NEeStppH-yzWLDw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_BRMi9L4NEeStppH-yzWLDw" text="">
+      <visualProperties xmi:id="_EqA47r4NEeStppH-yzWLDw" position="-191.0,-19.00000000000003"/>
+    </nameVisual>
+    <sourceRole xmi:id="_BRWT8L4NEeStppH-yzWLDw" aggregationKind="NONE" name="">
+      <modelElement href="Exec.uml#_AzZMp74NEeStppH-yzWLDw"/>
+      <visualProperties xmi:id="_EqA47b4NEeStppH-yzWLDw" position="-16.0,-86.0"/>
+      <visibility xmi:id="_BRpO4b4NEeStppH-yzWLDw" label="+"/>
+      <cardinality xmi:id="_BRpO4L4NEeStppH-yzWLDw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_BRWT8b4NEeStppH-yzWLDw" aggregationKind="NONE" name="operands" navigable="true">
+      <modelElement href="Exec.uml#_Ayplxb4NEeStppH-yzWLDw"/>
+      <visualProperties xmi:id="_EqA4774NEeStppH-yzWLDw" position="49.0,2.0"/>
+      <visibility xmi:id="_BRpO474NEeStppH-yzWLDw" label="-"/>
+      <cardinality xmi:id="_BRpO4r4NEeStppH-yzWLDw" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_BRMi8b4NEeStppH-yzWLDw" sourceAnchor="174.0,0.0" targetAnchor="124.0,71.0" dashed="true" superClass="_BN6lcL4NEeStppH-yzWLDw" subClass="_BRy_6b4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AxJw8L4NEeStppH-yzWLDw"/>
+    <bendpoints xmi:id="_YJjawb4NEeStppH-yzWLDw" sourceY="-30" targetX="451" targetY="58"/>
+    <bendpoints xmi:id="_YJjawr4NEeStppH-yzWLDw" sourceX="-451" sourceY="-29" targetY="59"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BRMi874NEeStppH-yzWLDw" targetItem="_BRy_6b4NEeStppH-yzWLDw" sourceItem="_BRMi8r4NEeStppH-yzWLDw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BRWT9L4NEeStppH-yzWLDw" targetItem="_BR8J3L4NEeStppH-yzWLDw" sourceItem="_BRWT874NEeStppH-yzWLDw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BRWT9r4NEeStppH-yzWLDw" targetItem="_BR8J4b4NEeStppH-yzWLDw" sourceItem="_BRWT9b4NEeStppH-yzWLDw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BRWT-L4NEeStppH-yzWLDw" targetItem="_BR8J5b4NEeStppH-yzWLDw" sourceItem="_BRWT974NEeStppH-yzWLDw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BRfd4b4NEeStppH-yzWLDw" targetItem="_BR8J6b4NEeStppH-yzWLDw" sourceItem="_BRfd4L4NEeStppH-yzWLDw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BRfd474NEeStppH-yzWLDw" targetItem="_BR8J8L4NEeStppH-yzWLDw" sourceItem="_BRfd4r4NEeStppH-yzWLDw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BRfd5b4NEeStppH-yzWLDw" targetItem="_BR8J974NEeStppH-yzWLDw" sourceItem="_BRfd5L4NEeStppH-yzWLDw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BRfd574NEeStppH-yzWLDw" targetItem="_BR8KAL4NEeStppH-yzWLDw" sourceItem="_BRfd5r4NEeStppH-yzWLDw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BRfd6b4NEeStppH-yzWLDw" targetItem="_BR8KB74NEeStppH-yzWLDw" sourceItem="_BRfd6L4NEeStppH-yzWLDw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BRfd674NEeStppH-yzWLDw" targetItem="_BR8KEL4NEeStppH-yzWLDw" sourceItem="_BRfd6r4NEeStppH-yzWLDw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_BRy_4L4NEeStppH-yzWLDw" sourceAnchor="334.0,0.0" targetAnchor="0.0,71.0" target="_BUoRcL4NEeStppH-yzWLDw" source="_BRy_6b4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzZMo74NEeStppH-yzWLDw"/>
+    <stereotypes xmi:id="_BRy_4b4NEeStppH-yzWLDw" name="Reference">
+      <modelElement href="Exec.uml#_AzZMpb4NEeStppH-yzWLDw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_BRy_4r4NEeStppH-yzWLDw" text="">
+      <visualProperties xmi:id="_EqKp4b4NEeStppH-yzWLDw" position="-121.0,-2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_BRy_474NEeStppH-yzWLDw" aggregationKind="NONE" name="">
+      <modelElement href="Exec.uml#_AzZMpL4NEeStppH-yzWLDw"/>
+      <visualProperties xmi:id="_EqKp4L4NEeStppH-yzWLDw" position="22.0,-28.0"/>
+      <visibility xmi:id="_BRy_5L4NEeStppH-yzWLDw" label="+"/>
+      <cardinality xmi:id="_BRy_5b4NEeStppH-yzWLDw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_BRy_5r4NEeStppH-yzWLDw" aggregationKind="NONE" name="op" navigable="true">
+      <modelElement href="Exec.uml#_Ayplw74NEeStppH-yzWLDw"/>
+      <visualProperties xmi:id="_EqKp4r4NEeStppH-yzWLDw" position="41.0,3.0"/>
+      <visibility xmi:id="_BRy_574NEeStppH-yzWLDw" label="-"/>
+      <cardinality xmi:id="_BRy_6L4NEeStppH-yzWLDw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BTb-ob4NEeStppH-yzWLDw" targetItem="_BTlvqr4NEeStppH-yzWLDw" sourceItem="_BTb-oL4NEeStppH-yzWLDw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BTb-o74NEeStppH-yzWLDw" targetItem="_BTlvtb4NEeStppH-yzWLDw" sourceItem="_BTb-or4NEeStppH-yzWLDw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_BTlvoL4NEeStppH-yzWLDw" source="_BTlvqr4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzZMqb4NEeStppH-yzWLDw"/>
+    <stereotypes xmi:id="_BTlvob4NEeStppH-yzWLDw" name="Reference">
+      <modelElement href="Exec.uml#_AzZMq74NEeStppH-yzWLDw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_BTlvor4NEeStppH-yzWLDw" text=""/>
+    <sourceRole xmi:id="_BTlvo74NEeStppH-yzWLDw" aggregationKind="NONE" name="">
+      <modelElement href="Exec.uml#_AzZMqr4NEeStppH-yzWLDw"/>
+      <visibility xmi:id="_BTlvpL4NEeStppH-yzWLDw" label="+"/>
+      <cardinality xmi:id="_BTlvpb4NEeStppH-yzWLDw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_BTlvpr4NEeStppH-yzWLDw" aggregationKind="NONE" name="termHelper" navigable="true">
+      <modelElement href="Exec.uml#_Ayplyb4NEeStppH-yzWLDw"/>
+      <visibility xmi:id="_BTlvp74NEeStppH-yzWLDw" label="-"/>
+      <cardinality xmi:id="_BTlvqL4NEeStppH-yzWLDw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_BTlvqb4NEeStppH-yzWLDw" subClass="_BTlvqr4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AyDI174NEeStppH-yzWLDw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_BTvgoL4NEeStppH-yzWLDw" sourceAnchor="46.0,0.0" targetAnchor="124.0,71.0" superClass="_BN6lcL4NEeStppH-yzWLDw" subClass="_BTvgob4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AxdS974NEeStppH-yzWLDw"/>
+    <bendpoints xmi:id="_YJsksr4NEeStppH-yzWLDw" sourceY="-59" targetX="-105" targetY="58"/>
+    <bendpoints xmi:id="_YJsks74NEeStppH-yzWLDw" sourceX="105" sourceY="-58" targetY="59"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BT4qkb4NEeStppH-yzWLDw" targetItem="_BUMMp74NEeStppH-yzWLDw" sourceItem="_BT4qkL4NEeStppH-yzWLDw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_BT4qkr4NEeStppH-yzWLDw" sourceAnchor="70.0,0.0" targetAnchor="124.0,71.0" dashed="true" superClass="_BUoRcL4NEeStppH-yzWLDw" subClass="_BUMMp74NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AxdS_L4NEeStppH-yzWLDw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BT4qlL4NEeStppH-yzWLDw" targetItem="_BUMMwL4NEeStppH-yzWLDw" sourceItem="_BT4qk74NEeStppH-yzWLDw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BT4qlr4NEeStppH-yzWLDw" targetItem="_BUMMxL4NEeStppH-yzWLDw" sourceItem="_BT4qlb4NEeStppH-yzWLDw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_BUCbkL4NEeStppH-yzWLDw" sourceAnchor="122.0,0.0" targetAnchor="0.0,33.0" target="_BUoRcL4NEeStppH-yzWLDw" source="_BUoRcL4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzZMoL4NEeStppH-yzWLDw"/>
+    <bendpoints xmi:id="_YJsktr4NEeStppH-yzWLDw" sourceY="-95" targetX="123" targetY="-129"/>
+    <bendpoints xmi:id="_YJskt74NEeStppH-yzWLDw" sourceX="-234" sourceY="-96" targetX="-111" targetY="-130"/>
+    <bendpoints xmi:id="_YJskuL4NEeStppH-yzWLDw" sourceX="-233" sourceY="34" targetX="-110"/>
+    <stereotypes xmi:id="_BUCblr4NEeStppH-yzWLDw" name="Reference">
+      <modelElement href="Exec.uml#_AzZMor4NEeStppH-yzWLDw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_BUCbk74NEeStppH-yzWLDw" text="">
+      <visualProperties xmi:id="_EqKp5L4NEeStppH-yzWLDw" position="126.0,-8.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_BUCblL4NEeStppH-yzWLDw" aggregationKind="NONE" name="">
+      <modelElement href="Exec.uml#_AzZMob4NEeStppH-yzWLDw"/>
+      <visualProperties xmi:id="_EqKp474NEeStppH-yzWLDw" position="-21.0,-50.0"/>
+      <visibility xmi:id="_BUMMkb4NEeStppH-yzWLDw" label="+"/>
+      <cardinality xmi:id="_BUMMkL4NEeStppH-yzWLDw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_BUCblb4NEeStppH-yzWLDw" aggregationKind="NONE" name="NULL_OP" navigable="true">
+      <modelElement href="Exec.uml#_AuxLUb4NEeStppH-yzWLDw"/>
+      <visualProperties xmi:id="_EqKp5b4NEeStppH-yzWLDw" position="-70.0,4.0"/>
+      <visibility xmi:id="_BUMMk74NEeStppH-yzWLDw" label="+"/>
+      <cardinality xmi:id="_BUMMkr4NEeStppH-yzWLDw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BUCbkr4NEeStppH-yzWLDw" targetItem="_BUoRcL4NEeStppH-yzWLDw" sourceItem="_BUCbkb4NEeStppH-yzWLDw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_BUMMlb4NEeStppH-yzWLDw" source="_BUMMp74NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzZMrL4NEeStppH-yzWLDw"/>
+    <stereotypes xmi:id="_BUMMlr4NEeStppH-yzWLDw" name="Reference">
+      <modelElement href="Exec.uml#_AzZMrr4NEeStppH-yzWLDw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_BUMMl74NEeStppH-yzWLDw" text=""/>
+    <sourceRole xmi:id="_BUMMmL4NEeStppH-yzWLDw" aggregationKind="NONE" name="">
+      <modelElement href="Exec.uml#_AzZMrb4NEeStppH-yzWLDw"/>
+      <visibility xmi:id="_BUMMmb4NEeStppH-yzWLDw" label="+"/>
+      <cardinality xmi:id="_BUMMmr4NEeStppH-yzWLDw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_BUMMm74NEeStppH-yzWLDw" aggregationKind="NONE" name="type" navigable="true">
+      <modelElement href="Exec.uml#_AyplzL4NEeStppH-yzWLDw"/>
+      <visibility xmi:id="_BUMMnL4NEeStppH-yzWLDw" label="-"/>
+      <cardinality xmi:id="_BUMMnb4NEeStppH-yzWLDw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_BUMMnr4NEeStppH-yzWLDw" source="_BUMMp74NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzZMr74NEeStppH-yzWLDw"/>
+    <stereotypes xmi:id="_BUMMn74NEeStppH-yzWLDw" name="Reference">
+      <modelElement href="Exec.uml#_AzZMsb4NEeStppH-yzWLDw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_BUMMoL4NEeStppH-yzWLDw" text=""/>
+    <sourceRole xmi:id="_BUMMob4NEeStppH-yzWLDw" aggregationKind="NONE" name="">
+      <modelElement href="Exec.uml#_AzZMsL4NEeStppH-yzWLDw"/>
+      <visibility xmi:id="_BUMMor4NEeStppH-yzWLDw" label="+"/>
+      <cardinality xmi:id="_BUMMo74NEeStppH-yzWLDw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_BUMMpL4NEeStppH-yzWLDw" aggregationKind="NONE" name="func" navigable="true">
+      <modelElement href="Exec.uml#_Ayyvsr4NEeStppH-yzWLDw"/>
+      <visibility xmi:id="_BUMMpb4NEeStppH-yzWLDw" label="-"/>
+      <cardinality xmi:id="_BUMMpr4NEeStppH-yzWLDw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_BUyCcL4NEeStppH-yzWLDw" sourceAnchor="138.0,0.0" targetAnchor="124.0,71.0" dashed="true" superClass="_BN6lcL4NEeStppH-yzWLDw" subClass="_BU7zdr4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_Axmc4L4NEeStppH-yzWLDw"/>
+    <bendpoints xmi:id="_YJsksL4NEeStppH-yzWLDw" sourceY="-94" targetX="-314" targetY="58"/>
+    <bendpoints xmi:id="_YJsksb4NEeStppH-yzWLDw" sourceX="314" sourceY="-93" targetY="59"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BUyCcr4NEeStppH-yzWLDw" targetItem="_BU7zdr4NEeStppH-yzWLDw" sourceItem="_BUyCcb4NEeStppH-yzWLDw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BU7zcb4NEeStppH-yzWLDw" targetItem="_BU7zfr4NEeStppH-yzWLDw" sourceItem="_BU7zcL4NEeStppH-yzWLDw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BU7zc74NEeStppH-yzWLDw" targetItem="_BU7zhb4NEeStppH-yzWLDw" sourceItem="_BU7zcr4NEeStppH-yzWLDw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BU7zdb4NEeStppH-yzWLDw" targetItem="_BU7zib4NEeStppH-yzWLDw" sourceItem="_BU7zdL4NEeStppH-yzWLDw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_BVOuYL4NEeStppH-yzWLDw" sourceAnchor="140.0,0.0" targetAnchor="124.0,71.0" dashed="true" superClass="_BN6lcL4NEeStppH-yzWLDw" subClass="_BVYfYL4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_Axmc4b4NEeStppH-yzWLDw"/>
+    <bendpoints xmi:id="_YJsktL4NEeStppH-yzWLDw" sourceY="-117" targetX="-630" targetY="59"/>
+    <bendpoints xmi:id="_YJsktb4NEeStppH-yzWLDw" sourceX="630" sourceY="-117" targetY="59"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BVOuYr4NEeStppH-yzWLDw" targetItem="_BVYfYL4NEeStppH-yzWLDw" sourceItem="_BVOuYb4NEeStppH-yzWLDw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BVOuZL4NEeStppH-yzWLDw" targetItem="_BVYfaL4NEeStppH-yzWLDw" sourceItem="_BVOuY74NEeStppH-yzWLDw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BVOuZr4NEeStppH-yzWLDw" targetItem="_BVYfb74NEeStppH-yzWLDw" sourceItem="_BVOuZb4NEeStppH-yzWLDw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_BVhpUL4NEeStppH-yzWLDw" sourceAnchor="153.0,0.0" targetAnchor="124.0,71.0" dashed="true" superClass="_BN6lcL4NEeStppH-yzWLDw" subClass="_BVraUL4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AxwN4b4NEeStppH-yzWLDw"/>
+    <bendpoints xmi:id="_YJjaw74NEeStppH-yzWLDw" sourceY="-165" targetX="48" targetY="59"/>
+    <bendpoints xmi:id="_YJjaxL4NEeStppH-yzWLDw" sourceX="-48" sourceY="-165" targetY="59"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BVhpUr4NEeStppH-yzWLDw" targetItem="_BVraUL4NEeStppH-yzWLDw" sourceItem="_BVhpUb4NEeStppH-yzWLDw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BVhpVL4NEeStppH-yzWLDw" targetItem="_BVraWL4NEeStppH-yzWLDw" sourceItem="_BVhpU74NEeStppH-yzWLDw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BVhpVr4NEeStppH-yzWLDw" targetItem="_BVraX74NEeStppH-yzWLDw" sourceItem="_BVhpVb4NEeStppH-yzWLDw"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BNnqgL4NEeStppH-yzWLDw" sourceConnectionVisual="_BNnqgb4NEeStppH-yzWLDw" text="An operand in the execution of a program&#xD;&#xA;@author Derek&#xD;&#xA; *" item="_BN6lcL4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzPboL4NEeStppH-yzWLDw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BRMi8r4NEeStppH-yzWLDw" sourceConnectionVisual="_BRMi874NEeStppH-yzWLDw" text="An execution value that is created and passed along a program's execution&#xD;&#xA;@author Derek&#xD;&#xA; *" item="_BRy_6b4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzPbob4NEeStppH-yzWLDw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BRWT874NEeStppH-yzWLDw" sourceConnectionVisual="_BRWT9L4NEeStppH-yzWLDw" text="Create an empty ExecValue" item="_BR8J3L4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzPbp74NEeStppH-yzWLDw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BRWT9b4NEeStppH-yzWLDw" sourceConnectionVisual="_BRWT9r4NEeStppH-yzWLDw" text="Execute the operator using the given symbol table&#xD;&#xA;&#x9; * @param symbolTable the symbol table of the program&#xD;&#xA;&#x9; * @return the result of the operator's execution on the operands" item="_BR8J4b4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzPbqL4NEeStppH-yzWLDw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BRWT974NEeStppH-yzWLDw" sourceConnectionVisual="_BRWT-L4NEeStppH-yzWLDw" text="@return String containing the operator and operands" item="_BR8J5b4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzPbqr4NEeStppH-yzWLDw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BRfd4L4NEeStppH-yzWLDw" sourceConnectionVisual="_BRfd4b4NEeStppH-yzWLDw" text="Creates a value containing a single operand&#xD;&#xA;&#x9; * @param operand single operand of the value" item="_BR8J6b4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzPbor4NEeStppH-yzWLDw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BRfd4r4NEeStppH-yzWLDw" sourceConnectionVisual="_BRfd474NEeStppH-yzWLDw" text="Creates a value with the given operator, and no operands yet&#xD;&#xA;&#x9; * @param op operator of the value" item="_BR8J8L4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzPbo74NEeStppH-yzWLDw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BRfd5L4NEeStppH-yzWLDw" sourceConnectionVisual="_BRfd5b4NEeStppH-yzWLDw" text="Creates a value that combines properties of the two values&#xD;&#xA;&#x9; * @param v1 first value&#xD;&#xA;&#x9; * @param v2 second value" item="_BR8J974NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzPbpL4NEeStppH-yzWLDw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BRfd5r4NEeStppH-yzWLDw" sourceConnectionVisual="_BRfd574NEeStppH-yzWLDw" text="Create an ExecValue from many operands&#xD;&#xA;&#x9; * @param operands the many operands of the value" item="_BR8KAL4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzPbpb4NEeStppH-yzWLDw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BRfd6L4NEeStppH-yzWLDw" sourceConnectionVisual="_BRfd6b4NEeStppH-yzWLDw" text="Create an ExecValue from an operator and many operands&#xD;&#xA;&#x9; * @param op the operator&#xD;&#xA;&#x9; * @param operands the many operands" item="_BR8KB74NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzPbpr4NEeStppH-yzWLDw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BRfd6r4NEeStppH-yzWLDw" sourceConnectionVisual="_BRfd674NEeStppH-yzWLDw" text="Returns the ExecValue created by running the AST represented by this ExecValue&#xD;&#xA;&#x9; * @param symbolTable the symbol table to run on&#xD;&#xA;&#x9; * @return the resulting value" item="_BR8KEL4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzPbqb4NEeStppH-yzWLDw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BTb-oL4NEeStppH-yzWLDw" sourceConnectionVisual="_BTb-ob4NEeStppH-yzWLDw" text="A visitor that is executed by a parsed BNF tree to execute the program that the tree defines&#xD;&#xA;@author Derek&#xD;&#xA; *" item="_BTlvqr4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzPbq74NEeStppH-yzWLDw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BTb-or4NEeStppH-yzWLDw" sourceConnectionVisual="_BTb-o74NEeStppH-yzWLDw" text="Creates the visitor.&#xD;&#xA;&#x9; * @param opMap map of operators to their names as defined by the language&#xD;&#xA;&#x9; * @param printer where to put Strings as they are printed" item="_BTlvtb4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzPbrL4NEeStppH-yzWLDw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BT4qkL4NEeStppH-yzWLDw" sourceConnectionVisual="_BT4qkb4NEeStppH-yzWLDw" text="An operator that operates on two operands to form a new operand&#xD;&#xA;@author Derek&#xD;&#xA; *&#xD;&#xA;@param &lt;T> the class of operands accepted by this operator" item="_BUMMp74NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzPbrb4NEeStppH-yzWLDw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BT4qk74NEeStppH-yzWLDw" sourceConnectionVisual="_BT4qlL4NEeStppH-yzWLDw" text="@return the name of this operator, same as the name of its well-known operator" item="_BUMMwL4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzPbr74NEeStppH-yzWLDw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BT4qlb4NEeStppH-yzWLDw" sourceConnectionVisual="_BT4qlr4NEeStppH-yzWLDw" text="Creates a new BiOperator&#xD;&#xA;&#x9; * @param name type processed by this operator&#xD;&#xA;&#x9; * @param type the well known operator this operator is associated with&#xD;&#xA;&#x9; * @param func function used by this operator" item="_BUMMxL4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzPbrr4NEeStppH-yzWLDw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BUCbkb4NEeStppH-yzWLDw" sourceConnectionVisual="_BUCbkr4NEeStppH-yzWLDw" text="An operator that can act on one or more operands and create a resulting operand&#xD;&#xA;@author Derek&#xD;&#xA; *" item="_BUoRcL4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzPbsb4NEeStppH-yzWLDw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BUyCcb4NEeStppH-yzWLDw" sourceConnectionVisual="_BUyCcr4NEeStppH-yzWLDw" text="A number value.&#xD;&#xA;@author Derek&#xD;&#xA; *" item="_BU7zdr4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzPbsr4NEeStppH-yzWLDw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BU7zcL4NEeStppH-yzWLDw" sourceConnectionVisual="_BU7zcb4NEeStppH-yzWLDw" text="Creates a new number value&#xD;&#xA;&#x9; * @param value the value" item="_BU7zfr4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzPbs74NEeStppH-yzWLDw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BU7zcr4NEeStppH-yzWLDw" sourceConnectionVisual="_BU7zc74NEeStppH-yzWLDw" text="@return the value" item="_BU7zhb4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzPbtL4NEeStppH-yzWLDw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BU7zdL4NEeStppH-yzWLDw" sourceConnectionVisual="_BU7zdb4NEeStppH-yzWLDw" text="@return String value of the value" item="_BU7zib4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzPbtb4NEeStppH-yzWLDw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BVOuYb4NEeStppH-yzWLDw" sourceConnectionVisual="_BVOuYr4NEeStppH-yzWLDw" text="A value of a String&#xD;&#xA;@author Derek&#xD;&#xA; *" item="_BVYfYL4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzPbtr4NEeStppH-yzWLDw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BVOuY74NEeStppH-yzWLDw" sourceConnectionVisual="_BVOuZL4NEeStppH-yzWLDw" text="Creates a new StringValue&#xD;&#xA;&#x9; * @param value the string value" item="_BVYfaL4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzPbt74NEeStppH-yzWLDw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BVOuZb4NEeStppH-yzWLDw" sourceConnectionVisual="_BVOuZr4NEeStppH-yzWLDw" text="Returns the string itself" item="_BVYfb74NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzPbuL4NEeStppH-yzWLDw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BVhpUb4NEeStppH-yzWLDw" sourceConnectionVisual="_BVhpUr4NEeStppH-yzWLDw" text="A value represented by a symbol used to index into the symbol table&#xD;&#xA;@author Derek&#xD;&#xA; *" item="_BVraUL4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzPbub4NEeStppH-yzWLDw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BVhpU74NEeStppH-yzWLDw" sourceConnectionVisual="_BVhpVL4NEeStppH-yzWLDw" text="Creates a new SymbolValue&#xD;&#xA;&#x9; * @param symbol the symbol for this value" item="_BVraWL4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzPbur4NEeStppH-yzWLDw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BVhpVb4NEeStppH-yzWLDw" sourceConnectionVisual="_BVhpVr4NEeStppH-yzWLDw" text="@return the symbol" item="_BVraX74NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AzPbu74NEeStppH-yzWLDw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_BQ5oAL4NEeStppH-yzWLDw" name="ExecTester">
+    <modelElement href="Exec.uml#_At4agL4NEeStppH-yzWLDw"/>
+    <visualProperties xmi:id="_BQ5oAb4NEeStppH-yzWLDw" position="1207.0,67.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_BQ5oAr4NEeStppH-yzWLDw" label="+"/>
+    <operations xmi:id="_BQ5oA74NEeStppH-yzWLDw" name="main" staticOperation="true">
+      <modelElement href="Exec.uml#_At4agb4NEeStppH-yzWLDw"/>
+      <visibility xmi:id="_BQ5oBL4NEeStppH-yzWLDw" label="+"/>
+      <parameters xmi:id="_BQ5oBb4NEeStppH-yzWLDw" name="args">
+        <modelElement href="Exec.uml#_At4agr4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BQ5oBr4NEeStppH-yzWLDw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_BTlvqr4NEeStppH-yzWLDw" comments="_BTb-oL4NEeStppH-yzWLDw" targetConnectionVisual="_BTb-ob4NEeStppH-yzWLDw" name="ExecVisitor" associationsOut="_BTlvoL4NEeStppH-yzWLDw" generalizations="_BTlvqb4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AuUfYL4NEeStppH-yzWLDw"/>
+    <visualProperties xmi:id="_BTlvq74NEeStppH-yzWLDw" position="674.0,117.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_BTlvrL4NEeStppH-yzWLDw" label="+"/>
+    <attributes xmi:id="_BTlvrb4NEeStppH-yzWLDw" name="termHelper">
+      <modelElement href="Exec.uml#_Ayplyb4NEeStppH-yzWLDw"/>
+      <stereotypes xmi:id="_BTlvrr4NEeStppH-yzWLDw" name="Generics">
+        <modelElement href="Exec.uml#_Ayplyr4NEeStppH-yzWLDw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_BTlvr74NEeStppH-yzWLDw" name="LegacyStyledElement">
+        <modelElement href="Exec.uml#_Ayply74NEeStppH-yzWLDw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_BTlvsL4NEeStppH-yzWLDw" name="Generics">
+        <modelElement href="Exec.uml#_Ayplyr4NEeStppH-yzWLDw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_BTlvsb4NEeStppH-yzWLDw" name="LegacyStyledElement">
+        <modelElement href="Exec.uml#_Ayply74NEeStppH-yzWLDw"/>
+      </stereotypes>
+      <visibility xmi:id="_BTlvsr4NEeStppH-yzWLDw" label="-"/>
+      <cardinality xmi:id="_BTlvs74NEeStppH-yzWLDw" label="1" max="1" min="1"/>
+      <type xmi:id="_BTlvtL4NEeStppH-yzWLDw" name="AGramSymVisitor">
+        <modelElement href="Exec.uml#_AxTh_b4NEeStppH-yzWLDw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_BTlvtb4NEeStppH-yzWLDw" comments="_BTb-or4NEeStppH-yzWLDw" targetConnectionVisual="_BTb-o74NEeStppH-yzWLDw" name="ExecVisitor">
+      <modelElement href="Exec.uml#_Ax5X4r4NEeStppH-yzWLDw"/>
+      <keywords xmi:id="_BTlvtr4NEeStppH-yzWLDw" keyword="create"/>
+      <visibility xmi:id="_BTlvt74NEeStppH-yzWLDw" label="+"/>
+      <outParameters xmi:id="_BTlvuL4NEeStppH-yzWLDw">
+        <modelElement href="Exec.uml#_AyDI1L4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BTlvub4NEeStppH-yzWLDw" name="ExecVisitor">
+          <modelElement href="Exec.uml#_AuUfYL4NEeStppH-yzWLDw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_BTlvur4NEeStppH-yzWLDw" name="opMap">
+        <modelElement href="Exec.uml#_AyDI0L4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BTlvu74NEeStppH-yzWLDw" name="Map">
+          <modelElement href="Exec.uml#_Awj7EL4NEeStppH-yzWLDw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_BTlvvL4NEeStppH-yzWLDw" name="printer">
+        <modelElement href="Exec.uml#_AyDI0b4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BTlvvb4NEeStppH-yzWLDw" name="Consumer">
+          <modelElement href="Exec.uml#_AxTh-b4NEeStppH-yzWLDw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_BRy_6b4NEeStppH-yzWLDw" comments="_BRMi8r4NEeStppH-yzWLDw" targetConnectionVisual="_BRMi874NEeStppH-yzWLDw" name="ExecValue" associationsOut="_BRMi8L4NEeStppH-yzWLDw _BRy_4L4NEeStppH-yzWLDw" generalizations="_BRMi8b4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AuBkcb4NEeStppH-yzWLDw"/>
+    <visualProperties xmi:id="_BRy_6r4NEeStppH-yzWLDw" position="611.0,325.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_BR8J0L4NEeStppH-yzWLDw" label="+"/>
+    <attributes xmi:id="_BR8J0b4NEeStppH-yzWLDw" name="op">
+      <modelElement href="Exec.uml#_Ayplw74NEeStppH-yzWLDw"/>
+      <stereotypes xmi:id="_BR8J0r4NEeStppH-yzWLDw" name="LegacyStyledElement">
+        <modelElement href="Exec.uml#_AyplxL4NEeStppH-yzWLDw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_BR8J074NEeStppH-yzWLDw" name="LegacyStyledElement">
+        <modelElement href="Exec.uml#_AyplxL4NEeStppH-yzWLDw"/>
+      </stereotypes>
+      <visibility xmi:id="_BR8J1L4NEeStppH-yzWLDw" label="-"/>
+      <cardinality xmi:id="_BR8J1b4NEeStppH-yzWLDw" label="1" max="1" min="1"/>
+      <type xmi:id="_BR8J1r4NEeStppH-yzWLDw" name="IOperator">
+        <modelElement href="Exec.uml#_AuxLUL4NEeStppH-yzWLDw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BR8J174NEeStppH-yzWLDw" defaultValue="new ArrayList&lt;>()" name="operands">
+      <modelElement href="Exec.uml#_Ayplxb4NEeStppH-yzWLDw"/>
+      <stereotypes xmi:id="_BR8J2L4NEeStppH-yzWLDw" name="LegacyStyledElement">
+        <modelElement href="Exec.uml#_AyplyL4NEeStppH-yzWLDw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_BRpO5L4NEeStppH-yzWLDw" name="LegacyStyledElement">
+        <modelElement href="Exec.uml#_AyplyL4NEeStppH-yzWLDw"/>
+      </stereotypes>
+      <visibility xmi:id="_BR8J2b4NEeStppH-yzWLDw" label="-"/>
+      <cardinality xmi:id="_BR8J2r4NEeStppH-yzWLDw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_BR8J274NEeStppH-yzWLDw" name="IOperand">
+        <modelElement href="Exec.uml#_Atk4gL4NEeStppH-yzWLDw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_BR8J3L4NEeStppH-yzWLDw" comments="_BRWT874NEeStppH-yzWLDw" targetConnectionVisual="_BRWT9L4NEeStppH-yzWLDw" name="ExecValue">
+      <modelElement href="Exec.uml#_AuLVcL4NEeStppH-yzWLDw"/>
+      <keywords xmi:id="_BR8J3b4NEeStppH-yzWLDw" keyword="create"/>
+      <visibility xmi:id="_BR8J3r4NEeStppH-yzWLDw" label="+"/>
+      <outParameters xmi:id="_BR8J374NEeStppH-yzWLDw">
+        <modelElement href="Exec.uml#_AuLVc74NEeStppH-yzWLDw"/>
+        <type xmi:id="_BR8J4L4NEeStppH-yzWLDw" name="ExecValue">
+          <modelElement href="Exec.uml#_AuBkcb4NEeStppH-yzWLDw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_BR8J4b4NEeStppH-yzWLDw" comments="_BRWT9b4NEeStppH-yzWLDw" targetConnectionVisual="_BRWT9r4NEeStppH-yzWLDw" name="execute">
+      <modelElement href="Exec.uml#_AuLVdL4NEeStppH-yzWLDw"/>
+      <visibility xmi:id="_BR8J4r4NEeStppH-yzWLDw" label="+"/>
+      <outParameters xmi:id="_BR8J474NEeStppH-yzWLDw">
+        <modelElement href="Exec.uml#_AxTh9r4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BR8J5L4NEeStppH-yzWLDw" name="ExecValue">
+          <modelElement href="Exec.uml#_AuBkcb4NEeStppH-yzWLDw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_BR8J5b4NEeStppH-yzWLDw" comments="_BRWT974NEeStppH-yzWLDw" targetConnectionVisual="_BRWT-L4NEeStppH-yzWLDw" name="toString">
+      <modelElement href="Exec.uml#_AuLVdb4NEeStppH-yzWLDw"/>
+      <visibility xmi:id="_BR8J5r4NEeStppH-yzWLDw" label="+"/>
+      <outParameters xmi:id="_BR8J574NEeStppH-yzWLDw">
+        <modelElement href="Exec.uml#_AuLVdr4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BR8J6L4NEeStppH-yzWLDw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_BR8J6b4NEeStppH-yzWLDw" comments="_BRfd4L4NEeStppH-yzWLDw" targetConnectionVisual="_BRfd4b4NEeStppH-yzWLDw" name="ExecValue">
+      <modelElement href="Exec.uml#_AxJw8b4NEeStppH-yzWLDw"/>
+      <keywords xmi:id="_BR8J6r4NEeStppH-yzWLDw" keyword="create"/>
+      <visibility xmi:id="_BR8J674NEeStppH-yzWLDw" label="+"/>
+      <outParameters xmi:id="_BR8J7L4NEeStppH-yzWLDw">
+        <modelElement href="Exec.uml#_AxJw9b4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BR8J7b4NEeStppH-yzWLDw" name="ExecValue">
+          <modelElement href="Exec.uml#_AuBkcb4NEeStppH-yzWLDw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_BR8J7r4NEeStppH-yzWLDw" name="operand">
+        <modelElement href="Exec.uml#_AxJw8r4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BR8J774NEeStppH-yzWLDw" name="IOperand">
+          <modelElement href="Exec.uml#_Atk4gL4NEeStppH-yzWLDw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_BR8J8L4NEeStppH-yzWLDw" comments="_BRfd4r4NEeStppH-yzWLDw" targetConnectionVisual="_BRfd474NEeStppH-yzWLDw" name="ExecValue">
+      <modelElement href="Exec.uml#_AxJw9r4NEeStppH-yzWLDw"/>
+      <keywords xmi:id="_BR8J8b4NEeStppH-yzWLDw" keyword="create"/>
+      <visibility xmi:id="_BR8J8r4NEeStppH-yzWLDw" label="+"/>
+      <outParameters xmi:id="_BR8J874NEeStppH-yzWLDw">
+        <modelElement href="Exec.uml#_AxJw-r4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BR8J9L4NEeStppH-yzWLDw" name="ExecValue">
+          <modelElement href="Exec.uml#_AuBkcb4NEeStppH-yzWLDw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_BR8J9b4NEeStppH-yzWLDw" name="op">
+        <modelElement href="Exec.uml#_AxJw974NEeStppH-yzWLDw"/>
+        <type xmi:id="_BR8J9r4NEeStppH-yzWLDw" name="IOperator">
+          <modelElement href="Exec.uml#_AuxLUL4NEeStppH-yzWLDw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_BR8J974NEeStppH-yzWLDw" comments="_BRfd5L4NEeStppH-yzWLDw" targetConnectionVisual="_BRfd5b4NEeStppH-yzWLDw" name="ExecValue">
+      <modelElement href="Exec.uml#_AxTh8L4NEeStppH-yzWLDw"/>
+      <keywords xmi:id="_BR8J-L4NEeStppH-yzWLDw" keyword="create"/>
+      <visibility xmi:id="_BR8J-b4NEeStppH-yzWLDw" label="+"/>
+      <outParameters xmi:id="_BR8J-r4NEeStppH-yzWLDw">
+        <modelElement href="Exec.uml#_AxTh9b4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BR8J-74NEeStppH-yzWLDw" name="ExecValue">
+          <modelElement href="Exec.uml#_AuBkcb4NEeStppH-yzWLDw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_BR8J_L4NEeStppH-yzWLDw" name="v1">
+        <modelElement href="Exec.uml#_AxTh8b4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BR8J_b4NEeStppH-yzWLDw" name="ExecValue">
+          <modelElement href="Exec.uml#_AuBkcb4NEeStppH-yzWLDw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_BR8J_r4NEeStppH-yzWLDw" name="v2">
+        <modelElement href="Exec.uml#_AxTh8r4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BR8J_74NEeStppH-yzWLDw" name="ExecValue">
+          <modelElement href="Exec.uml#_AuBkcb4NEeStppH-yzWLDw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_BR8KAL4NEeStppH-yzWLDw" comments="_BRfd5r4NEeStppH-yzWLDw" targetConnectionVisual="_BRfd574NEeStppH-yzWLDw" name="ExecValue">
+      <modelElement href="Exec.uml#_Ax5X0b4NEeStppH-yzWLDw"/>
+      <keywords xmi:id="_BR8KAb4NEeStppH-yzWLDw" keyword="create"/>
+      <visibility xmi:id="_BR8KAr4NEeStppH-yzWLDw" label="+"/>
+      <outParameters xmi:id="_BR8KA74NEeStppH-yzWLDw">
+        <modelElement href="Exec.uml#_Ax5X1b4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BR8KBL4NEeStppH-yzWLDw" name="ExecValue">
+          <modelElement href="Exec.uml#_AuBkcb4NEeStppH-yzWLDw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_BR8KBb4NEeStppH-yzWLDw" name="operands">
+        <modelElement href="Exec.uml#_Ax5X0r4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BR8KBr4NEeStppH-yzWLDw" name="List">
+          <modelElement href="Exec.uml#_Aw22Bb4NEeStppH-yzWLDw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_BR8KB74NEeStppH-yzWLDw" comments="_BRfd6L4NEeStppH-yzWLDw" targetConnectionVisual="_BRfd6b4NEeStppH-yzWLDw" name="ExecValue">
+      <modelElement href="Exec.uml#_Ax5X174NEeStppH-yzWLDw"/>
+      <keywords xmi:id="_BR8KCL4NEeStppH-yzWLDw" keyword="create"/>
+      <visibility xmi:id="_BR8KCb4NEeStppH-yzWLDw" label="+"/>
+      <outParameters xmi:id="_BR8KCr4NEeStppH-yzWLDw">
+        <modelElement href="Exec.uml#_Ax5X3L4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BR8KC74NEeStppH-yzWLDw" name="ExecValue">
+          <modelElement href="Exec.uml#_AuBkcb4NEeStppH-yzWLDw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_BR8KDL4NEeStppH-yzWLDw" name="op">
+        <modelElement href="Exec.uml#_Ax5X2L4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BR8KDb4NEeStppH-yzWLDw" name="IOperator">
+          <modelElement href="Exec.uml#_AuxLUL4NEeStppH-yzWLDw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_BR8KDr4NEeStppH-yzWLDw" name="operands">
+        <modelElement href="Exec.uml#_Ax5X2b4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BR8KD74NEeStppH-yzWLDw" name="List">
+          <modelElement href="Exec.uml#_Aw22Bb4NEeStppH-yzWLDw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_BR8KEL4NEeStppH-yzWLDw" comments="_BRfd6r4NEeStppH-yzWLDw" targetConnectionVisual="_BRfd674NEeStppH-yzWLDw" name="run">
+      <modelElement href="Exec.uml#_Ax5X3r4NEeStppH-yzWLDw"/>
+      <visibility xmi:id="_BR8KEb4NEeStppH-yzWLDw" label="+"/>
+      <outParameters xmi:id="_BR8KEr4NEeStppH-yzWLDw">
+        <modelElement href="Exec.uml#_Ax5X4L4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BR8KE74NEeStppH-yzWLDw" name="IOperand">
+          <modelElement href="Exec.uml#_Atk4gL4NEeStppH-yzWLDw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_BR8KFL4NEeStppH-yzWLDw" name="symbolTable">
+        <modelElement href="Exec.uml#_Ax5X374NEeStppH-yzWLDw"/>
+        <type xmi:id="_BR8KFb4NEeStppH-yzWLDw" name="Map">
+          <modelElement href="Exec.uml#_Awj7EL4NEeStppH-yzWLDw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_BVraUL4NEeStppH-yzWLDw" comments="_BVhpUb4NEeStppH-yzWLDw" targetConnectionVisual="_BVhpUr4NEeStppH-yzWLDw" name="SymbolValue" generalizations="_BVhpUL4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AvEtUr4NEeStppH-yzWLDw"/>
+    <visualProperties xmi:id="_BVraUb4NEeStppH-yzWLDw" position="229.0,460.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_BVraUr4NEeStppH-yzWLDw" label="+"/>
+    <attributes xmi:id="_BVraU74NEeStppH-yzWLDw" name="symbol">
+      <modelElement href="Exec.uml#_Ayyvu74NEeStppH-yzWLDw"/>
+      <stereotypes xmi:id="_BVraVL4NEeStppH-yzWLDw" name="LegacyStyledElement">
+        <modelElement href="Exec.uml#_AyyvvL4NEeStppH-yzWLDw"/>
+      </stereotypes>
+      <visibility xmi:id="_BVraVb4NEeStppH-yzWLDw" label="-"/>
+      <cardinality xmi:id="_BVraVr4NEeStppH-yzWLDw" label="1" max="1" min="1"/>
+      <type xmi:id="_BVraV74NEeStppH-yzWLDw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_BVraWL4NEeStppH-yzWLDw" comments="_BVhpU74NEeStppH-yzWLDw" targetConnectionVisual="_BVhpVL4NEeStppH-yzWLDw" name="SymbolValue">
+      <modelElement href="Exec.uml#_AvEtU74NEeStppH-yzWLDw"/>
+      <keywords xmi:id="_BVraWb4NEeStppH-yzWLDw" keyword="create"/>
+      <visibility xmi:id="_BVraWr4NEeStppH-yzWLDw" label="+"/>
+      <outParameters xmi:id="_BVraW74NEeStppH-yzWLDw">
+        <modelElement href="Exec.uml#_AvEtV74NEeStppH-yzWLDw"/>
+        <type xmi:id="_BVraXL4NEeStppH-yzWLDw" name="SymbolValue">
+          <modelElement href="Exec.uml#_AvEtUr4NEeStppH-yzWLDw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_BVraXb4NEeStppH-yzWLDw" name="symbol">
+        <modelElement href="Exec.uml#_AvEtVL4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BVraXr4NEeStppH-yzWLDw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_BVraX74NEeStppH-yzWLDw" comments="_BVhpVb4NEeStppH-yzWLDw" targetConnectionVisual="_BVhpVr4NEeStppH-yzWLDw" name="toString">
+      <modelElement href="Exec.uml#_AvEtWL4NEeStppH-yzWLDw"/>
+      <visibility xmi:id="_BVraYL4NEeStppH-yzWLDw" label="+"/>
+      <outParameters xmi:id="_BVraYb4NEeStppH-yzWLDw">
+        <modelElement href="Exec.uml#_AvEtWb4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BVraYr4NEeStppH-yzWLDw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_BVraY74NEeStppH-yzWLDw" name="run">
+      <modelElement href="Exec.uml#_Ayf0x74NEeStppH-yzWLDw"/>
+      <stereotypes xmi:id="_BVraZL4NEeStppH-yzWLDw" name="LegacyStyledElement">
+        <modelElement href="Exec.uml#_Ayf0yr4NEeStppH-yzWLDw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_BVraZb4NEeStppH-yzWLDw" name="Annotations">
+        <modelElement href="Exec.uml#_Ayplwb4NEeStppH-yzWLDw"/>
+      </stereotypes>
+      <visibility xmi:id="_BVraZr4NEeStppH-yzWLDw" label="+"/>
+      <outParameters xmi:id="_BVraZ74NEeStppH-yzWLDw">
+        <modelElement href="Exec.uml#_Ayf0yb4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BVraaL4NEeStppH-yzWLDw" name="IOperand">
+          <modelElement href="Exec.uml#_Atk4gL4NEeStppH-yzWLDw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_BVraab4NEeStppH-yzWLDw" name="symbolTable">
+        <modelElement href="Exec.uml#_Ayf0yL4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BVraar4NEeStppH-yzWLDw" name="Map">
+          <modelElement href="Exec.uml#_Awj7EL4NEeStppH-yzWLDw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_BU7zdr4NEeStppH-yzWLDw" comments="_BUyCcb4NEeStppH-yzWLDw" targetConnectionVisual="_BUyCcr4NEeStppH-yzWLDw" name="NumValue" generalizations="_BUyCcL4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_Au68UL4NEeStppH-yzWLDw"/>
+    <visualProperties xmi:id="_BU7zd74NEeStppH-yzWLDw" position="-118.0,389.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_BU7zeL4NEeStppH-yzWLDw" label="+"/>
+    <attributes xmi:id="_BU7zeb4NEeStppH-yzWLDw" name="value">
+      <modelElement href="Exec.uml#_Ayyvt74NEeStppH-yzWLDw"/>
+      <stereotypes xmi:id="_BU7zer4NEeStppH-yzWLDw" name="LegacyStyledElement">
+        <modelElement href="Exec.uml#_AyyvuL4NEeStppH-yzWLDw"/>
+      </stereotypes>
+      <visibility xmi:id="_BU7ze74NEeStppH-yzWLDw" label="-"/>
+      <cardinality xmi:id="_BU7zfL4NEeStppH-yzWLDw" label="1" max="1" min="1"/>
+      <type xmi:id="_BU7zfb4NEeStppH-yzWLDw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_BU7zfr4NEeStppH-yzWLDw" comments="_BU7zcL4NEeStppH-yzWLDw" targetConnectionVisual="_BU7zcb4NEeStppH-yzWLDw" name="NumValue">
+      <modelElement href="Exec.uml#_Au68Ub4NEeStppH-yzWLDw"/>
+      <keywords xmi:id="_BU7zf74NEeStppH-yzWLDw" keyword="create"/>
+      <visibility xmi:id="_BU7zgL4NEeStppH-yzWLDw" label="+"/>
+      <outParameters xmi:id="_BU7zgb4NEeStppH-yzWLDw">
+        <modelElement href="Exec.uml#_Au68Vb4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BU7zgr4NEeStppH-yzWLDw" name="NumValue">
+          <modelElement href="Exec.uml#_Au68UL4NEeStppH-yzWLDw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_BU7zg74NEeStppH-yzWLDw" name="value">
+        <modelElement href="Exec.uml#_Au68Ur4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BU7zhL4NEeStppH-yzWLDw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_BU7zhb4NEeStppH-yzWLDw" comments="_BU7zcr4NEeStppH-yzWLDw" targetConnectionVisual="_BU7zc74NEeStppH-yzWLDw" name="getNum">
+      <modelElement href="Exec.uml#_Au68Vr4NEeStppH-yzWLDw"/>
+      <visibility xmi:id="_BU7zhr4NEeStppH-yzWLDw" label="+"/>
+      <outParameters xmi:id="_BU7zh74NEeStppH-yzWLDw">
+        <modelElement href="Exec.uml#_Au68V74NEeStppH-yzWLDw"/>
+        <type xmi:id="_BU7ziL4NEeStppH-yzWLDw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_BU7zib4NEeStppH-yzWLDw" comments="_BU7zdL4NEeStppH-yzWLDw" targetConnectionVisual="_BU7zdb4NEeStppH-yzWLDw" name="toString">
+      <modelElement href="Exec.uml#_Au68WL4NEeStppH-yzWLDw"/>
+      <visibility xmi:id="_BU7zir4NEeStppH-yzWLDw" label="+"/>
+      <outParameters xmi:id="_BU7zi74NEeStppH-yzWLDw">
+        <modelElement href="Exec.uml#_Au68Wb4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BU7zjL4NEeStppH-yzWLDw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_BTvgob4NEeStppH-yzWLDw" name="IExecRunnable" generalizations="_BTvgoL4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AueQYL4NEeStppH-yzWLDw"/>
+    <visualProperties xmi:id="_BTvgor4NEeStppH-yzWLDw" position="183.0,354.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_BTvgo74NEeStppH-yzWLDw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_BVYfYL4NEeStppH-yzWLDw" comments="_BVOuYb4NEeStppH-yzWLDw" targetConnectionVisual="_BVOuYr4NEeStppH-yzWLDw" name="StringValue" generalizations="_BVOuYL4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_Au68Wr4NEeStppH-yzWLDw"/>
+    <visualProperties xmi:id="_BVYfYb4NEeStppH-yzWLDw" position="-436.0,412.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_BVYfYr4NEeStppH-yzWLDw" label="+"/>
+    <attributes xmi:id="_BVYfY74NEeStppH-yzWLDw" name="value">
+      <modelElement href="Exec.uml#_Ayyvub4NEeStppH-yzWLDw"/>
+      <stereotypes xmi:id="_BVYfZL4NEeStppH-yzWLDw" name="LegacyStyledElement">
+        <modelElement href="Exec.uml#_Ayyvur4NEeStppH-yzWLDw"/>
+      </stereotypes>
+      <visibility xmi:id="_BVYfZb4NEeStppH-yzWLDw" label="-"/>
+      <cardinality xmi:id="_BVYfZr4NEeStppH-yzWLDw" label="1" max="1" min="1"/>
+      <type xmi:id="_BVYfZ74NEeStppH-yzWLDw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_BVYfaL4NEeStppH-yzWLDw" comments="_BVOuY74NEeStppH-yzWLDw" targetConnectionVisual="_BVOuZL4NEeStppH-yzWLDw" name="StringValue">
+      <modelElement href="Exec.uml#_Au68W74NEeStppH-yzWLDw"/>
+      <keywords xmi:id="_BVYfab4NEeStppH-yzWLDw" keyword="create"/>
+      <visibility xmi:id="_BVYfar4NEeStppH-yzWLDw" label="+"/>
+      <outParameters xmi:id="_BVYfa74NEeStppH-yzWLDw">
+        <modelElement href="Exec.uml#_Au68X74NEeStppH-yzWLDw"/>
+        <type xmi:id="_BVYfbL4NEeStppH-yzWLDw" name="StringValue">
+          <modelElement href="Exec.uml#_Au68Wr4NEeStppH-yzWLDw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_BVYfbb4NEeStppH-yzWLDw" name="value">
+        <modelElement href="Exec.uml#_Au68XL4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BVYfbr4NEeStppH-yzWLDw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_BVYfb74NEeStppH-yzWLDw" comments="_BVOuZb4NEeStppH-yzWLDw" targetConnectionVisual="_BVOuZr4NEeStppH-yzWLDw" name="toString">
+      <modelElement href="Exec.uml#_AvEtUL4NEeStppH-yzWLDw"/>
+      <visibility xmi:id="_BVYfcL4NEeStppH-yzWLDw" label="+"/>
+      <outParameters xmi:id="_BVYfcb4NEeStppH-yzWLDw">
+        <modelElement href="Exec.uml#_AvEtUb4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BVYfcr4NEeStppH-yzWLDw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_BUoRcL4NEeStppH-yzWLDw" comments="_BUCbkb4NEeStppH-yzWLDw" targetConnectionVisual="_BUCbkr4NEeStppH-yzWLDw" name="IOperator" associationsIn="_BUCbkL4NEeStppH-yzWLDw _BRy_4L4NEeStppH-yzWLDw" associationsOut="_BUCbkL4NEeStppH-yzWLDw" subclassedBy="_BT4qkr4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AuxLUL4NEeStppH-yzWLDw"/>
+    <visualProperties xmi:id="_BUoRcb4NEeStppH-yzWLDw" position="946.0,223.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_BUoRcr4NEeStppH-yzWLDw" label="+"/>
+    <attributes xmi:id="_BUoRc74NEeStppH-yzWLDw" defaultValue="new IOperator() {&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;@Override&#xD;&#xA;&#x9;&#x9;/**&#xD;&#xA;&#x9;&#x9; * Returns a new ExecValue of this and the old operands, no change&#xD;&#xA;&#x9;&#x9; * @param symbolTable the symbol table&#xD;&#xA;&#x9;&#x9; * @param operands the operands to operate on&#xD;&#xA;&#x9;&#x9; * @return effectively same ExecValue&#xD;&#xA;&#x9;&#x9; */&#xD;&#xA;&#x9;&#x9;public ExecValue execute(List&lt;IOperand> operands) {&#xD;&#xA;&#x9;&#x9;&#x9;return new ExecValue(this, operands);&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;/**&#xD;&#xA;&#x9;&#x9; * @return &quot;NULL Operator&quot;&#xD;&#xA;&#x9;&#x9; */&#xD;&#xA;&#x9;&#x9;public String toString() {&#xD;&#xA;&#x9;&#x9;&#x9;return &quot;NULL Operator&quot;;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}" name="NULL_OP">
+      <modelElement href="Exec.uml#_AuxLUb4NEeStppH-yzWLDw"/>
+      <stereotypes xmi:id="_BUoRdL4NEeStppH-yzWLDw" name="LegacyStyledElement">
+        <modelElement href="Exec.uml#_AuxLU74NEeStppH-yzWLDw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_BUMMlL4NEeStppH-yzWLDw" name="LegacyStyledElement">
+        <modelElement href="Exec.uml#_AuxLU74NEeStppH-yzWLDw"/>
+      </stereotypes>
+      <visibility xmi:id="_BUoRdb4NEeStppH-yzWLDw" label="+"/>
+      <cardinality xmi:id="_BUoRdr4NEeStppH-yzWLDw" label="1" max="1" min="1"/>
+      <type xmi:id="_BUoRd74NEeStppH-yzWLDw" name="IOperator">
+        <modelElement href="Exec.uml#_AuxLUL4NEeStppH-yzWLDw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_BUoReL4NEeStppH-yzWLDw" name="execute">
+      <modelElement href="Exec.uml#_Ayf0w74NEeStppH-yzWLDw"/>
+      <visibility xmi:id="_BUoReb4NEeStppH-yzWLDw" label="+"/>
+      <outParameters xmi:id="_BUoRer4NEeStppH-yzWLDw">
+        <modelElement href="Exec.uml#_Ayf0xb4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BUoRe74NEeStppH-yzWLDw" name="ExecValue">
+          <modelElement href="Exec.uml#_AuBkcb4NEeStppH-yzWLDw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_BUoRfL4NEeStppH-yzWLDw" name="operands">
+        <modelElement href="Exec.uml#_Ayf0xL4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BUoRfb4NEeStppH-yzWLDw" name="List">
+          <modelElement href="Exec.uml#_Aw22Bb4NEeStppH-yzWLDw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_BN6lcL4NEeStppH-yzWLDw" comments="_BNnqgL4NEeStppH-yzWLDw" targetConnectionVisual="_BNnqgb4NEeStppH-yzWLDw" name="IOperand" associationsIn="_BRMi8L4NEeStppH-yzWLDw" subclassedBy="_BRMi8b4NEeStppH-yzWLDw _BTvgoL4NEeStppH-yzWLDw _BUyCcL4NEeStppH-yzWLDw _BVOuYL4NEeStppH-yzWLDw _BVhpUL4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_Atk4gL4NEeStppH-yzWLDw"/>
+    <visualProperties xmi:id="_BN6lcb4NEeStppH-yzWLDw" position="210.0,165.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_BN6lcr4NEeStppH-yzWLDw" label="+"/>
+    <operations xmi:id="_BN6lc74NEeStppH-yzWLDw" name="run">
+      <modelElement href="Exec.uml#_AxwN4r4NEeStppH-yzWLDw"/>
+      <keywords xmi:id="_BN6ldL4NEeStppH-yzWLDw" keyword="defender"/>
+      <stereotypes xmi:id="_BN6ldb4NEeStppH-yzWLDw" name="LegacyStyledElement">
+        <modelElement href="Exec.uml#_AxwN574NEeStppH-yzWLDw"/>
+      </stereotypes>
+      <visibility xmi:id="_BN6ldr4NEeStppH-yzWLDw" label="+"/>
+      <outParameters xmi:id="_BN6ld74NEeStppH-yzWLDw">
+        <modelElement href="Exec.uml#_AxwN5r4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BN6leL4NEeStppH-yzWLDw" name="IOperand">
+          <modelElement href="Exec.uml#_Atk4gL4NEeStppH-yzWLDw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_BN6leb4NEeStppH-yzWLDw" name="symbolTable">
+        <modelElement href="Exec.uml#_AxwN474NEeStppH-yzWLDw"/>
+        <type xmi:id="_BN6ler4NEeStppH-yzWLDw" name="Map">
+          <modelElement href="Exec.uml#_Awj7EL4NEeStppH-yzWLDw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_BUMMp74NEeStppH-yzWLDw" comments="_BT4qkL4NEeStppH-yzWLDw" targetConnectionVisual="_BT4qkb4NEeStppH-yzWLDw" name="BiOperator" associationsOut="_BUMMlb4NEeStppH-yzWLDw _BUMMnr4NEeStppH-yzWLDw" generalizations="_BT4qkr4NEeStppH-yzWLDw">
+    <modelElement href="Exec.uml#_AueQYb4NEeStppH-yzWLDw"/>
+    <visualProperties xmi:id="_BUMMqL4NEeStppH-yzWLDw" position="1000.0,355.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_BUMMqb4NEeStppH-yzWLDw" name="Generics">
+      <modelElement href="Exec.uml#_AueQYr4NEeStppH-yzWLDw"/>
+    </stereotypes>
+    <visibility xmi:id="_BUMMqr4NEeStppH-yzWLDw" label="+"/>
+    <attributes xmi:id="_BUMMq74NEeStppH-yzWLDw" name="type">
+      <modelElement href="Exec.uml#_AyplzL4NEeStppH-yzWLDw"/>
+      <stereotypes xmi:id="_BUMMrL4NEeStppH-yzWLDw" name="Generics">
+        <modelElement href="Exec.uml#_AyyvsL4NEeStppH-yzWLDw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_BUMMrb4NEeStppH-yzWLDw" name="LegacyStyledElement">
+        <modelElement href="Exec.uml#_Ayyvsb4NEeStppH-yzWLDw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_BUMMrr4NEeStppH-yzWLDw" name="Generics">
+        <modelElement href="Exec.uml#_AyyvsL4NEeStppH-yzWLDw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_BUMMr74NEeStppH-yzWLDw" name="LegacyStyledElement">
+        <modelElement href="Exec.uml#_Ayyvsb4NEeStppH-yzWLDw"/>
+      </stereotypes>
+      <visibility xmi:id="_BUMMsL4NEeStppH-yzWLDw" label="-"/>
+      <cardinality xmi:id="_BUMMsb4NEeStppH-yzWLDw" label="1" max="1" min="1"/>
+      <type xmi:id="_BUMMsr4NEeStppH-yzWLDw" name="Class">
+        <modelElement href="Exec.uml#_AyDI2r4NEeStppH-yzWLDw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BUMMs74NEeStppH-yzWLDw" name="func">
+      <modelElement href="Exec.uml#_Ayyvsr4NEeStppH-yzWLDw"/>
+      <stereotypes xmi:id="_BUMMtL4NEeStppH-yzWLDw" name="Generics">
+        <modelElement href="Exec.uml#_Ayyvs74NEeStppH-yzWLDw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_BUMMtb4NEeStppH-yzWLDw" name="LegacyStyledElement">
+        <modelElement href="Exec.uml#_AyyvtL4NEeStppH-yzWLDw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_BUMMtr4NEeStppH-yzWLDw" name="Generics">
+        <modelElement href="Exec.uml#_Ayyvs74NEeStppH-yzWLDw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_BUMMt74NEeStppH-yzWLDw" name="LegacyStyledElement">
+        <modelElement href="Exec.uml#_AyyvtL4NEeStppH-yzWLDw"/>
+      </stereotypes>
+      <visibility xmi:id="_BUMMuL4NEeStppH-yzWLDw" label="-"/>
+      <cardinality xmi:id="_BUMMub4NEeStppH-yzWLDw" label="1" max="1" min="1"/>
+      <type xmi:id="_BUMMur4NEeStppH-yzWLDw" name="BiFunction">
+        <modelElement href="Exec.uml#_AxdS-L4NEeStppH-yzWLDw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BUMMu74NEeStppH-yzWLDw" name="name">
+      <modelElement href="Exec.uml#_Ayyvtb4NEeStppH-yzWLDw"/>
+      <stereotypes xmi:id="_BUMMvL4NEeStppH-yzWLDw" name="LegacyStyledElement">
+        <modelElement href="Exec.uml#_Ayyvtr4NEeStppH-yzWLDw"/>
+      </stereotypes>
+      <visibility xmi:id="_BUMMvb4NEeStppH-yzWLDw" label="-"/>
+      <cardinality xmi:id="_BUMMvr4NEeStppH-yzWLDw" label="1" max="1" min="1"/>
+      <type xmi:id="_BUMMv74NEeStppH-yzWLDw" name="WellKnownOperator">
+        <modelElement href="Exec.uml#_AxTh974NEeStppH-yzWLDw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_BUMMwL4NEeStppH-yzWLDw" comments="_BT4qk74NEeStppH-yzWLDw" targetConnectionVisual="_BT4qlL4NEeStppH-yzWLDw" name="toString">
+      <modelElement href="Exec.uml#_AuoBYL4NEeStppH-yzWLDw"/>
+      <visibility xmi:id="_BUMMwb4NEeStppH-yzWLDw" label="+"/>
+      <outParameters xmi:id="_BUMMwr4NEeStppH-yzWLDw">
+        <modelElement href="Exec.uml#_AuoBYb4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BUMMw74NEeStppH-yzWLDw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_BUMMxL4NEeStppH-yzWLDw" comments="_BT4qlb4NEeStppH-yzWLDw" targetConnectionVisual="_BT4qlr4NEeStppH-yzWLDw" name="BiOperator">
+      <modelElement href="Exec.uml#_AyM50L4NEeStppH-yzWLDw"/>
+      <keywords xmi:id="_BUMMxb4NEeStppH-yzWLDw" keyword="create"/>
+      <visibility xmi:id="_BUMMxr4NEeStppH-yzWLDw" label="+"/>
+      <outParameters xmi:id="_BUMMx74NEeStppH-yzWLDw">
+        <modelElement href="Exec.uml#_AyM51r4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BUMMyL4NEeStppH-yzWLDw" name="BiOperator">
+          <modelElement href="Exec.uml#_AueQYb4NEeStppH-yzWLDw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_BUMMyb4NEeStppH-yzWLDw" name="name">
+        <modelElement href="Exec.uml#_AyM50b4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BUMMyr4NEeStppH-yzWLDw" name="WellKnownOperator">
+          <modelElement href="Exec.uml#_AxTh974NEeStppH-yzWLDw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_BUMMy74NEeStppH-yzWLDw" name="type">
+        <modelElement href="Exec.uml#_AyM50r4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BUMMzL4NEeStppH-yzWLDw" name="Class">
+          <modelElement href="Exec.uml#_AyDI2r4NEeStppH-yzWLDw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_BUMMzb4NEeStppH-yzWLDw" name="func">
+        <modelElement href="Exec.uml#_AyM5074NEeStppH-yzWLDw"/>
+        <type xmi:id="_BUMMzr4NEeStppH-yzWLDw" name="BiFunction">
+          <modelElement href="Exec.uml#_AxdS-L4NEeStppH-yzWLDw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_BUMMz74NEeStppH-yzWLDw" name="execute">
+      <modelElement href="Exec.uml#_AyM52b4NEeStppH-yzWLDw"/>
+      <stereotypes xmi:id="_BUMM0L4NEeStppH-yzWLDw" name="LegacyStyledElement">
+        <modelElement href="Exec.uml#_AyM53L4NEeStppH-yzWLDw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_BUMM0b4NEeStppH-yzWLDw" name="Annotations">
+        <modelElement href="Exec.uml#_AyM53r4NEeStppH-yzWLDw"/>
+      </stereotypes>
+      <visibility xmi:id="_BUMM0r4NEeStppH-yzWLDw" label="+"/>
+      <outParameters xmi:id="_BUMM074NEeStppH-yzWLDw">
+        <modelElement href="Exec.uml#_AyM5274NEeStppH-yzWLDw"/>
+        <type xmi:id="_BUMM1L4NEeStppH-yzWLDw" name="ExecValue">
+          <modelElement href="Exec.uml#_AuBkcb4NEeStppH-yzWLDw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_BUMM1b4NEeStppH-yzWLDw" name="operands">
+        <modelElement href="Exec.uml#_AyM52r4NEeStppH-yzWLDw"/>
+        <type xmi:id="_BUMM1r4NEeStppH-yzWLDw" name="List">
+          <modelElement href="Exec.uml#_Aw22Bb4NEeStppH-yzWLDw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

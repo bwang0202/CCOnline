@@ -1,0 +1,15 @@
+S   ::= D | S1
+S1  ::= "\n" S
+D   ::=  Id "::=" E L
+
+L   ::=  L2 | Empty
+L2  ::=  "\n" L3
+L3  ::=  L | D
+
+E   ::=  T E1
+E1  ::=  Empty | E1a
+E1a ::=  "|" E
+
+T   ::= T1 T2
+T1  ::= Id | QuotedStringToken
+T2  ::= Empty | T
